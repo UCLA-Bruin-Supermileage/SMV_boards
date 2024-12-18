@@ -4183,6 +4183,44 @@
 		)
 		(uuid 5cade84b-72fc-43c5-927a-2e8f124d63ca)
 	)
+	(text_box "We don't need a 3.3V LDO, the RP2040 has a built in one\n. We actually need a 5V one"
+		(exclude_from_sim no)
+		(at 256.54 33.02 0)
+		(size 29.21 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1b612791-110e-4f8f-b64e-7cba051cec68")
+	)
+	(text_box "List of things I notice: \n1. Your connectors are outdated please use the\nones on the github repos. \n2. There's no connector for CAN Bus\n3. You don't need wires between the two conenctors, just use a net label. \n4. With your current wires betweent the connectors, it seems \nlike your LDOs' wires will need to interesect. That is bad prolly\nMake sure for your pcb layout, the LDOs are on the other side of the \n12V Wire/connection. \n5. R2 and R3's value should be swapped. Also remember how thay should be\nin the 100k's because we want to minimize current flow\n6. Using a 5V supply for REF1 and REF2 is correct but\nif you read the datasheet again, it's a good method, but it's not the \nbest. We only settle for the best :)"
+		(exclude_from_sim no)
+		(at 33.02 12.7 0)
+		(size 45.72 22.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ebf324cb-b0c8-4e87-a654-9907d3d32ee8")
+	)
 	(text "3V3 LDO"
 		(exclude_from_sim no)
 		(at 200.66 22.86 0)
