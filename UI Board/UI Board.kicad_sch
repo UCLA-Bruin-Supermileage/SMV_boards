@@ -1040,7 +1040,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SMV_Connectors:RP2040"
 				(at -1.016 39.624 0)
 				(effects
 					(font
@@ -2786,7 +2786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SMV_Connectors:RP2040"
 			(at 212.344 88.646 0)
 			(effects
 				(font
