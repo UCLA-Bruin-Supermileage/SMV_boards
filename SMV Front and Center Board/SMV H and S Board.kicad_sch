@@ -5519,10 +5519,10 @@
 		(uuid "c17563ae-3b93-46d5-bbcc-345ff381a224")
 	)
 	(junction
-		(at 283.21 25.4)
+		(at 262.89 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c405ca35-73c6-41fb-853a-fdef4ca9a20b")
+		(uuid "c7c6d61b-4882-4e8b-8b6b-e1c55661ec72")
 	)
 	(junction
 		(at 228.6 69.85)
@@ -5565,12 +5565,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edfc5037-509b-4a75-83cf-f4f8a258cf62")
-	)
-	(junction
-		(at 262.89 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f75f7088-d4cc-4376-8350-915ac5cde176")
 	)
 	(junction
 		(at 36.83 168.91)
@@ -6200,16 +6194,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 38.1) (xy 283.21 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ea0f0ff-87b5-4993-85db-920291a5eaac")
-	)
-	(wire
-		(pts
 			(xy 154.94 180.34) (xy 157.48 180.34)
 		)
 		(stroke
@@ -6237,16 +6221,6 @@
 			(type default)
 		)
 		(uuid "83b7a23b-1fab-4bbe-bac1-7671ae1016af")
-	)
-	(wire
-		(pts
-			(xy 262.89 25.4) (xy 262.89 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85360b23-e1e3-4a4e-9422-8e8e5ba6972e")
 	)
 	(wire
 		(pts
@@ -6377,16 +6351,6 @@
 			(type default)
 		)
 		(uuid "aa28f986-fc4f-417d-ad3d-5135ace64d44")
-	)
-	(wire
-		(pts
-			(xy 262.89 25.4) (xy 283.21 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abcf0358-26dc-427e-9219-829adffeb6c3")
 	)
 	(wire
 		(pts
@@ -6710,6 +6674,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 25.4) (xy 262.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db77d689-ddc8-4a76-9151-3aa51fcbc0c7")
+	)
+	(wire
+		(pts
+			(xy 283.21 25.4) (xy 283.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd1df66-e19d-4b48-8b20-86a1f0f5c0bb")
+	)
+	(wire
+		(pts
 			(xy 100.33 158.75) (xy 114.3 158.75)
 		)
 		(stroke
@@ -7010,7 +6994,7 @@
 	)
 	(text "LDO"
 		(exclude_from_sim no)
-		(at 20.828 19.558 0)
+		(at 24.13 22.352 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7050,7 +7034,7 @@
 	)
 	(text "Horn and Wipers"
 		(exclude_from_sim no)
-		(at 203.708 43.18 0)
+		(at 205.486 43.18 0)
 		(effects
 			(font
 				(size 2.54 2.54)
