@@ -1,4 +1,4 @@
-24222270731849582
+24229210387718808
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89984,6 +89984,27 @@ TPS74501PBQWDRVRQ1
 0
 7
 7
+SMV_Misc
+SW_A8L-11_OMR
+
+A8L-11-12N1 
+0
+2
+2
+SMV_Misc
+TAISS 3 Pin Switch
+
+
+0
+3
+3
+SMV_Misc
+Twidec Button
+
+
+0
+2
+2
 SMV_Passives
 0805RESC2012X60N
 
@@ -90019,6 +90040,13 @@ L78L05ABUTR
 0
 3
 3
+SMV_Passives
+WL-SMCW_0603(diode)
+<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0603, SMT, 2pins<Br>1.6x0.8x0.7mm(LXWXH)
+
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
