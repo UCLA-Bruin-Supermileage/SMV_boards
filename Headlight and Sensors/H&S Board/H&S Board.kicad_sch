@@ -5850,7 +5850,7 @@
 		)
 		(uuid "585020e5-27e2-408e-8e2d-5e3e39f2b89d")
 	)
-	(text "Am I allowed to put two sensors onto a single ADC? How to read individual sensor data?"
+	(text "Am I allowed to put two sensors onto a single ADC? How to read individual sensor data?\nYes, you're allowed up to 4. To read individual sensor data you would\nneed to access some registers (so software mainly)\n"
 		(exclude_from_sim no)
 		(at 57.404 142.494 0)
 		(effects
@@ -5940,7 +5940,7 @@
 		)
 		(uuid "9d6235f2-05b6-4533-a6ae-2d2bdafd3b5c")
 	)
-	(text "DRDY can be left floating if unused?"
+	(text "DRDY can be left floating if unused? Yes\n"
 		(exclude_from_sim no)
 		(at 120.904 121.412 0)
 		(effects
