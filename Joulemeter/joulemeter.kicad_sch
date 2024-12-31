@@ -4173,6 +4173,12 @@
 		(uuid "2464a01a-4439-4aef-b241-e013df85cd88")
 	)
 	(junction
+		(at 267.97 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e4c59b6-7a4e-433d-b8f7-04a4634fe038")
+	)
+	(junction
 		(at 130.81 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4255,12 +4261,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbb5577b-43dd-4f52-a020-00830a12aae1")
-	)
-	(junction
-		(at 269.24 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e04e89b0-c6c2-4d67-9ebe-cbcd12ad8d73")
 	)
 	(junction
 		(at 104.14 52.07)
@@ -4516,7 +4516,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 57.15) (xy 269.24 57.15)
+			(xy 264.16 57.15) (xy 267.97 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4716,16 +4716,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 57.15) (xy 283.21 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d89807b-cc10-4612-8568-f81725747f64")
-	)
-	(wire
-		(pts
 			(xy 48.26 52.07) (xy 48.26 54.61)
 		)
 		(stroke
@@ -4866,6 +4856,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 57.15) (xy 283.21 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa09d54-2aab-48d4-8ca8-1adf5ddfe32f")
+	)
+	(wire
+		(pts
 			(xy 157.48 73.66) (xy 175.26 73.66)
 		)
 		(stroke
@@ -4886,7 +4886,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 57.15) (xy 264.16 57.15)
+			(xy 257.81 57.15) (xy 264.16 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4966,7 +4966,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 57.15) (xy 254 57.15)
+			(xy 240.03 57.15) (xy 250.19 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6566,7 +6566,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 269.24 57.15 0)
+		(at 267.97 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6574,7 +6574,7 @@
 		(dnp no)
 		(uuid "2f876f78-a627-448c-bc01-9c924fcc9cf0")
 		(property "Reference" "TP_CSENSE_OUT"
-			(at 266.446 51.054 0)
+			(at 265.176 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6583,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 271.78 55.118 0)
+			(at 270.51 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +6592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 57.15 0)
+			(at 273.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 57.15 0)
+			(at 273.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6610,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 269.24 57.15 0)
+			(at 267.97 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +7789,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 257.81 57.15 90)
+		(at 254 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7797,7 +7797,7 @@
 		(dnp no)
 		(uuid "5b0f9bfc-d166-474a-9aa6-17a2d39830e5")
 		(property "Reference" "CRCW060350R0FKTA1"
-			(at 255.524 52.578 90)
+			(at 254 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,7 +7805,7 @@
 			)
 		)
 		(property "Value" "50 ohms"
-			(at 255.524 55.118 90)
+			(at 254 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7813,7 +7813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 258.064 56.134 90)
+			(at 254.254 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7822,7 +7822,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 57.15 0)
+			(at 254 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7831,7 +7831,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 257.81 57.15 0)
+			(at 254 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,7 +9805,7 @@
 		(dnp no)
 		(uuid "be20e2b8-1b74-4901-bd2f-d8108a2aa6d6")
 		(property "Reference" "C0805C475K4RACTU1"
-			(at 252.73 60.96 0)
+			(at 255.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9814,7 +9814,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 252.73 63.5 0)
+			(at 255.27 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
