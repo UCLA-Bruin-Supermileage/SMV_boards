@@ -8106,18 +8106,6 @@
 		)
 		(uuid "fcea3e78-3854-41a9-84a7-a8c6481be0ea")
 	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 154.94 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d108a450-6f0c-4fdc-bd23-723943d2fa7c")
-	)
 	(symbol
 		(lib_id "SMV_Custom:3-pin Mini Molex Spox")
 		(at 198.12 111.76 180)
