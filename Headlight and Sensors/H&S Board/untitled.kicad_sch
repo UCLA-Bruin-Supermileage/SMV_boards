@@ -1009,199 +1009,6 @@
 				)
 			)
 		)
-		(symbol "SMV_Custom:CRCW080540K0FKEA"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "CRCW080540K0FKEA"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SMV_Passives:0805RESC2012X60N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "CRCW080540K0FKEA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "CRCW080540K0FKEA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RES_0K0FKEA_VIS RES_0K0FKEA_VIS-M RES_0K0FKEA_VIS-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CRCW080540K0FKEA_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.175 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 1.27) (xy 4.445 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -1.27) (xy 5.715 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 1.27) (xy 6.985 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -1.27) (xy 8.255 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 1.27) (xy 9.525 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -1.27) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SMV_Custom:MCP6286T-E_OT"
 			(pin_names
 				(offset 0.254)
@@ -2026,6 +1833,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 73.66) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d2bae3-793f-4108-a47e-11aa1a082dc1")
+	)
+	(wire
+		(pts
 			(xy 144.78 105.41) (xy 144.78 92.71)
 		)
 		(stroke
@@ -2114,7 +1931,7 @@
 		)
 		(uuid "f3d9d9b1-e664-4907-9235-e03bc7aef428")
 	)
-	(text "Assume max voltage is 12 V\n"
+	(text "12 V to 2.4 V\n"
 		(exclude_from_sim no)
 		(at 135.636 86.36 0)
 		(effects
@@ -2146,7 +1963,7 @@
 		)
 		(uuid "38e82251-af35-4ec4-97ba-65c800ce1bed")
 	)
-	(text "Assume max voltage is 12 V\n"
+	(text "12 V to 2.4 V"
 		(exclude_from_sim no)
 		(at 130.556 146.812 0)
 		(effects
@@ -2156,7 +1973,7 @@
 		)
 		(uuid "4df20b34-8ef8-4f5c-bd63-a06418207023")
 	)
-	(text "Assume max voltage is 4.5 V\n"
+	(text "4.5 V to 2.25 V"
 		(exclude_from_sim no)
 		(at 144.78 26.162 0)
 		(effects
@@ -2605,78 +2422,6 @@
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93/4f2484e1-7207-412d-9e54-f6a8af7276f8"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMV_Custom:CRCW080540K0FKEA")
-		(at 162.56 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4981a583-1b3b-4352-b950-0f544cf42ba1")
-		(property "Reference" "R26"
-			(at 166.37 57.1499 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CRCW080540K0FKEA"
-			(at 166.37 59.6899 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
-			(at 162.56 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CRCW080540K0FKEA"
-			(at 162.56 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "87f9fc8d-453f-47a8-ae3a-890433fb5959")
-		)
-		(pin "1"
-			(uuid "fd817a1b-f1e5-4038-9d13-3dff3fddbed7")
-		)
-		(instances
-			(project "H&S Board"
-				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93/4f2484e1-7207-412d-9e54-f6a8af7276f8"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3186,7 +2931,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c61b9ae-3b4f-4f90-9357-cad5f7441536")
 		(property "Reference" "R23"
-			(at 156.21 157.4799 90)
+			(at 154.94 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,8 +2939,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CRCW080520K0FKEAC"
-			(at 156.21 160.0199 90)
+		(property "Value" "40Kohms"
+			(at 154.94 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,6 +3470,157 @@
 		)
 	)
 	(symbol
+		(lib_id "SMV_Custom:CRCW080510K0FKEAC")
+		(at 162.56 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4826910-402d-46d6-a893-d72411b4d752")
+		(property "Reference" "R7"
+			(at 167.64 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kohms, 0.125W"
+			(at 167.64 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Dale"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) - Thick Film\n                        \n"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012 Vishay"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW080510K0FKEAC/Vishay+Dale/view-part/?ref=snap"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRCW080510K0FKEAC"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW080510K0FKEAC/Vishay+Dale/view-part/?ref=eda"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "059ee00e-1926-459b-8404-0d0fb191890c")
+		)
+		(pin "1"
+			(uuid "c32a8ec7-0571-4b02-bf5f-164a0f0b2450")
+		)
+		(instances
+			(project "H&S Board"
+				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93/4f2484e1-7207-412d-9e54-f6a8af7276f8"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SMV_Custom:CRCW020149R9FNED")
 		(at 66.04 45.72 0)
 		(unit 1)
@@ -3796,7 +3692,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 64.77 0)
+		(at 162.56 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3804,7 +3700,7 @@
 		(dnp no)
 		(uuid "b471deb5-bc5d-4cc0-ae67-49faa8b3e0fe")
 		(property "Reference" "#PWR063"
-			(at 162.56 71.12 0)
+			(at 162.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3709,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 69.85 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 64.77 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,7 +3726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 64.77 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +3735,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 64.77 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4213,7 @@
 		(fields_autoplaced yes)
 		(uuid "dac17a26-c616-4900-a5ef-692aadfa38c8")
 		(property "Reference" "R21"
-			(at 161.29 96.5199 90)
+			(at 160.02 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,8 +4221,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CRCW080520K0FKEAC"
-			(at 161.29 99.0599 90)
+		(property "Value" "40Kohms"
+			(at 160.02 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)

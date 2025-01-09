@@ -6172,16 +6172,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 54.61) (xy 166.37 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "451294c1-c392-4f30-9c37-1662996bd758")
-	)
-	(wire
-		(pts
 			(xy 71.12 106.68) (xy 71.12 111.76)
 		)
 		(stroke
@@ -7162,6 +7152,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 54.61) (xy 156.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeed99e2-096c-40e4-b672-4a80c8de9528")
+	)
+	(wire
+		(pts
 			(xy 205.74 133.35) (xy 208.28 133.35)
 		)
 		(stroke
@@ -7222,7 +7222,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 54.61) (xy 181.61 54.61)
+			(xy 177.8 54.61) (xy 181.61 54.61)
 		)
 		(stroke
 			(width 0)
@@ -9042,7 +9042,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 166.37 54.61 0)
+		(at 156.21 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9050,7 +9050,7 @@
 		(dnp no)
 		(uuid "25d7ced8-cf82-4e4b-b562-1600bf5dd62d")
 		(property "Reference" "#PWR016"
-			(at 166.37 58.42 0)
+			(at 156.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,7 +9059,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 166.37 50.546 0)
+			(at 156.21 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,7 +9067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 54.61 0)
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +9076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 54.61 0)
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9085,7 +9085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 166.37 54.61 0)
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11274,7 +11274,7 @@
 	)
 	(symbol
 		(lib_id "SMV_Custom:WL-SMCW_0603")
-		(at 173.99 54.61 0)
+		(at 172.72 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11283,7 +11283,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d6a782f-1cab-498e-98a2-b8d430e9e284")
 		(property "Reference" "D1"
-			(at 176.0083 45.72 0)
+			(at 174.7383 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,7 +11291,7 @@
 			)
 		)
 		(property "Value" "WL-SMCW_0603"
-			(at 176.0083 48.26 0)
+			(at 174.7383 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11299,7 +11299,7 @@
 			)
 		)
 		(property "Footprint" "SMV_Passives:WL-SMCW_0603(diode)"
-			(at 173.99 54.61 0)
+			(at 172.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,7 +11309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 54.61 0)
+			(at 172.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11318,7 +11318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 54.61 0)
+			(at 172.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11533,6 +11533,76 @@
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMV_Custom:CRCW06031K00FKEA")
+		(at 157.48 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82b6f5cc-0902-4d1d-82df-d334e1a51748")
+		(property "Reference" "R5"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+			(at 157.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CRCW06031K00FKEA"
+			(at 157.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4de49f4a-5282-47d3-b642-5580994f8a82")
+		)
+		(pin "2"
+			(uuid "4dbcaa74-e5d3-4c1a-ac24-21d81f2de7dd")
+		)
+		(instances
+			(project ""
+				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
+					(reference "R5")
 					(unit 1)
 				)
 			)
