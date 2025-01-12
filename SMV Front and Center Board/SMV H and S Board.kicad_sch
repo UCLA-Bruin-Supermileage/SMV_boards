@@ -8,6 +8,500 @@
 		(title "Front and Center Board")
 	)
 	(lib_symbols
+		(symbol "3-pin Mini Molex Spox_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "22035035"
+				(at -3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SMV_Connectors:3pin_CON_22035035_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "3-pin Mini Molex Spox"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "22035035"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CON_22035035_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3-pin Mini Molex Spox_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "3-pin Mini Molex Spox_1_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ADS131M04-Q1:PADS131M04QPWRQ1"
 			(pin_names
 				(offset 0.254)
@@ -693,142 +1187,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1542,14 +1900,13 @@
 					)
 				)
 			)
-			(property "Footprint" "CON_22035035_MOL"
+			(property "Footprint" "SMV_Connectors:3pin_CON_22035035_MOL"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "3-pin Mini Molex Spox"
@@ -2837,6 +3194,215 @@
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SMV_Custom:C0805C224K3RACTU"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C0805C224K3RACTU"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SMV_Passives:Cap0805"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Comm X7R, Ceramic, 0.22 uF, 10%, 25 VDC, 62.5 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 3.5 % , 2.2727 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C0805C224K3RACTU"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-C0805C224K3R"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0805C224K3RACTU?qs=65TyNkaSsCi%2F9y1jBOk4Lg%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "C0805C224K3RACTU"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0805c224k3ractu/kemet-corporation?region=nac"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C0805C224K3RACTU_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4745,48 +5311,12 @@
 					)
 				)
 				(pin passive inverted
-					(at -16.51 -6.35 0)
+					(at 17.78 21.59 180)
 					(length 2.54)
-					(name "1"
+					(name "VBAT"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -20.32 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 15.24 21.59 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4799,12 +5329,12 @@
 					)
 				)
 				(pin passive inverted
-					(at -16.51 16.51 0)
+					(at 17.78 -1.27 180)
 					(length 2.54)
-					(name "10"
+					(name "D5"
 						(effects
 							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4817,30 +5347,12 @@
 					)
 				)
 				(pin passive inverted
-					(at 15.24 -1.27 180)
+					(at 17.78 -3.81 180)
 					(length 2.54)
-					(name "10"
+					(name "SCL"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -16.51 19.05 0)
-					(length 2.54)
-					(name "11"
-						(effects
-							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4853,30 +5365,12 @@
 					)
 				)
 				(pin passive inverted
-					(at 15.24 -3.81 180)
+					(at 17.78 -6.35 180)
 					(length 2.54)
-					(name "11"
+					(name "SDA"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -16.51 21.59 0)
-					(length 2.54)
-					(name "12"
-						(effects
-							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4889,30 +5383,12 @@
 					)
 				)
 				(pin passive inverted
-					(at 15.24 -6.35 180)
+					(at -19.05 -6.35 0)
 					(length 2.54)
-					(name "12"
+					(name "D4"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -16.51 24.13 0)
-					(length 2.54)
-					(name "13"
-						(effects
-							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4925,12 +5401,12 @@
 					)
 				)
 				(pin passive inverted
-					(at -16.51 26.67 0)
+					(at -19.05 -3.81 0)
 					(length 2.54)
-					(name "14"
+					(name "TX"
 						(effects
 							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4943,12 +5419,12 @@
 					)
 				)
 				(pin passive inverted
-					(at -16.51 29.21 0)
+					(at -19.05 -1.27 0)
 					(length 2.54)
-					(name "15"
+					(name "RX"
 						(effects
 							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4961,12 +5437,12 @@
 					)
 				)
 				(pin passive inverted
-					(at -16.51 31.75 0)
+					(at -19.05 1.27 0)
 					(length 2.54)
-					(name "16"
+					(name "MISO"
 						(effects
 							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4979,52 +5455,16 @@
 					)
 				)
 				(pin passive inverted
-					(at -16.51 -3.81 0)
+					(at -19.05 3.81 0)
 					(length 2.54)
-					(name "2"
+					(name "MOSI"
 						(effects
 							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 15.24 19.05 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5033,16 +5473,214 @@
 					)
 				)
 				(pin passive inverted
-					(at -16.51 -1.27 0)
+					(at -19.05 6.35 0)
 					(length 2.54)
-					(name "3"
+					(name "SCK"
 						(effects
 							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
-					(number "3"
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -19.05 8.89 0)
+					(length 2.54)
+					(name "D25"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 17.78 19.05 180)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -19.05 11.43 0)
+					(length 2.54)
+					(name "D24"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -19.05 13.97 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -19.05 16.51 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -19.05 19.05 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -19.05 21.59 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -19.05 24.13 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -19.05 26.67 0)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -19.05 29.21 0)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -19.05 31.75 0)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5053,14 +5691,14 @@
 				(pin passive line
 					(at 2.54 -20.32 90)
 					(length 5.08)
-					(name "3"
+					(name "CAN_L"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "29"
 						(effects
 							(font
 								(size 0 0)
@@ -5069,12 +5707,12 @@
 					)
 				)
 				(pin passive inverted
-					(at 15.24 16.51 180)
+					(at 17.78 16.51 180)
 					(length 2.54)
-					(name "3"
+					(name "VBUS"
 						(effects
 							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -5086,13 +5724,49 @@
 						)
 					)
 				)
-				(pin passive inverted
-					(at -16.51 1.27 0)
-					(length 2.54)
-					(name "4"
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
 						(effects
 							(font
 								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -20.32 90)
+					(length 5.08)
+					(name "CAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 17.78 13.97 180)
+					(length 2.54)
+					(name "D13"
+						(effects
+							(font
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -5105,30 +5779,12 @@
 					)
 				)
 				(pin passive inverted
-					(at 15.24 13.97 180)
+					(at 17.78 11.43 180)
 					(length 2.54)
-					(name "4"
+					(name "D12"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -16.51 3.81 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -5141,30 +5797,12 @@
 					)
 				)
 				(pin passive inverted
-					(at 15.24 11.43 180)
+					(at 17.78 8.89 180)
 					(length 2.54)
-					(name "5"
+					(name "D11"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -16.51 6.35 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -5177,30 +5815,12 @@
 					)
 				)
 				(pin passive inverted
-					(at 15.24 8.89 180)
+					(at 17.78 6.35 180)
 					(length 2.54)
-					(name "6"
+					(name "D10"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -16.51 8.89 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -5213,30 +5833,12 @@
 					)
 				)
 				(pin passive inverted
-					(at 15.24 6.35 180)
+					(at 17.78 3.81 180)
 					(length 2.54)
-					(name "7"
+					(name "D9"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -16.51 11.43 0)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -5249,48 +5851,12 @@
 					)
 				)
 				(pin passive inverted
-					(at 15.24 3.81 180)
+					(at 17.78 1.27 180)
 					(length 2.54)
-					(name "8"
+					(name "D6"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -16.51 13.97 0)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 15.24 1.27 180)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 0 0)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -6532,12 +7098,6 @@
 		)
 	)
 	(junction
-		(at 127 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "079bfc51-bee3-40da-9b20-506b8cef377c")
-	)
-	(junction
 		(at 130.81 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6616,16 +7176,16 @@
 		(uuid "53d8bd46-237a-431f-9699-8c189b8cd52f")
 	)
 	(junction
-		(at 193.04 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "596bfc6e-f351-4a61-a83f-3a8781dec8c5")
-	)
-	(junction
 		(at 209.55 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bd42aee-595e-4711-aae7-edcdde28d299")
+	)
+	(junction
+		(at 124.46 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d4057e8-b9fc-489d-814b-9faec201753d")
 	)
 	(junction
 		(at 173.99 43.18)
@@ -6634,10 +7194,10 @@
 		(uuid "72a089ae-858f-424e-af9b-31be86757639")
 	)
 	(junction
-		(at 193.04 55.88)
+		(at 204.47 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e5ab18f-8e2f-4133-a7fa-e272e0c804b7")
+		(uuid "7b74c39f-6339-4699-ae1d-634f020e7029")
 	)
 	(junction
 		(at 142.24 38.1)
@@ -6646,10 +7206,16 @@
 		(uuid "80ad1ef2-4fb1-4144-ba92-44e7def005b3")
 	)
 	(junction
-		(at 204.47 93.98)
+		(at 193.04 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b2dc191-6d7c-4368-8a67-fdaf857c05fb")
+		(uuid "89816741-118e-4db7-aa5f-d00e067af129")
+	)
+	(junction
+		(at 124.46 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bed55e6-9d1c-4305-a6bb-40c43a62585d")
 	)
 	(junction
 		(at 233.68 20.32)
@@ -6661,7 +7227,7 @@
 		(at 204.47 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0f68b6f-dc17-4af4-b245-6bd0c0b56f59")
+		(uuid "9b32f48d-e979-4641-a6fd-d3d46b465f79")
 	)
 	(junction
 		(at 163.83 151.13)
@@ -6680,6 +7246,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abc3bc6e-6189-4dc5-b2d5-c818133988ac")
+	)
+	(junction
+		(at 193.04 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bae192e6-6eea-4b1e-866e-bdc04bfb402d")
 	)
 	(junction
 		(at 201.93 17.78)
@@ -6735,58 +7307,48 @@
 		(color 0 0 0 0)
 		(uuid "edfc5037-509b-4a75-83cf-f4f8a258cf62")
 	)
-	(junction
-		(at 127 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eeb6b86d-f0d9-4aa1-a0a0-1ee9c784da67")
-	)
 	(no_connect
-		(at 127 53.34)
+		(at 124.46 53.34)
 		(uuid "0ed87adf-c89e-4128-aebb-fa2d0bdd2861")
 	)
 	(no_connect
-		(at 158.75 45.72)
+		(at 161.29 45.72)
 		(uuid "30158170-742a-45dd-b484-daf99ce30c2e")
 	)
 	(no_connect
-		(at 158.75 53.34)
+		(at 161.29 53.34)
 		(uuid "3335ae00-1610-45bb-81a1-52eb696aa6de")
 	)
 	(no_connect
-		(at 127 66.04)
+		(at 124.46 66.04)
 		(uuid "370f8cef-724d-4381-8ae7-ef67538e3c02")
 	)
 	(no_connect
-		(at 158.75 68.58)
+		(at 161.29 68.58)
 		(uuid "57dd8de0-d1b8-471b-ad2e-18b5153ed369")
 	)
 	(no_connect
-		(at 127 68.58)
+		(at 124.46 68.58)
 		(uuid "6614bd4f-da0b-406a-a480-941174567cac")
 	)
 	(no_connect
-		(at 158.75 58.42)
+		(at 161.29 58.42)
 		(uuid "7a19dbb6-961a-434f-aec8-87f15222fb11")
 	)
 	(no_connect
-		(at 127 71.12)
-		(uuid "9a1031cc-116a-48b6-9a7e-b3ee818169f7")
-	)
-	(no_connect
-		(at 158.75 66.04)
+		(at 161.29 66.04)
 		(uuid "ab9ef7e2-89be-4152-8fb9-5767d41e7224")
 	)
 	(no_connect
-		(at 158.75 63.5)
+		(at 161.29 63.5)
 		(uuid "aeaaece5-c554-4418-a1d3-7665fa0cf076")
 	)
 	(no_connect
-		(at 127 48.26)
+		(at 124.46 48.26)
 		(uuid "b1908f03-a1ae-4b29-a965-af2708033703")
 	)
 	(no_connect
-		(at 158.75 48.26)
+		(at 161.29 48.26)
 		(uuid "be9869ff-3b36-414a-a55b-9250e8734455")
 	)
 	(no_connect
@@ -6794,15 +7356,15 @@
 		(uuid "c989ef19-4443-4f6d-89d0-19e9cc44054c")
 	)
 	(no_connect
-		(at 127 50.8)
+		(at 124.46 50.8)
 		(uuid "d243da1f-b7c3-46c5-8160-4851079df3bb")
 	)
 	(no_connect
-		(at 127 33.02)
+		(at 124.46 33.02)
 		(uuid "f3744a62-037c-4d87-a142-a99577b985c3")
 	)
 	(no_connect
-		(at 158.75 60.96)
+		(at 161.29 60.96)
 		(uuid "fcd02753-de55-41e9-b561-44875493c1d0")
 	)
 	(wire
@@ -6817,7 +7379,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 71.12) (xy 120.65 71.12)
+			(xy 124.46 71.12) (xy 120.65 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6864,6 +7426,16 @@
 			(type default)
 		)
 		(uuid "0ddeb4c3-325b-4177-b877-047d4f7affb5")
+	)
+	(wire
+		(pts
+			(xy 204.47 91.44) (xy 204.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0deb523f-b5ce-48f2-aa34-2b667987ccd8")
 	)
 	(wire
 		(pts
@@ -6914,16 +7486,6 @@
 			(type default)
 		)
 		(uuid "1c13136a-dfb7-4545-ad76-32bf4cb6bb9a")
-	)
-	(wire
-		(pts
-			(xy 127 63.5) (xy 135.89 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2013df0c-2b98-4668-84f6-529e8561d019")
 	)
 	(polyline
 		(pts
@@ -7027,6 +7589,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 53.34) (xy 193.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b45dd0e-51bf-4494-a380-a45817ee9877")
+	)
+	(wire
+		(pts
 			(xy 40.64 187.96) (xy 43.18 187.96)
 		)
 		(stroke
@@ -7097,6 +7669,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 97.79) (xy 119.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ce53d2-ac7f-494c-9549-4a83ed6f9927")
+	)
+	(wire
+		(pts
+			(xy 193.04 55.88) (xy 193.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1a98df-3d0d-4341-9f25-4ed44f2cca1e")
+	)
+	(wire
+		(pts
 			(xy 234.95 119.38) (xy 234.95 124.46)
 		)
 		(stroke
@@ -7107,17 +7699,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 60.96) (xy 135.89 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a743366-ef1e-484f-aec0-c6a1ac81bc32")
-	)
-	(wire
-		(pts
-			(xy 120.65 60.96) (xy 127 60.96)
+			(xy 120.65 60.96) (xy 124.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7187,6 +7769,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 93.98) (xy 204.47 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43185824-4e2f-4890-90be-1b540b282870")
+	)
+	(wire
+		(pts
 			(xy 228.6 60.96) (xy 228.6 62.23)
 		)
 		(stroke
@@ -7247,7 +7839,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 20.32) (xy 114.3 43.18)
+			(xy 111.76 20.32) (xy 111.76 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7264,6 +7856,16 @@
 			(type default)
 		)
 		(uuid "5690f1a1-659e-4465-b751-9a1bab5ca82b")
+	)
+	(wire
+		(pts
+			(xy 119.38 97.79) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571be3af-0807-4412-ba0b-cf1042e9e0f2")
 	)
 	(wire
 		(pts
@@ -7307,7 +7909,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 43.18) (xy 158.75 43.18)
+			(xy 173.99 43.18) (xy 161.29 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -7347,6 +7949,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 20.32) (xy 114.3 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b73db8-16ac-4181-901c-9ffc8e2b83f2")
+	)
+	(wire
+		(pts
 			(xy 31.75 137.16) (xy 31.75 142.24)
 		)
 		(stroke
@@ -7367,23 +7979,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 58.42) (xy 135.89 58.42)
+			(xy 124.46 58.42) (xy 135.89 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6a9ab297-b21b-427a-abb1-7b4d1295fcab")
-	)
-	(wire
-		(pts
-			(xy 193.04 53.34) (xy 193.04 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ccfd55a-0873-4d75-9af2-5351629cc71f")
 	)
 	(wire
 		(pts
@@ -7394,16 +7996,6 @@
 			(type default)
 		)
 		(uuid "6d4117c5-4afc-4348-96dc-3c01fc4cc21d")
-	)
-	(wire
-		(pts
-			(xy 204.47 93.98) (xy 204.47 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fce07d1-16b2-452d-aeab-2554ab0c9697")
 	)
 	(wire
 		(pts
@@ -7437,7 +8029,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 127 63.5)
+			(xy 114.3 63.5) (xy 124.46 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7457,6 +8049,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 63.5) (xy 135.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7676e1e5-5528-47ae-9132-f95f1abe5e05")
+	)
+	(wire
+		(pts
 			(xy 166.37 182.88) (xy 166.37 181.61)
 		)
 		(stroke
@@ -7467,7 +8069,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 35.56) (xy 127 35.56)
+			(xy 124.46 35.56) (xy 142.24 35.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -7507,7 +8109,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 45.72) (xy 127 45.72)
+			(xy 110.49 45.72) (xy 124.46 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7547,7 +8149,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 55.88) (xy 158.75 55.88)
+			(xy 168.91 55.88) (xy 161.29 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7627,13 +8229,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 50.8) (xy 152.4 50.8)
+			(xy 167.64 50.8) (xy 161.29 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9aa3c8e1-901a-429d-9cb0-19130f6ae976")
+		(uuid "99c0514c-d124-4ec4-b92f-dc9c89869a0a")
 	)
 	(wire
 		(pts
@@ -7655,6 +8257,16 @@
 		)
 		(uuid "9d43b40e-fafa-4d25-b406-21713e60e067")
 	)
+	(wire
+		(pts
+			(xy 119.38 110.49) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3119b8-e6fc-444e-94ad-36dfb2156e27")
+	)
 	(polyline
 		(pts
 			(xy 175.26 167.64) (xy 175.26 165.1)
@@ -7664,6 +8276,16 @@
 			(type default)
 		)
 		(uuid "9f860c7a-fc0c-4a30-92c1-3f386f097184")
+	)
+	(wire
+		(pts
+			(xy 161.29 71.12) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0259110-544b-4e72-8569-12fbf7781ed1")
 	)
 	(polyline
 		(pts
@@ -7697,7 +8319,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 38.1) (xy 127 38.1)
+			(xy 124.46 38.1) (xy 142.24 38.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -7794,16 +8416,6 @@
 			(type default)
 		)
 		(uuid "b21b6272-89b6-469a-88f9-14d1619c062d")
-	)
-	(wire
-		(pts
-			(xy 193.04 55.88) (xy 193.04 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3c11d43-fa36-4681-a373-091382c4266a")
 	)
 	(wire
 		(pts
@@ -7957,13 +8569,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 71.12) (xy 158.75 71.12)
+			(xy 124.46 60.96) (xy 135.89 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf11aa1c-8009-447a-896a-24c13eaea875")
+		(uuid "d08dc866-5eac-4fb8-98ef-36579ff885a5")
 	)
 	(wire
 		(pts
@@ -8007,7 +8619,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 127 43.18)
+			(xy 111.76 43.18) (xy 124.46 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8017,7 +8629,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 55.88) (xy 135.89 55.88)
+			(xy 124.46 55.88) (xy 135.89 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8097,7 +8709,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 40.64) (xy 134.62 40.64)
+			(xy 124.46 40.64) (xy 134.62 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8147,23 +8759,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 153.67) (xy 118.11 153.67)
+			(xy 100.33 153.67) (xy 113.03 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f0e8bc7c-55bc-4a4c-b0f4-689fbfc3168f")
-	)
-	(wire
-		(pts
-			(xy 204.47 91.44) (xy 204.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c4cbcf-927b-4136-aa72-bea994b99caa")
 	)
 	(polyline
 		(pts
@@ -8380,7 +8982,7 @@
 		(uuid "1982c20e-f765-454d-9062-912de0ca2b95")
 	)
 	(label "CS"
-		(at 152.4 50.8 180)
+		(at 167.64 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8446,7 +9048,7 @@
 		(uuid "34a07df8-5a18-4278-9b23-12326f718c11")
 	)
 	(label "TX1"
-		(at 152.4 55.88 180)
+		(at 168.91 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8887,71 +9489,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 120.65 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07c38afe-d9d2-4a11-8cf4-e5287a33d099")
-		(property "Reference" "TP11"
-			(at 118.11 59.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 117.348 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 120.65 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42dfd784-e635-47f2-92c1-b36dc9c4d234")
-		)
-		(instances
-			(project ""
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 193.04 62.23 0)
 		(unit 1)
@@ -9143,6 +9680,74 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 110.49 97.79 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13d9f8c0-c60b-49ec-8a0e-9c34f568f13b")
+		(property "Reference" "TP18"
+			(at 106.68 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3A"
+			(at 102.362 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "861221bb-7fbb-42a1-bce1-5bba676f5d9c")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -9650,85 +10255,6 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PSMN1R8-40YLC,115:PSMN1R8-40YLC_115")
-		(at 204.47 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1edbd00a-e684-4938-9da6-f8f4be5e76a2")
-		(property "Reference" "Q3"
-			(at 219.71 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "PSMN1R8-40YLC_115 - MOSFET"
-			(at 219.71 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "LFPAK56_SOT669_NEX"
-			(at 204.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "PSMN1R8-40YLC_115"
-			(at 204.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8de3a884-1149-4bce-a9fd-e1e056104f8b")
-		)
-		(pin "1"
-			(uuid "527647e0-482e-434c-b159-1aa903c1ac94")
-		)
-		(pin "5"
-			(uuid "db789cc1-21f4-4557-b9c2-fb7f58c966a5")
-		)
-		(pin "2"
-			(uuid "775cf361-ea7f-43c3-a4f0-bc4e0f1d0afe")
-		)
-		(pin "4"
-			(uuid "db294c9a-4dca-41c0-aa64-318ac8f1c0c5")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10795,6 +11321,81 @@
 		)
 	)
 	(symbol
+		(lib_id "SMV_Custom:3-pin Mini Molex Spox")
+		(at 168.91 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44d4328a-1fec-46d4-a393-f31efa9c882d")
+		(property "Reference" "J7"
+			(at 148.336 188.722 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22035035"
+			(at 148.336 191.262 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMV_Connectors:3pin_CON_22035035_MOL"
+			(at 172.72 194.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "3-pin Mini Molex Spox"
+			(at 179.07 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "31bed2c6-ee87-401f-8948-319fda9b547d")
+		)
+		(pin "1"
+			(uuid "d2c4f2a5-ea7b-4597-bde2-c6837a45e5ac")
+		)
+		(pin "2"
+			(uuid "73f273f5-c664-410b-ac28-b1d2006c3406")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SMV_Custom:CRCW080540K0FKEA")
 		(at 45.72 187.96 0)
 		(unit 1)
@@ -11255,80 +11856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SMV_Custom:3-pin Mini Molex Spox")
-		(at 168.91 182.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "536ef0c4-56ac-4490-b467-2214d3251a27")
-		(property "Reference" "J4"
-			(at 154.94 188.722 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22035035"
-			(at 159.766 191.262 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CON_22035035_MOL"
-			(at 168.91 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "3-pin Mini Molex Spox"
-			(at 179.07 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "345adf50-4cbc-4c53-9bf9-bda381091f1a")
-		)
-		(pin "1"
-			(uuid "b0374591-a790-4280-a196-b55ae1969126")
-		)
-		(pin "3"
-			(uuid "caec9912-46e9-4be2-a396-cd64dab238d3")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SMV_Custom:RP2040")
 		(at 143.51 64.77 0)
 		(unit 1)
@@ -11386,13 +11913,13 @@
 		(pin "3"
 			(uuid "fd826347-42ae-48c3-9dbd-647b9b7d6875")
 		)
-		(pin "3"
+		(pin "17"
 			(uuid "6e71724c-1d4b-42ee-b8dc-fe9a9343a736")
 		)
 		(pin "5"
 			(uuid "22650c72-7f37-4381-a274-63f2b3683de0")
 		)
-		(pin "3"
+		(pin "18"
 			(uuid "2093c64d-bd9c-46f8-84aa-137c69e946e9")
 		)
 		(pin "7"
@@ -11416,10 +11943,10 @@
 		(pin "6"
 			(uuid "f1af63a0-9a4a-41aa-9251-230fd9de3607")
 		)
-		(pin "5"
+		(pin "19"
 			(uuid "fd0bc94a-abe4-4fd8-8a37-d0c845a76442")
 		)
-		(pin "6"
+		(pin "20"
 			(uuid "50d70c9e-5bd3-4439-904d-ba1d39c99b97")
 		)
 		(pin "1"
@@ -11434,49 +11961,125 @@
 		(pin "16"
 			(uuid "65a4cfd3-65f3-4a8f-a6c7-54bfdb029135")
 		)
-		(pin "1"
+		(pin "21"
 			(uuid "3b7ffdbf-00ae-4b70-a096-ab1fc7343c7b")
 		)
-		(pin "1"
+		(pin "22"
 			(uuid "98641268-043c-4b0d-8e07-e91139becd6a")
 		)
 		(pin "13"
 			(uuid "b41e900c-a455-4ce9-a982-1cb8b2d3b69b")
 		)
-		(pin "8"
+		(pin "23"
 			(uuid "b464a374-c022-4ca7-a2e7-781e8b6a4934")
 		)
-		(pin "10"
+		(pin "24"
 			(uuid "64d7d191-50e6-49d8-ab8c-8d0c2adbb999")
 		)
-		(pin "4"
+		(pin "25"
 			(uuid "8c8c18bd-60ba-499d-83d3-fbffb40ba79b")
 		)
-		(pin "2"
+		(pin "26"
 			(uuid "462c2948-ae84-4dd6-9a2e-80b7bbaf346b")
 		)
 		(pin "9"
 			(uuid "f5e03169-f234-4964-ac00-641d2a8846e1")
 		)
-		(pin "9"
+		(pin "27"
 			(uuid "fa421dc5-461d-4fbb-b07a-4d0ac3ecebc8")
 		)
-		(pin "11"
+		(pin "28"
 			(uuid "c1204c48-0a0f-48ad-9246-fefdce298b04")
 		)
-		(pin "2"
+		(pin "29"
 			(uuid "b74b44ce-a801-4f26-9d2e-a9a005243d2a")
 		)
-		(pin "7"
+		(pin "30"
 			(uuid "d8a10248-f4f9-4f3b-8063-5ec0faef44a0")
 		)
-		(pin "12"
+		(pin "31"
 			(uuid "b4c92f39-435f-420f-ac03-6509fd454e71")
 		)
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "RP2040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "3-pin Mini Molex Spox_1")
+		(lib_id "SMV_Custom:3-pin Mini Molex Spox")
+		(at 119.38 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a2d1f72-7f50-4a35-8e1f-4f99e3a962ff")
+		(property "Reference" "J6"
+			(at 131.826 111.506 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22035035"
+			(at 127.254 113.538 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMV_Connectors:3pin_CON_22035035_MOL"
+			(at 133.35 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "3-pin Mini Molex Spox"
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbebbf15-e624-497e-add7-bcc86d7a804c")
+		)
+		(pin "1"
+			(uuid "923488f0-1f72-4b3b-8bd1-2b00d8f9d810")
+		)
+		(pin "3"
+			(uuid "a9cdb5c7-c4c9-45e7-a211-60932422d76c")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -11627,6 +12230,85 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSMN1R8-40YLC,115:PSMN1R8-40YLC_115")
+		(at 193.04 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d180789-8767-4d79-8c57-92e7ea6660e8")
+		(property "Reference" "Q2"
+			(at 208.28 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PSMN1R8-40YLC_115"
+			(at 208.28 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LFPAK56_SOT669_NEX"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PSMN1R8-40YLC_115"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02175c47-f9e1-4af7-98a1-c7fd33379cb6")
+		)
+		(pin "3"
+			(uuid "08d27f93-8219-4c57-a8c4-547c636c62b3")
+		)
+		(pin "4"
+			(uuid "4cad4cc9-8e7a-4e44-ac5b-36b740b8ae43")
+		)
+		(pin "5"
+			(uuid "9dec5f6f-6884-4d69-b83a-b8202225ef0a")
+		)
+		(pin "1"
+			(uuid "5af97eca-e337-44cb-a3ff-6237a69fa439")
+		)
+		(instances
+			(project ""
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -12206,155 +12888,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 121.92 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78de20f6-46c6-4130-9d7f-b2d0b79374f0")
-		(property "Reference" "C3"
-			(at 120.6499 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "220 nF"
-			(at 124.968 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 152.7048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 121.92 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77d3ac09-254b-43d6-9d37-0d708aff4bb9")
-		)
-		(pin "2"
-			(uuid "f5dccfcd-e85d-4347-9498-3585ee99a79e")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PSMN1R8-40YLC,115:PSMN1R8-40YLC_115")
-		(at 193.04 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ba5ea7b-2d78-4117-a3e9-8c866372264f")
-		(property "Reference" "Q1"
-			(at 208.28 43.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "PSMN1R8-40YLC_115 - MOSFET"
-			(at 208.28 45.72 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "LFPAK56_SOT669_NEX"
-			(at 193.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "PSMN1R8-40YLC_115"
-			(at 193.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8f159351-22ec-42f7-8cf5-2be213eab1c3")
-		)
-		(pin "1"
-			(uuid "ec8c068f-2f7c-4dcf-8797-5f808e00923d")
-		)
-		(pin "5"
-			(uuid "b6274d45-1c58-49a5-9c1c-10caa697da69")
-		)
-		(pin "2"
-			(uuid "7db75064-b1be-4103-8d5d-3dcd2970f037")
-		)
-		(pin "4"
-			(uuid "e9a53d40-7bcc-4143-bb1c-c55d15800e27")
-		)
-		(instances
-			(project ""
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 50.8 179.07 0)
 		(mirror x)
@@ -12551,71 +13084,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "903000a2-9ce1-4bc9-847b-7bd8a981e1f7")
-		(property "Reference" "TP16"
-			(at 117.348 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 119.126 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d25a5370-ae49-43ae-9a6a-d67f566b03a4")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 27.94 73.66 90)
 		(unit 1)
@@ -12675,80 +13143,6 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMV_Custom:3-pin Mini Molex Spox")
-		(at 134.62 184.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "957f12da-62ce-4b66-b7c3-e0d10e76d613")
-		(property "Reference" "J9"
-			(at 120.65 189.484 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22035035"
-			(at 125.476 192.024 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CON_22035035_MOL"
-			(at 134.62 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "3-pin Mini Molex Spox"
-			(at 144.78 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5feb1a6e-8e72-4a7b-8ebb-533d37713fc7")
-		)
-		(pin "1"
-			(uuid "be4490e3-8975-4c96-a0b6-94b01b2f0a24")
-		)
-		(pin "3"
-			(uuid "6d3d16a5-f777-4ec2-bead-c84f65e8a38a")
-		)
-		(instances
-			(project ""
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13425,6 +13819,74 @@
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 64.77 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a48d4f57-77a7-485e-95d8-9edd44a173be")
+		(property "Reference" "TP17"
+			(at 120.65 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3A"
+			(at 117.856 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "371d22ad-64d2-475d-8639-acca7bc0cd76")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -14793,15 +15255,15 @@
 	)
 	(symbol
 		(lib_id "SMV_Custom:3-pin Mini Molex Spox")
-		(at 119.38 100.33 0)
+		(at 134.62 184.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c93ee326-b5d1-4869-8e98-abb6dc9ba9e3")
-		(property "Reference" "J7"
-			(at 120.142 108.712 0)
+		(uuid "cb30c6ea-85f1-403c-aed2-e8684d17c620")
+		(property "Reference" "J4"
+			(at 114.046 189.992 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14810,7 +15272,7 @@
 			)
 		)
 		(property "Value" "22035035"
-			(at 120.142 111.252 0)
+			(at 114.046 192.532 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14818,18 +15280,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_22035035_MOL"
-			(at 119.38 100.33 0)
+		(property "Footprint" "SMV_Connectors:3pin_CON_22035035_MOL"
+			(at 138.43 195.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "3-pin Mini Molex Spox"
-			(at 119.38 90.17 0)
+			(at 144.78 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14839,7 +15302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 100.33 0)
+			(at 134.62 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14847,19 +15310,19 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "244fa736-b60a-4884-8761-7b3428c6522c")
-		)
 		(pin "3"
-			(uuid "65166a1f-df9f-450a-ba7f-b7b2006737f0")
+			(uuid "61bdd866-2c65-49ea-8169-5e5d108792f7")
+		)
+		(pin "1"
+			(uuid "64a21c9a-3db6-4701-8f4a-fe6a2fb6ca58")
 		)
 		(pin "2"
-			(uuid "40503def-13a4-4a60-bd37-3cf1dbdca1be")
+			(uuid "b4e18019-1e4b-4645-9542-582b46b63a2f")
 		)
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15128,6 +15591,213 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 110.49 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d86c813e-04ee-4ebb-8a4c-991a79a4d9e8")
+		(property "Reference" "TP16"
+			(at 125.222 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3A"
+			(at 122.936 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c5933e6-56e5-40bf-8eec-3d4048217371")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMV_Custom:C0805C224K3RACTU")
+		(at 113.03 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9f3162a-e82a-403f-8337-695dcec7ae08")
+		(property "Reference" "C1"
+			(at 119.38 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C0805C224K3RACTU"
+			(at 119.38 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMV_Passives:Cap0805"
+			(at 121.92 249.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 121.92 349.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Comm X7R, Ceramic, 0.22 uF, 10%, 25 VDC, 62.5 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 3.5 % , 2.2727 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+			(at 113.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 121.92 549.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 121.92 649.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0805C224K3RACTU"
+			(at 121.92 749.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0805C224K3R"
+			(at 121.92 849.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0805C224K3RACTU?qs=65TyNkaSsCi%2F9y1jBOk4Lg%3D%3D"
+			(at 121.92 949.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "C0805C224K3RACTU"
+			(at 121.92 1049.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0805c224k3ractu/kemet-corporation?region=nac"
+			(at 121.92 1149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37a21a58-7f76-4cb7-a682-1945951c2153")
+		)
+		(pin "2"
+			(uuid "a1e93a2a-78e5-4be2-be48-a8471712f623")
+		)
+		(instances
+			(project ""
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 20.32 90)
 		(mirror x)
@@ -15319,6 +15989,74 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e020f71c-d504-4143-a988-123fbb99ccb7")
+		(property "Reference" "TP11"
+			(at 117.094 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3A"
+			(at 117.094 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78ccad58-9b42-4282-8e6f-d9dc7716c2f7")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -15609,34 +16347,33 @@
 		)
 	)
 	(symbol
-		(lib_id "SMV_Custom:3-pin Mini Molex Spox")
-		(at 119.38 87.63 0)
+		(lib_id "PSMN1R8-40YLC,115:PSMN1R8-40YLC_115")
+		(at 204.47 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ed17abb6-0c54-4dfe-9840-1f2a45062384")
-		(property "Reference" "J8"
-			(at 119.38 80.264 0)
+		(fields_autoplaced yes)
+		(uuid "eab976cd-d541-4a34-8b63-d85898146f33")
+		(property "Reference" "Q1"
+			(at 219.71 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22035035"
-			(at 119.38 82.804 0)
+		(property "Value" "PSMN1R8-40YLC_115"
+			(at 219.71 83.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "CON_22035035_MOL"
-			(at 119.38 87.63 0)
+		(property "Footprint" "LFPAK56_SOT669_NEX"
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15645,8 +16382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "3-pin Mini Molex Spox"
-			(at 119.38 77.47 0)
+		(property "Datasheet" "PSMN1R8-40YLC_115"
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15656,7 +16393,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 87.63 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15664,19 +16401,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "501f423d-c2e0-49ad-ab97-b644e873dd7b")
+		(pin "2"
+			(uuid "9d243edd-4b59-4f40-8621-67b907a7417b")
 		)
 		(pin "3"
-			(uuid "5911df11-0d7b-4da0-9706-6a3bae148698")
+			(uuid "2a3ada6e-151d-43d5-a1d9-82b206d86f94")
 		)
-		(pin "2"
-			(uuid "bb839aa7-c0e4-40f3-ae3e-f8056ac5cf11")
+		(pin "4"
+			(uuid "d167f740-15be-49a0-b9e7-03483a40b86f")
+		)
+		(pin "5"
+			(uuid "58beb722-8e0d-458b-8e8f-2108d189cbdf")
+		)
+		(pin "1"
+			(uuid "14e6fe3c-8aaf-480c-bf1e-1ef531edee04")
 		)
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "J8")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -16218,7 +16961,7 @@
 		(dnp no)
 		(uuid "fdc631b6-2008-4d0e-b885-0ff424de356f")
 		(property "Reference" "C8"
-			(at 37.084 143.51 90)
+			(at 25.654 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16338,6 +17081,82 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "3-pin Mini Molex Spox_1")
+		(lib_id "SMV_Custom:3-pin Mini Molex Spox")
+		(at 119.38 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffdf8cb2-c0c4-453d-95a5-4236ee1d1aa8")
+		(property "Reference" "J5"
+			(at 123.19 79.502 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22035035"
+			(at 123.19 82.042 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMV_Connectors:3pin_CON_22035035_MOL"
+			(at 133.35 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "3-pin Mini Molex Spox"
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27094eae-f7e5-4d78-a5da-302290b093b5")
+		)
+		(pin "1"
+			(uuid "15137f6b-9c51-4d32-b7f2-aca7978942dd")
+		)
+		(pin "3"
+			(uuid "178c49ec-fd2e-474f-b4a3-b00c1a03b80c")
+		)
+		(instances
+			(project ""
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "J5")
 					(unit 1)
 				)
 			)
