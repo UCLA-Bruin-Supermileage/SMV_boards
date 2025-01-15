@@ -5623,7 +5623,7 @@
 	(footprint "TestPoint:TestPoint_Pad_3.0x3.0mm"
 		(layer "F.Cu")
 		(uuid "6bddfaf4-fea6-45bd-bf7e-409647f365c2")
-		(at 99.8188 95.890002 180)
+		(at 101 95.890002 180)
 		(descr "SMD rectangular pad as test Point, square 3.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP2"
@@ -6837,7 +6837,7 @@
 	(footprint "TestPoint:TestPoint_Pad_3.0x3.0mm"
 		(layer "F.Cu")
 		(uuid "7565bf9c-7860-44ec-9246-9f0be205d9ea")
-		(at 120.5 68)
+		(at 106 69)
 		(descr "SMD rectangular pad as test Point, square 3.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP5"
@@ -7183,7 +7183,7 @@
 	(footprint "SMV_Passives:CAP_8PACTU"
 		(layer "F.Cu")
 		(uuid "79d30b3d-f7e5-4714-a9ff-be6a4b426a2d")
-		(at 115.5 69 90)
+		(at 103 70 90)
 		(tags "C0805C106K8PACTU ")
 		(property "Reference" "C5"
 			(at 0 0 90)
@@ -7473,7 +7473,7 @@
 			)
 			(polygon
 				(pts
-					(xy 114.8269 69.2921) (xy 114.8269 68.7079) (xy 116.1731 68.7079) (xy 116.1731 69.2921)
+					(xy 102.3269 70.2921) (xy 102.3269 69.7079) (xy 103.6731 69.7079) (xy 103.6731 70.2921)
 				)
 			)
 		)
@@ -12256,7 +12256,7 @@
 	(footprint "SMV_ICs:U-DFN2020-6 (Type C)"
 		(layer "F.Cu")
 		(uuid "bdd43c72-e7b3-447f-bbe2-bac0fdd7f189")
-		(at 111.4055 67.150002 180)
+		(at 100.4055 68.150002 180)
 		(property "Reference" "LDO1"
 			(at 0.032 -1.9064 0)
 			(layer "F.SilkS")
@@ -13195,7 +13195,7 @@
 	(footprint "SMV_Passives:CAPC340180_180N_KEM"
 		(layer "F.Cu")
 		(uuid "c5e9de42-6b90-4c2c-9baf-90de361dc49e")
-		(at 107 67 90)
+		(at 97.5 68 90)
 		(tags "C1206C105K1RACTU ")
 		(property "Reference" "C8"
 			(at 0 0 90)
@@ -13494,7 +13494,7 @@
 			)
 			(polygon
 				(pts
-					(xy 106.150802 67.699199) (xy 106.150802 66.300801) (xy 107.849198 66.300801) (xy 107.849198 67.699199)
+					(xy 96.650802 68.699199) (xy 96.650802 67.300801) (xy 98.349198 67.300801) (xy 98.349198 68.699199)
 				)
 			)
 		)
@@ -14456,7 +14456,7 @@
 	(footprint "SMV_Passives:Cap0805"
 		(layer "F.Cu")
 		(uuid "f8aef707-77d4-464d-bcbc-9d1c8a2eb229")
-		(at 99.7188 100.490002 -90)
+		(at 101 100.490002 -90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C2"
@@ -15090,6 +15090,102 @@
 		(uuid "fd265498-aa62-40a0-8a2e-2f8b0e00c930")
 	)
 	(segment
+		(start 138 66)
+		(end 129.934314 66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "0617f7a9-5aac-4f4f-a287-7842ad597aed")
+	)
+	(segment
+		(start 129.934314 66)
+		(end 124.5 71.434314)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "14bc4b47-6492-4e08-8dc3-44baf2310d35")
+	)
+	(segment
+		(start 124.5 71.5)
+		(end 124.5 80)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "22115cf8-0135-44a8-aeaf-ed6f61a0247e")
+	)
+	(segment
+		(start 118 83.5)
+		(end 119.5 85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "2f7d5674-b8ea-46b7-a143-2a6730ff07d4")
+	)
+	(segment
+		(start 138 80.5)
+		(end 138 66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "3af538d5-202f-4d48-9cc1-578c36838c65")
+	)
+	(segment
+		(start 86 98.5)
+		(end 86 96.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "3b3644e2-87de-4bf5-a9d8-80502b27b6a6")
+	)
+	(segment
+		(start 124.5 97.565686)
+		(end 135.528814 108.5945)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "4735c593-3a52-4222-b048-c99229f707de")
+	)
+	(segment
+		(start 86 96.8)
+		(end 99.3 83.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "4d0e5646-4925-4685-8be8-7fb7aa8c53eb")
+	)
+	(segment
+		(start 124.5 71.434314)
+		(end 124.5 71.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "54284910-ea77-4afc-ba31-19dc0b23183a")
+	)
+	(segment
+		(start 157 92.58)
+		(end 150.08 92.58)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "56f81e35-9451-44b9-a745-d9b9c227ae9c")
+	)
+	(segment
+		(start 150.08 92.58)
+		(end 138 80.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "57015fe8-9ddd-4aec-b6c6-5b3a6173c8f6")
+	)
+	(segment
+		(start 99.3 83.5)
+		(end 118 83.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "5aefc8e4-63c3-424b-9506-94309aa5468c")
+	)
+	(segment
 		(start 161 82.97)
 		(end 160.4 83.57)
 		(width 0.2)
@@ -15104,6 +15200,54 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "69026045-eda6-412b-ba98-3995587e590b")
+	)
+	(segment
+		(start 107.100001 95.025001)
+		(end 109.474999 95.025001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "851f8eb7-4b88-42bf-a790-a519bad3cdd9")
+	)
+	(segment
+		(start 86 98.5)
+		(end 86.525 97.975)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "bea5fc36-55ba-4e12-b3c6-e983d2caf63a")
+	)
+	(segment
+		(start 124.5 80)
+		(end 124.5 97.565686)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "cd30b009-a74a-4973-a80f-ad52ca7c8a04")
+	)
+	(segment
+		(start 119.5 85)
+		(end 124.5 80)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "ced5aa5a-f3f2-4dae-847c-e7e7688e9905")
+	)
+	(segment
+		(start 135.528814 108.5945)
+		(end 141.500002 108.5945)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "cf017451-97a2-4d90-9eea-732ef8ad3ea8")
+	)
+	(segment
+		(start 109.474999 95.025001)
+		(end 119.5 85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "f1b70a20-f0ed-41ef-99a0-c07c754b056a")
 	)
 	(segment
 		(start 150 120)
