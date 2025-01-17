@@ -1,4 +1,4 @@
-24276290520354051
+24278027590787857
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90016,6 +90016,13 @@ SMV_ICs
 SOT-23-5_MC_MCH
 
 MCP6286T-E/OT 
+0
+5
+5
+SMV_ICs
+SOT-23-THIN-5_DDC_TEX
+
+REF2033QDDCRQ1 
 0
 5
 5
