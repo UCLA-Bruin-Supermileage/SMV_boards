@@ -7188,6 +7188,12 @@
 		(uuid "72a089ae-858f-424e-af9b-31be86757639")
 	)
 	(junction
+		(at 91.44 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74b24922-abd5-4a85-9af5-6f6e27b094e1")
+	)
+	(junction
 		(at 204.47 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7563,6 +7569,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 39.37) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f2112e-9997-4233-be07-4e8e822bfc9f")
+	)
+	(wire
+		(pts
 			(xy 40.64 187.96) (xy 43.18 187.96)
 		)
 		(stroke
@@ -7903,6 +7919,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 39.37) (xy 91.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c448a6-ca70-4185-b2a1-ce3def348d56")
+	)
+	(wire
+		(pts
 			(xy 173.99 36.83) (xy 173.99 43.18)
 		)
 		(stroke
@@ -8083,7 +8109,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 39.37) (xy 93.98 39.37)
+			(xy 88.9 39.37) (xy 91.44 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9317,6 +9343,76 @@
 		)
 	)
 	(symbol
+		(lib_id "SMV_Custom:WL-SMCW_0603")
+		(at 91.44 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06ee4aa6-136a-487f-8a72-357d8a9160d7")
+		(property "Reference" "D4"
+			(at 91.948 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WL-SMCW_0603"
+			(at 86.614 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SMV_Passives:WL-SMCW_0603(diode)"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5418d91-f6f3-4508-806c-e52362df0e0e")
+		)
+		(pin "2"
+			(uuid "39cd6207-ead8-480f-af12-b70c41fe2f98")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 99.06 0)
 		(unit 1)
@@ -10173,7 +10269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 52.07 0)
+			(at 86.36 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11753,6 +11849,76 @@
 		)
 	)
 	(symbol
+		(lib_id "SMV_Custom:RCS0603150RJNEA")
+		(at 91.44 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51ec70eb-395d-4116-bbea-1fcad2a386c4")
+		(property "Reference" "R17"
+			(at 87.884 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RCS0603150RJNEA, 150Ω"
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "420cdf95-5bce-47b8-92b9-5d054c1111d9")
+		)
+		(pin "2"
+			(uuid "05bbeaa5-afc8-415a-8301-9c878c7485b6")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+VSW")
 		(at 168.91 182.88 0)
 		(unit 1)
@@ -12340,6 +12506,72 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "616ba0b1-fcc9-4bef-bb43-831217c450cd")
+		(property "Reference" "#PWR039"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "156a57dc-130f-4d09-aeeb-32ba1a9060fd")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
