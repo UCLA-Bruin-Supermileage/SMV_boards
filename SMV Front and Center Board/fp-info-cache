@@ -1,4 +1,4 @@
-24286697168540934
+24297106366170586
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90132,6 +90132,27 @@ C0805C106K8PACTU
 2
 2
 SMV_Passives
+CAP_0603-X_NGC
+
+0603W475K250XD 
+0
+2
+2
+SMV_Passives
+CAP_0603-X_NGC-L
+
+0603W475K250XD 
+0
+2
+2
+SMV_Passives
+CAP_0603-X_NGC-M
+
+0603W475K250XD 
+0
+2
+2
+SMV_Passives
 CAP_C2220C_2S_KEM
 
 C2220C475M1R2C7186 
@@ -90236,6 +90257,27 @@ WL-SMCW_0603(diode)
 0
 2
 2
+SMV_Transistors
+LFPAK56_SOT669_NEX
+
+PSMN1R8-40YLC_115 
+0
+5
+5
+SMV_Transistors
+LFPAK56_SOT669_NEX-L
+
+PSMN1R8-40YLC_115 
+0
+5
+5
+SMV_Transistors
+LFPAK56_SOT669_NEX-M
+
+PSMN1R8-40YLC_115 
+0
+5
+5
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
