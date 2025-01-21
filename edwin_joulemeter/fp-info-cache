@@ -1,4 +1,4 @@
-24278027590787857
+24284977345201950
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90013,6 +90013,13 @@ SOP65P640X120-8N
 8
 8
 SMV_ICs
+SOT-23-5_DBV_TEX
+
+TLV709A01DBVR 
+0
+5
+5
+SMV_ICs
 SOT-23-5_MC_MCH
 
 MCP6286T-E/OT 
@@ -90097,6 +90104,13 @@ Big_Chunky_Cap
 2
 2
 SMV_Passives
+CAPC10555_55N_KEM
+
+C0402C474K9PACTU 
+0
+2
+2
+SMV_Passives
 CAPC340180_180N_KEM
 
 C1206C105K1RACTU 
@@ -90126,6 +90140,20 @@ Capacitor
 2
 SMV_Passives
 RESC1608X55N
+
+
+0
+2
+2
+SMV_Passives
+RESC2012X50N
+
+
+0
+2
+2
+SMV_Passives
+RESC3015X65N
 
 
 0
