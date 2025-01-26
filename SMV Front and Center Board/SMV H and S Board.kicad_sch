@@ -8919,7 +8919,7 @@
 		)
 		(uuid "e77b0338-74c0-439d-a782-ca8a9fb015c9")
 	)
-	(label "CAN_H"
+	(label "CAN_P"
 		(at 119.38 87.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9073,7 +9073,7 @@
 		)
 		(uuid "72630428-f3ca-48a4-bea1-91edb2ce66c2")
 	)
-	(label "CAN_L"
+	(label "CAN_N"
 		(at 119.38 105.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9095,7 +9095,7 @@
 		)
 		(uuid "76e8845b-f7c4-4132-98df-6805aac8cf40")
 	)
-	(label "CAN_H"
+	(label "CAN_P"
 		(at 119.38 100.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9161,7 +9161,7 @@
 		)
 		(uuid "913df0a1-511e-4446-87ee-1fdef57efaf6")
 	)
-	(label "CAN_L"
+	(label "CAN_N"
 		(at 119.38 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9172,7 +9172,7 @@
 		)
 		(uuid "9143d541-9054-4017-a7df-7cec0995741d")
 	)
-	(label "CAN_H"
+	(label "CAN_P"
 		(at 140.97 85.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9238,7 +9238,7 @@
 		)
 		(uuid "c4405f17-1b4c-4c68-8245-71723227a1b4")
 	)
-	(label "CAN_L"
+	(label "CAN_N"
 		(at 146.05 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9347,7 +9347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "049db347-3336-4d25-8f6c-5408404e6ef3")
-		(property "Reference" "TP4"
+		(property "Reference" "TP2"
 			(at 47.498 133.604 0)
 			(effects
 				(font
@@ -9398,7 +9398,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP4")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -9414,7 +9414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "062d9cdc-e9a8-468c-8a4f-3d661f079e0f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR050"
 			(at 267.97 80.01 0)
 			(effects
 				(font
@@ -9464,7 +9464,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR022")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9479,7 +9479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06ee4aa6-136a-487f-8a72-357d8a9160d7")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 91.948 72.898 90)
 			(effects
 				(font
@@ -9534,7 +9534,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9550,7 +9550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06f305eb-3a44-42a6-81cf-a2affbf97b72")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR041"
 			(at 204.47 105.41 0)
 			(effects
 				(font
@@ -9600,7 +9600,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR02")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9615,7 +9615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "091c1ffa-e92f-4cd1-a501-a59748bf213f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR040"
 			(at 193.04 68.58 0)
 			(effects
 				(font
@@ -9666,7 +9666,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR01")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9681,7 +9681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bedac9c-e228-4492-a144-406fbf4f2740")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR06"
 			(at 27.94 71.12 0)
 			(effects
 				(font
@@ -9732,7 +9732,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR011")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9747,7 +9747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e2450f7-a6f2-4d37-bba6-51f53a5a73d9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR026"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -9797,7 +9797,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR04")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9813,7 +9813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13d9f8c0-c60b-49ec-8a0e-9c34f568f13b")
-		(property "Reference" "TP18"
+		(property "Reference" "CAN_P1"
 			(at 106.68 95.25 90)
 			(effects
 				(font
@@ -9865,7 +9865,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP18")
+					(reference "CAN_P1")
 					(unit 1)
 				)
 			)
@@ -9880,7 +9880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "155a3ad4-a49d-4950-9ec8-a6bc8ee9d635")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 149.86 148.082 0)
 			(effects
 				(font
@@ -10015,7 +10015,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10030,7 +10030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15b20fea-d375-4c0e-8244-47c2d5d85f03")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR019"
 			(at 96.52 93.98 0)
 			(effects
 				(font
@@ -10080,7 +10080,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR042")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10095,7 +10095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19a1f0eb-3617-4823-bcfa-9f16290ffa64")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 267.716 14.732 90)
 			(effects
 				(font
@@ -10151,7 +10151,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10166,7 +10166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b907cf2-ef33-48b9-93b7-458f4a611b56")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 36.83 47.498 0)
 			(effects
 				(font
@@ -10292,7 +10292,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10307,7 +10307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e42aa1e-f2b5-4e4b-a69e-41e89b4bfd7b")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 110.49 172.212 0)
 			(effects
 				(font
@@ -10442,7 +10442,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10457,7 +10457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ef824c4-462a-4296-b9f0-dcc86f05b758")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR018"
 			(at 88.9 53.34 0)
 			(effects
 				(font
@@ -10507,7 +10507,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR010")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10522,7 +10522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "236ffef7-7a2d-43b9-ad89-085434c5c841")
-		(property "Reference" "TP8"
+		(property "Reference" "TP15"
 			(at 217.678 28.194 90)
 			(effects
 				(font
@@ -10571,7 +10571,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP8")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -10587,7 +10587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24a2f01e-aedd-48ed-bead-5847977e4401")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 50.8 57.15 0)
 			(effects
 				(font
@@ -10637,7 +10637,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10653,7 +10653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "272e77f4-421e-46d9-a030-f6f0487537e5")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 134.62 46.99 0)
 			(effects
 				(font
@@ -10703,7 +10703,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10719,7 +10719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2934be45-b869-41eb-bdaa-77c1077e6c25")
-		(property "Reference" "TP12"
+		(property "Reference" "TP13"
 			(at 165.862 30.48 90)
 			(effects
 				(font
@@ -10768,7 +10768,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP12")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -10783,7 +10783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aa0005e-f9bd-491f-91ad-e957081d6449")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR05"
 			(at 27.94 110.49 0)
 			(effects
 				(font
@@ -10833,7 +10833,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR013")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10848,7 +10848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c44c4f0-da60-48c7-84a6-bb99e57a196d")
-		(property "Reference" "TP6"
+		(property "Reference" "TP16"
 			(at 236.22 16.764 90)
 			(effects
 				(font
@@ -10899,7 +10899,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP6")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -10916,7 +10916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d0cf11f-b831-4645-93a8-e722c0ac54ee")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR025"
 			(at 113.03 102.87 0)
 			(effects
 				(font
@@ -10967,7 +10967,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR038")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10983,7 +10983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30d3206e-15dd-412f-a0f5-db0ecd91c6f5")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 59.69 81.28 0)
 			(effects
 				(font
@@ -11046,7 +11046,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11140,7 +11140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3302a65f-015b-45b8-a816-1f04fa04a553")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 140.716 155.448 0)
 			(effects
 				(font
@@ -11194,7 +11194,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11210,7 +11210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37f24b0f-452f-4e3c-bd4f-13a270787437")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR023"
 			(at 104.14 187.96 0)
 			(effects
 				(font
@@ -11260,7 +11260,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR035")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11275,7 +11275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39645329-b747-4add-9e4a-42b9f22b09f0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR034"
 			(at 166.37 175.26 0)
 			(effects
 				(font
@@ -11325,7 +11325,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR041")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11341,7 +11341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d9c262b-a8f0-4769-9d94-e74e6c716aed")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR045"
 			(at 248.92 67.31 0)
 			(effects
 				(font
@@ -11392,7 +11392,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR037")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11407,7 +11407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e4aebab-79f1-478e-a76a-554da5e7c124")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR046"
 			(at 255.27 110.49 0)
 			(effects
 				(font
@@ -11458,7 +11458,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR034")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11473,7 +11473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e86a9d7-538c-4ec8-8bd7-708f29ad64fa")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 85.344 138.176 0)
 			(effects
 				(font
@@ -11584,7 +11584,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11599,7 +11599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41f8600c-8b61-40fc-bbdf-19fa96fcb080")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 87.122 26.924 0)
 			(effects
 				(font
@@ -11725,7 +11725,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11740,7 +11740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44d4328a-1fec-46d4-a393-f31efa9c882d")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 148.336 188.722 90)
 			(effects
 				(font
@@ -11800,7 +11800,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11815,7 +11815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45d0acee-d6ac-4e8e-804d-186c5093999d")
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 274.32 154.94 0)
 			(effects
 				(font
@@ -11869,7 +11869,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R23")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11884,7 +11884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47b9a923-609b-4ac3-9e87-86539800dacb")
-		(property "Reference" "R10"
+		(property "Reference" "R4"
 			(at 53.594 190.5 0)
 			(effects
 				(font
@@ -11938,7 +11938,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11954,7 +11954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "481f7a9f-51ce-4a3c-a919-108c4ec7bd9b")
-		(property "Reference" "TP10"
+		(property "Reference" "TP14"
 			(at 181.102 38.1 90)
 			(effects
 				(font
@@ -12003,7 +12003,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP10")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -12018,7 +12018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "484cf264-205e-40bd-a9cb-0daeb36292d5")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 258.318 154.178 0)
 			(effects
 				(font
@@ -12072,7 +12072,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12087,7 +12087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "485a6c76-a9f4-452d-a2f2-da78b5718fe3")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR014"
 			(at 39.37 151.13 0)
 			(effects
 				(font
@@ -12137,7 +12137,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR044")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12152,7 +12152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d99abeb-6c4c-41ae-a534-0f744efc3ebe")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 33.274 34.544 0)
 			(effects
 				(font
@@ -12204,7 +12204,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -12219,7 +12219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f1f5709-eb11-404b-896c-2f1e3ec43cee")
-		(property "Reference" "TP13"
+		(property "Reference" "TP11"
 			(at 123.698 182.372 90)
 			(effects
 				(font
@@ -12268,7 +12268,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP13")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -12283,7 +12283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51ec70eb-395d-4116-bbea-1fcad2a386c4")
-		(property "Reference" "R17"
+		(property "Reference" "R6"
 			(at 87.884 54.864 0)
 			(effects
 				(font
@@ -12338,7 +12338,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R17")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12353,7 +12353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52091f5c-bf5b-4df6-a25d-1948ca7aea51")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR035"
 			(at 168.91 186.69 0)
 			(effects
 				(font
@@ -12403,7 +12403,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR026")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12418,7 +12418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56cd77d3-710a-4709-877e-6c961e7c1457")
-		(property "Reference" "RP2040"
+		(property "Reference" "RP1"
 			(at 142.875 26.67 0)
 			(effects
 				(font
@@ -12557,7 +12557,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "RP2040")
+					(reference "RP1")
 					(unit 1)
 				)
 			)
@@ -12572,7 +12572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a2d1f72-7f50-4a35-8e1f-4f99e3a962ff")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 131.826 111.506 0)
 			(effects
 				(font
@@ -12632,7 +12632,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12647,7 +12647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b133259-a58c-4044-a905-51ffbbf9d2aa")
-		(property "Reference" "R3"
+		(property "Reference" "R17"
 			(at 233.172 57.404 0)
 			(effects
 				(font
@@ -12782,7 +12782,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R3")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12798,7 +12798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d180789-8767-4d79-8c57-92e7ea6660e8")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 208.28 43.18 0)
 			(effects
 				(font
@@ -12861,7 +12861,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -12876,7 +12876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e1662b1-1ee8-43bc-8e3a-fdbd7fab3487")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 29.464 164.338 90)
 			(effects
 				(font
@@ -12930,7 +12930,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12945,7 +12945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e740fd7-b641-4aa7-b18a-03dc0f12df31")
-		(property "Reference" "TP15"
+		(property "Reference" "TP9"
 			(at 117.602 41.656 90)
 			(effects
 				(font
@@ -12997,7 +12997,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP15")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -13013,7 +13013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "616ba0b1-fcc9-4bef-bb43-831217c450cd")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR020"
 			(at 91.44 80.01 0)
 			(effects
 				(font
@@ -13063,7 +13063,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR039")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13078,7 +13078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63481bd3-3976-45f1-99b7-2b3c877270d1")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 170.688 90.678 90)
 			(effects
 				(font
@@ -13134,7 +13134,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13149,7 +13149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b000a6e-18e1-4a7a-afc3-15e2c9c123df")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR03"
 			(at 27.94 187.96 0)
 			(effects
 				(font
@@ -13199,7 +13199,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR031")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13214,7 +13214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6be0ade2-ae42-4b28-8fe1-2f22aa5b310c")
-		(property "Reference" "R2"
+		(property "Reference" "R18"
 			(at 251.714 97.028 0)
 			(effects
 				(font
@@ -13349,7 +13349,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R2")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13364,7 +13364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73037f98-eaeb-4ed1-83f1-12fb8d67fc61")
-		(property "Reference" "R13"
+		(property "Reference" "R8"
 			(at 139.7 169.164 0)
 			(effects
 				(font
@@ -13497,7 +13497,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R13")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13512,7 +13512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76311f78-cfff-436c-966a-a0aeef284051")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 176.784 67.564 0)
 			(effects
 				(font
@@ -13567,7 +13567,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13583,7 +13583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "854a9466-53e0-467e-b815-8cfb1e07bcd0")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 54.737 180.975 0)
 			(effects
 				(font
@@ -13632,7 +13632,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -13647,7 +13647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8705d96c-06e2-4ee0-81d7-e5c0aebf4a83")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR022"
 			(at 100.33 33.02 0)
 			(effects
 				(font
@@ -13697,7 +13697,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR017")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13712,7 +13712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92c1c3db-4598-42e3-9b16-deb2ff86fcd5")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR04"
 			(at 25.4 92.71 0)
 			(effects
 				(font
@@ -13763,7 +13763,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR047")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13778,7 +13778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "954270f8-fb68-4ab0-b236-8c30b9311159")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 38.1 73.66 0)
 			(effects
 				(font
@@ -13828,7 +13828,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13843,7 +13843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96ad779a-f4e6-4e2d-b907-38a372cc521e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR037"
 			(at 173.99 40.64 0)
 			(effects
 				(font
@@ -13893,7 +13893,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR08")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13908,7 +13908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a1d18ce-508a-442b-a018-3764c4dc50a5")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 22.86 151.13 0)
 			(effects
 				(font
@@ -13962,7 +13962,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -14046,7 +14046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f45f10f-6b2a-4641-9f9d-f7c49b04cfca")
-		(property "Reference" "TP11"
+		(property "Reference" "TP6"
 			(at 110.49 44.45 90)
 			(effects
 				(font
@@ -14098,7 +14098,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP11")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -14114,7 +14114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f68c329-89c5-4ae7-94e5-a059e8b6d064")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR08"
 			(at 41.91 41.91 0)
 			(effects
 				(font
@@ -14165,7 +14165,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR051")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14181,7 +14181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f77a64c-26bd-436f-93b2-7c117cb90b81")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR030"
 			(at 135.89 139.7 0)
 			(effects
 				(font
@@ -14231,7 +14231,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR06")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14247,7 +14247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0b8ad30-0cf7-4cb7-b87e-1b6d7068af50")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 96.52 43.9419 0)
 			(effects
 				(font
@@ -14298,7 +14298,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -14313,7 +14313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a16dfc45-6f52-4287-aaa1-54954e652498")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 25.4 158.75 0)
 			(effects
 				(font
@@ -14367,7 +14367,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14382,7 +14382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a244f98f-164a-44e0-a662-b9b3ba00a7b4")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR027"
 			(at 132.08 176.53 0)
 			(effects
 				(font
@@ -14432,7 +14432,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR040")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14448,7 +14448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2891263-00bd-4feb-b4e8-aad09666497f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR02"
 			(at 20.32 175.26 0)
 			(effects
 				(font
@@ -14498,7 +14498,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR024")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -14513,7 +14513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2cd4136-082c-4052-b34c-ebd672a1954f")
-		(property "Reference" "R9"
+		(property "Reference" "R3"
 			(at 34.29 182.626 0)
 			(effects
 				(font
@@ -14567,7 +14567,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R9")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14582,7 +14582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2e4a0c4-64e3-46ca-9d6d-5fd695081a96")
-		(property "Reference" "TP21"
+		(property "Reference" "TP8"
 			(at 110.49 57.15 90)
 			(effects
 				(font
@@ -14634,7 +14634,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP21")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -14722,7 +14722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5bd1d94-a05b-4327-915b-93f0848f4f0c")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR049"
 			(at 270.51 71.12 0)
 			(effects
 				(font
@@ -14773,7 +14773,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR021")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -14788,7 +14788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a983fbb4-acf1-43ce-b94c-19ff064a8576")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 43.18 60.96 0)
 			(effects
 				(font
@@ -14838,7 +14838,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14853,7 +14853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9c62a57-915c-4d8e-bd05-ec5bdad6e725")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 169.926 161.29 0)
 			(effects
 				(font
@@ -14986,7 +14986,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15001,7 +15001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad489601-cbef-450b-9c91-380384700e4a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR044"
 			(at 232.41 17.78 0)
 			(effects
 				(font
@@ -15052,7 +15052,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR014")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -15067,7 +15067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae04d505-d7b2-4c65-b6e6-86cb1ddd15ff")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 154.94 130.81 0)
 			(effects
 				(font
@@ -15117,7 +15117,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15132,7 +15132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae35a1a1-a01c-422f-82c2-c30acb83a592")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR013"
 			(at 38.1 163.83 0)
 			(effects
 				(font
@@ -15182,7 +15182,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR032")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15197,7 +15197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aee64b9d-1500-43fd-adb1-aee1380a3a16")
-		(property "Reference" "R1"
+		(property "Reference" "R9"
 			(at 138.684 47.244 0)
 			(effects
 				(font
@@ -15252,7 +15252,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R1")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -15268,7 +15268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af6b18e2-4989-4b88-bf8a-23a03d550258")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 231.14 67.3099 90)
 			(effects
 				(font
@@ -15324,7 +15324,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -15339,7 +15339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b031233f-c356-431a-b29a-7d5c4a876fed")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 37.084 103.378 90)
 			(effects
 				(font
@@ -15393,7 +15393,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -15409,7 +15409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5bd3be5-b95d-4105-946b-ebb35048de4b")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 170.18 97.79 0)
 			(effects
 				(font
@@ -15459,7 +15459,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15474,7 +15474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b69bc5c0-f375-4c15-bac5-577cbf66f57b")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 142.748 65.278 90)
 			(effects
 				(font
@@ -15529,7 +15529,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -15545,7 +15545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b934b73a-6857-411a-b079-99251092429a")
-		(property "Reference" "TP7"
+		(property "Reference" "TP18"
 			(at 269.24 24.1299 90)
 			(effects
 				(font
@@ -15596,7 +15596,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP7")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -15611,7 +15611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b981c603-edac-4e7a-b7c0-8ac51895b2ae")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 173.228 146.05 0)
 			(effects
 				(font
@@ -15746,7 +15746,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15762,7 +15762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbf7a6e4-7090-405c-a6c5-b0eded0e7240")
-		(property "Reference" "TP9"
+		(property "Reference" "TP17"
 			(at 246.888 26.67 90)
 			(effects
 				(font
@@ -15811,7 +15811,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP9")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -15826,7 +15826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be0d51d2-09a7-4aad-8a54-12733c941656")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR017"
 			(at 76.2 124.46 0)
 			(effects
 				(font
@@ -15876,7 +15876,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR046")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15891,7 +15891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bea3191e-063c-49df-92e6-3a92bf7643d3")
-		(property "Reference" "TP17"
+		(property "Reference" "TP7"
 			(at 110.49 46.99 90)
 			(effects
 				(font
@@ -15943,7 +15943,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP17")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -15958,7 +15958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0bb2677-1d94-4c1e-a9e6-2d451dbfc8ac")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 182.118 86.36 90)
 			(effects
 				(font
@@ -16014,7 +16014,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -16029,7 +16029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c20da903-6bbc-4e4d-a475-055375755cb6")
-		(property "Reference" "R20"
+		(property "Reference" "R5"
 			(at 92.71 116.84 0)
 			(effects
 				(font
@@ -16083,7 +16083,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R20")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -16098,7 +16098,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5625df9-deca-4ce4-b3cc-094764957fbb")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR021"
 			(at 92.71 39.37 0)
 			(effects
 				(font
@@ -16149,7 +16149,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR09")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -16165,7 +16165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c873675e-2a50-44a3-87d7-a63afa6d43e2")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR011"
 			(at 43.18 29.21 0)
 			(effects
 				(font
@@ -16215,7 +16215,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR05")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16230,7 +16230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c89bb26d-1360-4e45-90e6-f8df79e35b7c")
-		(property "Reference" "C20"
+		(property "Reference" "C6"
 			(at 76.708 117.348 0)
 			(effects
 				(font
@@ -16284,7 +16284,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C20")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16299,7 +16299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9c47ac9-85e6-4f28-9668-266f38a85aa9")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR043"
 			(at 210.82 151.13 0)
 			(effects
 				(font
@@ -16349,7 +16349,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR015")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -16439,7 +16439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf0c1a5f-3493-4eda-a6dd-3a493d752f08")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR01"
 			(at 19.05 143.51 0)
 			(effects
 				(font
@@ -16489,7 +16489,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR043")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -16504,7 +16504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf31dcd3-492e-4e9a-b700-6af5727c4eb1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR029"
 			(at 134.62 187.96 0)
 			(effects
 				(font
@@ -16554,7 +16554,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR019")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16569,7 +16569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfab8622-5c13-42d5-a191-11aee4cbed75")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 39.37 162.56 0)
 			(effects
 				(font
@@ -16619,7 +16619,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR03")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16634,7 +16634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfb678c9-20cf-43bb-ac72-5385b6e6840b")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 257.81 161.29 0)
 			(effects
 				(font
@@ -16684,7 +16684,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16701,7 +16701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d638d352-7217-4af6-a71d-5d5a72c74205")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 143.51 91.44 0)
 			(effects
 				(font
@@ -16751,7 +16751,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16767,7 +16767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d86c813e-04ee-4ebb-8a4c-991a79a4d9e8")
-		(property "Reference" "TP16"
+		(property "Reference" "CAN_N1"
 			(at 125.222 114.046 0)
 			(effects
 				(font
@@ -16819,7 +16819,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP16")
+					(reference "CAN_N1")
 					(unit 1)
 				)
 			)
@@ -16834,7 +16834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9f3162a-e82a-403f-8337-695dcec7ae08")
-		(property "Reference" "C1"
+		(property "Reference" "C8"
 			(at 119.38 146.812 0)
 			(effects
 				(font
@@ -16958,7 +16958,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C1")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -16974,7 +16974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da6f7561-23b2-4edd-80e7-f6e259e75aef")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR038"
 			(at 180.34 92.71 0)
 			(effects
 				(font
@@ -17024,7 +17024,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR045")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -17040,7 +17040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd19a69d-2af9-46d9-80dc-ea01fe6ac100")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR016"
 			(at 60.96 194.31 0)
 			(effects
 				(font
@@ -17090,7 +17090,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR023")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -17105,7 +17105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd41aac8-ec2f-4e5e-8494-c8102bb73305")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 40.64 137.16 0)
 			(effects
 				(font
@@ -17155,7 +17155,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -17170,7 +17170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e08a3bac-7606-4bf8-a96e-bf3908c7e974")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 219.964 144.018 90)
 			(effects
 				(font
@@ -17224,7 +17224,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C3")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -17239,7 +17239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0aba29a-5670-499f-9762-43a3f4bb5c02")
-		(property "Reference" "TP19"
+		(property "Reference" "TP10"
 			(at 115.57 54.61 90)
 			(effects
 				(font
@@ -17291,7 +17291,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP19")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -17307,7 +17307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e17da847-fc8a-4374-a604-a8b4f048dfaf")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 66.04 29.21 0)
 			(effects
 				(font
@@ -17367,7 +17367,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -17383,7 +17383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f6aaa9-b83a-4735-b195-5a93eca76652")
-		(property "Reference" "R7"
+		(property "Reference" "R16"
 			(at 237.49 109.2199 90)
 			(effects
 				(font
@@ -17439,7 +17439,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R7")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -17454,7 +17454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3bfd05f-8809-45e8-a0c8-5c5067a91e92")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR039"
 			(at 190.5 151.13 0)
 			(effects
 				(font
@@ -17504,7 +17504,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR029")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17519,7 +17519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6c614e7-c6bc-42ef-babc-391fcedac80a")
-		(property "Reference" "J2"
+		(property "Reference" "J8"
 			(at 269.494 63.246 0)
 			(effects
 				(font
@@ -17575,7 +17575,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "J2")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -17591,7 +17591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eab976cd-d541-4a34-8b63-d85898146f33")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 219.71 81.28 0)
 			(effects
 				(font
@@ -17654,7 +17654,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -17669,7 +17669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed6e6ca4-e563-4f86-868d-7e525bb3faa8")
-		(property "Reference" "TP14"
+		(property "Reference" "TP12"
 			(at 158.496 181.61 90)
 			(effects
 				(font
@@ -17718,7 +17718,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP14")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -17733,7 +17733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef9e1b94-e854-4728-826f-33d3d3b6fe68")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 278.13 134.62 0)
 			(effects
 				(font
@@ -17783,7 +17783,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -17798,7 +17798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0b3f6ea-ee1a-4085-b370-ee3aefb90c9c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR047"
 			(at 260.35 24.13 0)
 			(effects
 				(font
@@ -17849,7 +17849,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR020")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -17934,7 +17934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f339ab62-986c-4f2e-ae81-e890a3aff3b6")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR042"
 			(at 209.55 133.35 0)
 			(effects
 				(font
@@ -17985,7 +17985,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR048")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -18001,7 +18001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5bd72bb-e9e2-479b-ac91-6e985eff1954")
-		(property "Reference" "#+3V02"
+		(property "Reference" "#+3V01"
 			(at 142.24 30.48 0)
 			(effects
 				(font
@@ -18052,7 +18052,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#+3V02")
+					(reference "#+3V01")
 					(unit 1)
 				)
 			)
@@ -18067,7 +18067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6a05982-c046-4b76-a40c-28514dee1331")
-		(property "Reference" "J10"
+		(property "Reference" "J6"
 			(at 222.758 10.922 0)
 			(effects
 				(font
@@ -18177,7 +18177,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "J10")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -18194,7 +18194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e5ed38-3ca9-4e7a-af55-930dddc1346f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR024"
 			(at 113.03 90.17 0)
 			(effects
 				(font
@@ -18245,7 +18245,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR036")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18260,7 +18260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc492947-a35b-414b-8190-169ea2a7259c")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 55.626 51.816 90)
 			(effects
 				(font
@@ -18311,7 +18311,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -18326,7 +18326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdc631b6-2008-4d0e-b885-0ff424de356f")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 25.654 144.78 0)
 			(effects
 				(font
@@ -18380,7 +18380,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -18396,7 +18396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe29f19b-27bb-4c47-9145-c0b58e6feab5")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 142.24 72.39 0)
 			(effects
 				(font
@@ -18446,7 +18446,7 @@
 		(instances
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -18461,7 +18461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffdf8cb2-c0c4-453d-95a5-4236ee1d1aa8")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 123.19 79.502 0)
 			(effects
 				(font
@@ -18521,7 +18521,7 @@
 		(instances
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
