@@ -5955,12 +5955,20 @@
 		(uuid "2e7ded83-35df-405f-abfc-d8a9013f7130")
 	)
 	(no_connect
+		(at 194.31 80.01)
+		(uuid "42df94f9-7b9f-410b-8b3e-2b0b2169c8c0")
+	)
+	(no_connect
 		(at 215.9 82.55)
 		(uuid "48f3a7af-f303-45d2-8c88-4a9dc1a5896f")
 	)
 	(no_connect
 		(at 208.28 140.97)
 		(uuid "5443eb11-7f46-4939-8068-795118ddb5b9")
+	)
+	(no_connect
+		(at 194.31 82.55)
+		(uuid "588cde3a-f925-4088-9aaf-63ea38875a08")
 	)
 	(no_connect
 		(at 215.9 90.17)
@@ -6414,16 +6422,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 80.01) (xy 194.31 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e78085-4d6a-4d98-adda-e1b7f29ad9d4")
-	)
-	(wire
-		(pts
 			(xy 102.87 36.83) (xy 102.87 13.97)
 		)
 		(stroke
@@ -6771,16 +6769,6 @@
 			(type default)
 		)
 		(uuid "701b4792-ba11-48b9-8f87-39e460ffe953")
-	)
-	(wire
-		(pts
-			(xy 187.96 82.55) (xy 194.31 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70648b3a-df89-4697-82a4-fa745f53aa29")
 	)
 	(wire
 		(pts
@@ -7940,17 +7928,6 @@
 		)
 		(uuid "fc37adce-5d0b-4b6a-a07e-45482c3ea067")
 	)
-	(label "MISO"
-		(at 187.96 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0163edb8-23fa-444c-83b5-49c8c099eed2")
-	)
 	(label "MOSI"
 		(at 187.96 64.77 0)
 		(fields_autoplaced yes)
@@ -8138,7 +8115,7 @@
 		)
 		(uuid "7aad72c1-a49d-4f85-a536-cc2ba08c5f2c")
 	)
-	(label "CS 1"
+	(label "CS 0"
 		(at 259.08 138.43 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8181,17 +8158,6 @@
 			(justify right bottom)
 		)
 		(uuid "862220d4-312c-4261-b922-4e442540963c")
-	)
-	(label "MOSI"
-		(at 187.96 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b6ae75f-d493-40b6-9d8c-a7fa9f85eccd")
 	)
 	(label "Press_P"
 		(at 13.97 127 0)
@@ -8336,7 +8302,7 @@
 		)
 		(uuid "da4327a9-2e54-44b8-b751-6ec18c9b97a6")
 	)
-	(label "CS 1"
+	(label "CS 0"
 		(at 215.9 69.85 0)
 		(fields_autoplaced yes)
 		(effects
