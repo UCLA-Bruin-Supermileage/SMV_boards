@@ -7022,22 +7022,10 @@
 		(uuid "666d6eed-8697-44e3-aeb0-bc336a492f83")
 	)
 	(junction
-		(at 233.68 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69634187-4e85-4f5a-a375-75c661d53747")
-	)
-	(junction
 		(at 27.94 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70ac8a50-17fc-4f8f-afed-a24448cf1605")
-	)
-	(junction
-		(at 173.99 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72a089ae-858f-424e-af9b-31be86757639")
 	)
 	(junction
 		(at 91.44 39.37)
@@ -7086,12 +7074,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abc3bc6e-6189-4dc5-b2d5-c818133988ac")
-	)
-	(junction
-		(at 260.35 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba5f26cf-f367-4139-8138-603575e397fd")
 	)
 	(junction
 		(at 193.04 55.88)
@@ -7317,16 +7299,6 @@
 		)
 		(uuid "16acedfd-407c-423d-b6eb-6369df48456c")
 	)
-	(wire
-		(pts
-			(xy 260.35 25.4) (xy 264.16 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1726013f-0216-4ee5-a847-0b203805e265")
-	)
 	(polyline
 		(pts
 			(xy 284.48 12.7) (xy 175.26 12.7)
@@ -7346,16 +7318,6 @@
 			(type default)
 		)
 		(uuid "1bf80757-9a14-4c91-b60d-10a333abe4c2")
-	)
-	(wire
-		(pts
-			(xy 41.91 137.16) (xy 40.64 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c13136a-dfb7-4545-ad76-32bf4cb6bb9a")
 	)
 	(polyline
 		(pts
@@ -8076,16 +8038,6 @@
 			(type default)
 		)
 		(uuid "8c8a897e-ea4b-426b-90fc-e2d838bb04cf")
-	)
-	(wire
-		(pts
-			(xy 177.8 43.18) (xy 173.99 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ce9e728-f148-40fe-97af-9d666537abd0")
 	)
 	(wire
 		(pts
@@ -9336,73 +9288,6 @@
 			(justify right bottom)
 		)
 		(uuid "f377497e-d674-41f7-a093-f5cad17c9dd5")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 41.91 137.16 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "049db347-3336-4d25-8f6c-5408404e6ef3")
-		(property "Reference" "TP2"
-			(at 47.498 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3V3A"
-			(at 50.038 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 41.91 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 41.91 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a40b4cd-14ff-4323-b838-67f7bcd39870")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10840,72 +10725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 233.68 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c44c4f0-da60-48c7-84a6-bb99e57a196d")
-		(property "Reference" "TP16"
-			(at 236.22 16.764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V"
-			(at 238.76 16.764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 238.76 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 233.68 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "041c38ba-5bf4-4147-bb8b-960bfd127bd7")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 102.87 270)
 		(mirror x)
@@ -11939,71 +11758,6 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 43.18 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "481f7a9f-51ce-4a3c-a919-108c4ec7bd9b")
-		(property "Reference" "TP14"
-			(at 181.102 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 181.102 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 177.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 177.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57b2724c-f8e5-45a9-ae76-d3c61bfabdb9")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -15530,73 +15284,6 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 264.16 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b934b73a-6857-411a-b079-99251092429a")
-		(property "Reference" "TP18"
-			(at 269.24 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V"
-			(at 269.24 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 264.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 264.16 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93067671-9212-4dec-b2c1-dd709617f457")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "TP18")
 					(unit 1)
 				)
 			)
