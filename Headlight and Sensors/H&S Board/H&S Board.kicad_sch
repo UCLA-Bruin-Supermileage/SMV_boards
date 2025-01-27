@@ -1303,6 +1303,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Microfit_Molex:430450200"
 			(pin_names
 				(offset 0.254)
@@ -5819,12 +5901,6 @@
 		(uuid "ab745a73-8680-4555-b0ed-b130f07cf6ff")
 	)
 	(junction
-		(at 262.89 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac1dbb57-f02b-42bb-a0ec-f0913478b43a")
-	)
-	(junction
 		(at 257.81 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5853,12 +5929,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfb2a61c-72e7-436b-b794-1204b6d0561d")
-	)
-	(junction
-		(at 76.2 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfc87c87-a8b3-482d-8d54-c9f0e3b244b2")
 	)
 	(junction
 		(at 66.04 114.3)
@@ -5913,12 +5983,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef255d21-2e83-4db1-bd69-09947fffc701")
-	)
-	(junction
-		(at 171.45 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eff6ac0d-0338-4684-a484-40f107745681")
 	)
 	(junction
 		(at 204.47 148.59)
@@ -6812,7 +6876,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 181.61) (xy 83.82 181.61)
+			(xy 62.23 181.61) (xy 83.82 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6979,16 +7043,6 @@
 			(type default)
 		)
 		(uuid "8a75fc37-a256-43e8-8e37-18a14b182a0f")
-	)
-	(wire
-		(pts
-			(xy 62.23 181.61) (xy 76.2 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c67a2f4-e602-47d2-980f-ff6e9a201913")
 	)
 	(wire
 		(pts
@@ -9874,16 +9928,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 262.89 36.83 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 139.7 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "31d1b003-adb0-4264-b1ee-b379a06467fb")
-		(property "Reference" "TP18"
-			(at 272.288 30.988 0)
+		(fields_autoplaced yes)
+		(uuid "358418e6-a33d-45bd-b695-43016bc7f186")
+		(property "Reference" "H4"
+			(at 142.24 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,8 +9946,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 262.89 30.988 0)
+		(property "Value" "MountingHole"
+			(at 142.24 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,8 +9955,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 267.97 36.83 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 139.7 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +9965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 36.83 0)
+			(at 139.7 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,88 +9973,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 262.89 36.83 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 139.7 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "6ba45f3f-8a19-45aa-908e-76a10e81fa39")
 		)
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 171.45 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37e354c1-7b75-46e5-909c-5aa6f099ac07")
-		(property "Reference" "TP2"
-			(at 180.848 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 171.45 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 176.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 171.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69704856-675a-4f41-94df-bad270fc0c3b")
-		)
-		(instances
-			(project "H&S Board"
-				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -11030,6 +11016,70 @@
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 139.7 58.42 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c474efb-9db2-4f9d-b3b8-7046af191ba9")
+		(property "Reference" "H2"
+			(at 142.24 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 142.24 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 139.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 139.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "H&S Board"
+				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14465,6 +14515,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 139.7 52.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8e4babe-9188-4ecc-bdf8-2e607b86d875")
+		(property "Reference" "H1"
+			(at 142.24 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 142.24 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 139.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 139.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Microfit_Molex:430450200")
 		(at 257.81 86.36 0)
 		(unit 1)
@@ -15656,6 +15770,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 139.7 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e08bbb88-80d5-4b22-b175-0a3d7ceda4b3")
+		(property "Reference" "H3"
+			(at 142.24 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 142.24 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "H&S Board"
+				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.75 54.61 0)
 		(unit 1)
@@ -16054,72 +16232,6 @@
 			(project ""
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 76.2 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5e9b4b8-9561-44f9-bbce-f7f7a0a8efdb")
-		(property "Reference" "TP21"
-			(at 73.914 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 71.882 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 81.28 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0a6b89f-6341-42b1-a66e-71ed681783ba")
-		)
-		(instances
-			(project "H&S Board"
-				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP21")
 					(unit 1)
 				)
 			)
