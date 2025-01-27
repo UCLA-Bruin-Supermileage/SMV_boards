@@ -9290,6 +9290,73 @@
 		(uuid "f377497e-d674-41f7-a093-f5cad17c9dd5")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 228.6 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03a61809-ca0d-4831-b88c-feb33632e74b")
+		(property "Reference" "TP2"
+			(at 226.06 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3A"
+			(at 220.472 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc787b54-95ab-4814-8a9b-7bb9cf0c13eb")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 267.97 73.66 0)
 		(unit 1)
@@ -16843,6 +16910,73 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 234.95 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de18315a-1ffe-4689-94c4-70c4ea2fd3a1")
+		(property "Reference" "TP14"
+			(at 232.41 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3A"
+			(at 226.822 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 234.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 234.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ccf5294-c1dd-4b27-941e-36c1fbfb074a")
+		)
+		(instances
+			(project "SMV H and S Board"
+				(path "/65429182-9298-499e-afe0-28215a09a0c3"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
