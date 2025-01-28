@@ -929,7 +929,7 @@
 		(at 169 61.6384 180)
 		(tags "PSMN1R8-40YLC_115 ")
 		(property "Reference" "Q2"
-			(at 0 0 180)
+			(at 0.02 -4.9716 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e2b380df-682d-457f-8761-39bb41c35a66")
@@ -2377,55 +2377,16 @@
 		(sheetname "Root")
 		(sheetfile "SMV H and S Board.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start -12.8905 -20.32)
-			(end -12.8905 25.4)
+		(fp_rect
+			(start -11.6205 -20.32)
+			(end 11.049 25.527)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
+			(fill none)
 			(layer "F.SilkS")
-			(uuid "70c9eb35-8279-4877-b400-4b723fd8e265")
-		)
-		(fp_line
-			(start -12.8905 25.4)
-			(end 12.5095 25.4)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "a489d59e-1a10-4430-84f8-8d49dd5d2546")
-		)
-		(fp_line
-			(start -10.3505 -20.32)
-			(end -12.8905 -20.32)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "ed4ffe31-c3c9-45aa-bdaf-acba1f3ced56")
-		)
-		(fp_line
-			(start 12.5095 -20.32)
-			(end -10.3505 -20.32)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "2074b857-cbec-4182-ad7c-1296eae03d2a")
-		)
-		(fp_line
-			(start 12.5095 25.4)
-			(end 12.5095 -20.32)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "8dd555a0-7e0f-4398-b204-deba0b13523f")
+			(uuid "ac0f032d-b547-4a6c-9499-185744ff2793")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.1905 -10.16 0)
@@ -7805,7 +7766,7 @@
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "46a3df3d-2329-4f51-88f8-796c80870d73")
+			(uuid "ca7b821b-c090-4179-905d-ab216a56a50a")
 			(effects
 				(font
 					(size 1 1)
@@ -7816,7 +7777,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "32324091-9ce4-4b37-b942-0f81b3695fa4")
+			(uuid "1d8272e2-6017-4b93-8d95-7d9ad2d3b2e2")
 			(effects
 				(font
 					(size 1 1)
@@ -7873,7 +7834,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "d050c8ca-5484-42a0-9795-2df11c108355")
+			(uuid "6b2b0687-be29-4918-b4f4-36a60f440ff0")
 		)
 		(fp_circle
 			(center 0 0)
@@ -7884,12 +7845,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "e060a0e6-0d19-4438-83ba-cf4b811fca9b")
+			(uuid "70ff7568-6ba5-4047-b5fd-397401993c22")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "77f9bce3-39c7-493b-b4df-6befe77cc163")
+			(uuid "d47be6cb-3417-4443-ae0e-2f5374536509")
 			(effects
 				(font
 					(size 1 1)
@@ -7902,7 +7863,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9766b551-d805-4021-a69f-ddfa0b70487f")
+			(uuid "420348c3-5edc-40cf-b29d-3ed56eda1252")
 		)
 	)
 	(footprint "SMV_ICs:SOT-23-5_MC_MCH"
@@ -9285,7 +9246,7 @@
 		(at 172.9384 49.995 -90)
 		(tags "PSMN1R8-40YLC_115 ")
 		(property "Reference" "Q1"
-			(at 0 0 -90)
+			(at -3.435 -0.5116 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "728ed6bd-b638-483d-8479-3c4ab325e613")
@@ -12120,7 +12081,7 @@
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C8"
-			(at 3.350001 0.04725 0)
+			(at 2.945002 0.02725 0)
 			(layer "F.SilkS")
 			(uuid "d785b568-ef4e-40cb-adf2-52f5a3983612")
 			(effects
@@ -17306,7 +17267,7 @@
 		)
 		(fp_arc
 			(start -14.415423 12.084309)
-			(mid -14.421008 12.080061)
+			(mid -14.421008 12.080062)
 			(end -14.41863 12.07346)
 			(stroke
 				(width 0.0127)
@@ -27657,7 +27618,7 @@
 		)
 		(fp_arc
 			(start -8.304556 8.25436)
-			(mid -8.304689 8.247612)
+			(mid -8.304689 8.247611)
 			(end -8.300511 8.24231)
 			(stroke
 				(width 0.0127)
@@ -29120,7 +29081,7 @@
 		)
 		(fp_arc
 			(start -7.774364 12.655021)
-			(mid -7.771131 12.665266)
+			(mid -7.771131 12.665267)
 			(end -7.776942 12.674303)
 			(stroke
 				(width 0.0127)
@@ -33784,7 +33745,7 @@
 		)
 		(fp_arc
 			(start -4.883602 11.697921)
-			(mid -4.883173 11.693201)
+			(mid -4.883173 11.693202)
 			(end -4.878724 11.69157)
 			(stroke
 				(width 0.0127)
@@ -34906,7 +34867,7 @@
 		)
 		(fp_arc
 			(start -3.156379 11.616037)
-			(mid -3.161129 11.513181)
+			(mid -3.16113 11.513181)
 			(end -3.16328 11.410238)
 			(stroke
 				(width 0.0127)
@@ -37524,7 +37485,7 @@
 		)
 		(fp_arc
 			(start -0.45284 6.767971)
-			(mid -0.453954 6.770748)
+			(mid -0.453954 6.770747)
 			(end -0.456677 6.771986)
 			(stroke
 				(width 0.0127)
@@ -37694,7 +37655,7 @@
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "46a3df3d-2329-4f51-88f8-796c80870d73")
+			(uuid "045c2da3-d662-4463-bef2-08b6e08085a5")
 			(effects
 				(font
 					(size 1 1)
@@ -37705,7 +37666,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "32324091-9ce4-4b37-b942-0f81b3695fa4")
+			(uuid "29262c1e-88d4-4689-9009-6db017c50a89")
 			(effects
 				(font
 					(size 1 1)
@@ -37762,7 +37723,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "d050c8ca-5484-42a0-9795-2df11c108355")
+			(uuid "ecdfdc4d-a3b1-4a75-acb5-545840d9dcd5")
 		)
 		(fp_circle
 			(center 0 0)
@@ -37773,12 +37734,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "e060a0e6-0d19-4438-83ba-cf4b811fca9b")
+			(uuid "a3cae999-65dd-468e-9a35-5970e36a8f50")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "77f9bce3-39c7-493b-b4df-6befe77cc163")
+			(uuid "2e01beab-65c0-4dac-97fc-4d45adc1d894")
 			(effects
 				(font
 					(size 1 1)
@@ -37791,7 +37752,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9766b551-d805-4021-a69f-ddfa0b70487f")
+			(uuid "0cfede5c-f426-420d-bcb6-afc773343a24")
 		)
 	)
 	(footprint "SMV_ICs:TSSOP20_PW_TEX"
@@ -41129,7 +41090,7 @@
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "CLKIN"
-			(at -0.1 -1.95 0)
+			(at -0.26 -1.97 0)
 			(layer "F.SilkS")
 			(uuid "d4b97ac5-3e3f-405f-b337-c2cc4923e157")
 			(effects
@@ -41825,7 +41786,7 @@
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "46a3df3d-2329-4f51-88f8-796c80870d73")
+			(uuid "3f288500-6903-4c1a-a9bb-12e176fd6503")
 			(effects
 				(font
 					(size 1 1)
@@ -41836,7 +41797,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "32324091-9ce4-4b37-b942-0f81b3695fa4")
+			(uuid "98114b97-168d-490e-9bef-f1e1e20934de")
 			(effects
 				(font
 					(size 1 1)
@@ -41893,7 +41854,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "d050c8ca-5484-42a0-9795-2df11c108355")
+			(uuid "58fe46d0-782a-4311-a9c9-bf951847f5f1")
 		)
 		(fp_circle
 			(center 0 0)
@@ -41904,12 +41865,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "e060a0e6-0d19-4438-83ba-cf4b811fca9b")
+			(uuid "86d934f2-5de1-4868-bf81-38ad05177fe4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "77f9bce3-39c7-493b-b4df-6befe77cc163")
+			(uuid "5b1fe851-d9c8-4ad5-8feb-388c39215d2d")
 			(effects
 				(font
 					(size 1 1)
@@ -41922,7 +41883,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9766b551-d805-4021-a69f-ddfa0b70487f")
+			(uuid "80d1d0da-e1e4-4a79-a355-9a39ffdad8a1")
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
