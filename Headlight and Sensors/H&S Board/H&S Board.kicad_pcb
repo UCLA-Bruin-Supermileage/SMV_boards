@@ -4837,7 +4837,7 @@
 		(descr "PSMN1R8-40YLC,115-2")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q1"
-			(at 0 -0.087 90)
+			(at 4.280001 -0.068 180)
 			(layer "F.SilkS")
 			(uuid "71723925-c792-4cb2-ab25-5f3b829c5a5b")
 			(effects
@@ -11928,55 +11928,16 @@
 		(sheetname "Root")
 		(sheetfile "H&S Board.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start -12.8905 -20.32)
-			(end -12.8905 25.4)
+		(fp_rect
+			(start -11.6205 -20.32)
+			(end 11.176 25.273)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
+			(fill none)
 			(layer "F.SilkS")
-			(uuid "6999fa2a-f1ad-4a96-acd5-bf54d9c8b426")
-		)
-		(fp_line
-			(start -12.8905 25.4)
-			(end 12.5095 25.4)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "1109bef3-56eb-4694-bb04-afedca772ea7")
-		)
-		(fp_line
-			(start -10.3505 -20.32)
-			(end -12.8905 -20.32)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "ebcd7230-7b97-4c10-844f-432bdce92d7a")
-		)
-		(fp_line
-			(start 12.5095 -20.32)
-			(end -10.3505 -20.32)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "51094c5d-979b-4bd9-9992-897e13217ae4")
-		)
-		(fp_line
-			(start 12.5095 25.4)
-			(end 12.5095 -20.32)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "aecff564-f308-4de6-8688-ce0efaa543e6")
+			(uuid "f03b5b3d-ba67-4666-a23d-7e9b4313d677")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.1905 -10.16 0)
@@ -14103,7 +14064,7 @@
 		(descr "PSMN1R8-40YLC,115-2")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q2"
-			(at 0 -0.087 90)
+			(at 4.5134 0.002 180)
 			(layer "F.SilkS")
 			(uuid "d65555e3-c989-444e-b279-b919e0848b8a")
 			(effects
@@ -31002,7 +30963,7 @@
 		)
 		(fp_arc
 			(start -8.304556 8.25436)
-			(mid -8.304689 8.247612)
+			(mid -8.304689 8.247611)
 			(end -8.300511 8.24231)
 			(stroke
 				(width 0.0127)
@@ -32465,7 +32426,7 @@
 		)
 		(fp_arc
 			(start -7.774364 12.655021)
-			(mid -7.771131 12.665266)
+			(mid -7.771131 12.665267)
 			(end -7.776942 12.674303)
 			(stroke
 				(width 0.0127)
@@ -37129,7 +37090,7 @@
 		)
 		(fp_arc
 			(start -4.883602 11.697921)
-			(mid -4.883173 11.693201)
+			(mid -4.883173 11.693202)
 			(end -4.878724 11.69157)
 			(stroke
 				(width 0.0127)
@@ -38251,7 +38212,7 @@
 		)
 		(fp_arc
 			(start -3.156379 11.616037)
-			(mid -3.161129 11.513181)
+			(mid -3.16113 11.513181)
 			(end -3.16328 11.410238)
 			(stroke
 				(width 0.0127)
@@ -40869,7 +40830,7 @@
 		)
 		(fp_arc
 			(start -0.45284 6.767971)
-			(mid -0.453954 6.770748)
+			(mid -0.453954 6.770747)
 			(end -0.456677 6.771986)
 			(stroke
 				(width 0.0127)
@@ -44492,7 +44453,7 @@
 		(descr "PSMN1R8-40YLC,115-2")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q3"
-			(at 0 -0.087 90)
+			(at 4.530001 -0.068 180)
 			(layer "F.SilkS")
 			(uuid "b1cc9564-152a-459e-8e7e-c5dcd4662764")
 			(effects
