@@ -7685,16 +7685,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.655 40.64) (xy 43.815 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44a0a611-8dec-4d92-86a9-2c9ce60ea25f")
-	)
-	(wire
-		(pts
 			(xy 245.745 52.705) (xy 247.015 52.705)
 		)
 		(stroke
@@ -8045,6 +8035,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 135.89) (xy 186.055 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c07b5b5-8437-40ef-931f-cf22e872ed66")
+	)
+	(wire
+		(pts
 			(xy 145.415 175.895) (xy 137.795 175.895)
 		)
 		(stroke
@@ -8375,16 +8375,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.655 135.89) (xy 186.055 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dccc424a-defa-4cb2-b413-94641565a8e6")
-	)
-	(wire
-		(pts
 			(xy 230.505 69.215) (xy 234.315 69.215)
 		)
 		(stroke
@@ -8482,6 +8472,16 @@
 			(type default)
 		)
 		(uuid "f5f6d177-6ed0-45fb-bd08-09ff9efe4405")
+	)
+	(wire
+		(pts
+			(xy 33.02 40.64) (xy 43.815 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60ae918-f0a7-4a04-949e-489a5497fdd4")
 	)
 	(wire
 		(pts
@@ -8785,13 +8785,13 @@
 		(uuid "8c6fd951-931c-4407-9655-8cfef89a251e")
 	)
 	(label "FEEDBACK"
-		(at 43.815 40.64 180)
+		(at 33.02 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8f60a4d1-6bfe-4f5f-9bff-3ae2aa889f77")
 	)
@@ -8851,13 +8851,13 @@
 		(uuid "ab113844-467f-42b2-bad8-44d5d2824e4a")
 	)
 	(label "DIVIDED_VOLTAGE"
-		(at 177.165 135.89 180)
+		(at 160.02 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ad0c16f7-a527-4d00-b88e-baad0bd798c8")
 	)
@@ -8966,7 +8966,7 @@
 				)
 			)
 		)
-		(property "Value" "GCM188R71H104KA57D, 220nF"
+		(property "Value" "220nF, 16V"
 			(at 264.16 119.253 0)
 			(effects
 				(font
@@ -8984,7 +8984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "C0805C224K5RACAUTO"
 			(at 262.89 122.555 0)
 			(effects
 				(font
@@ -8993,7 +8993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C129652"
 			(at 262.89 122.555 0)
 			(effects
 				(font
@@ -9189,7 +9189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 460.985 27.305 0)
 			(effects
 				(font
@@ -9199,7 +9199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 264.795 36.195 0)
 			(effects
 				(font
@@ -9311,7 +9311,7 @@
 				)
 			)
 		)
-		(property "Value" "RCS0603150RJNEA, 150Ω"
+		(property "Value" "150Ω, 0.125W"
 			(at 38.735 159.385 0)
 			(effects
 				(font
@@ -9329,7 +9329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW0805150RFKEA"
 			(at 38.735 163.83 0)
 			(effects
 				(font
@@ -9338,7 +9338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844818"
 			(at 38.735 163.83 0)
 			(effects
 				(font
@@ -9400,7 +9400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 240.005 21.59 0)
 			(effects
 				(font
@@ -9410,7 +9410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 43.815 30.48 0)
 			(effects
 				(font
@@ -10152,7 +10152,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF,16V"
+		(property "Value" "1uF,50V"
 			(at 247.015 111.7599 90)
 			(effects
 				(font
@@ -10171,7 +10171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0805C105K4RACTU"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 243.205 114.3 0)
 			(effects
 				(font
@@ -10181,7 +10181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C3858054"
 			(at 243.205 114.3 0)
 			(effects
 				(font
@@ -10308,7 +10308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 308.585 67.945 0)
 			(effects
 				(font
@@ -10318,7 +10318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 112.395 76.835 0)
 			(effects
 				(font
@@ -10760,7 +10760,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C1210C474K5RACTU, 0.47uF"
+		(property "Value" "0.47uF, 50V"
 			(at 180.34 66.548 0)
 			(effects
 				(font
@@ -10779,7 +10779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C1210C474K5RACTU"
+		(property "Datasheet" "C0805X474K5RACAUTO"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -10789,7 +10789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2173145"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -10898,7 +10898,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF,16V"
+		(property "Value" "1uF,50V"
 			(at 192.405 111.7599 90)
 			(effects
 				(font
@@ -10917,7 +10917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0805C105K4RACTU"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 188.595 114.3 0)
 			(effects
 				(font
@@ -10927,7 +10927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C3858054"
 			(at 188.595 114.3 0)
 			(effects
 				(font
@@ -11569,7 +11569,7 @@
 				)
 			)
 		)
-		(property "Value" "RCS0603150RJNEA, 150Ω"
+		(property "Value" "150Ω, 0.125W"
 			(at 57.15 172.085 0)
 			(effects
 				(font
@@ -11587,7 +11587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW0805150RFKEA"
 			(at 57.15 176.53 0)
 			(effects
 				(font
@@ -11596,7 +11596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844818"
 			(at 57.15 176.53 0)
 			(effects
 				(font
@@ -12111,7 +12111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kohms, 0.5W"
 			(at 43.307 142.494 0)
 			(effects
 				(font
@@ -12130,7 +12130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080510K0FKEAHP"
 			(at 45.085 146.05 0)
 			(effects
 				(font
@@ -12139,7 +12139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C313823"
 			(at 45.085 146.05 0)
 			(effects
 				(font
@@ -12943,7 +12943,7 @@
 				)
 			)
 		)
-		(property "Value" "CRCW020149R9FNED, 50Ω"
+		(property "Value" "49.9ohms, 0.125W"
 			(at 131.445 34.29 0)
 			(effects
 				(font
@@ -12961,7 +12961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW020149R9FNED"
+		(property "Datasheet" "CRCW080549R9FKEA"
 			(at 119.253 46.736 0)
 			(effects
 				(font
@@ -12971,7 +12971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844847"
 			(at 125.095 38.1 0)
 			(effects
 				(font
@@ -13294,7 +13294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080510K0FKEAHP"
 			(at 148.59 140.97 0)
 			(effects
 				(font
@@ -13303,7 +13303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C313823"
 			(at 148.59 140.97 0)
 			(effects
 				(font
@@ -14174,7 +14174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF, 100V"
+		(property "Value" "4.7uF, 16V"
 			(at 53.975 104.7749 90)
 			(effects
 				(font
@@ -14183,7 +14183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAP_C2220C_2S_KEM"
+		(property "Footprint" "SMV_Passives:RES_TNPW0805_VIS"
 			(at 50.8 99.695 0)
 			(effects
 				(font
@@ -14193,7 +14193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C2220C475M1R2C7186"
+		(property "Datasheet" "C0805C475K4RACAUTO"
 			(at 50.8 99.695 0)
 			(effects
 				(font
@@ -14203,7 +14203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C599948"
 			(at 50.8 99.695 0)
 			(effects
 				(font
@@ -15333,7 +15333,7 @@
 				)
 			)
 		)
-		(property "Value" "RCS0603150RJNEA, 150Ω"
+		(property "Value" "150Ω, 0.125W"
 			(at 40.005 135.255 0)
 			(effects
 				(font
@@ -15351,7 +15351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW0805150RFKEA"
 			(at 40.005 130.81 0)
 			(effects
 				(font
@@ -15360,7 +15360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844818"
 			(at 40.005 130.81 0)
 			(effects
 				(font
@@ -15403,7 +15403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF, 100V"
+		(property "Value" "4.7uF, 16V"
 			(at 71.12 88.2649 90)
 			(effects
 				(font
@@ -15412,7 +15412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAP_C2220C_2S_KEM"
+		(property "Footprint" "SMV_Passives:RES_TNPW0805_VIS"
 			(at 67.945 83.185 0)
 			(effects
 				(font
@@ -15422,7 +15422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C2220C475M1R2C7186"
+		(property "Datasheet" "C0805C475K4RACAUTO"
 			(at 67.945 83.185 0)
 			(effects
 				(font
@@ -15432,7 +15432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C599948"
 			(at 67.945 83.185 0)
 			(effects
 				(font
@@ -16305,7 +16305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080510K0FKEAHP"
 			(at 148.59 116.84 0)
 			(effects
 				(font
@@ -16314,7 +16314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C313823"
 			(at 148.59 116.84 0)
 			(effects
 				(font
@@ -16766,7 +16766,7 @@
 				)
 			)
 		)
-		(property "Value" "CRCW020149R9FNED, 50Ω"
+		(property "Value" "49.9ohms, 0.125W"
 			(at 224.155 65.405 0)
 			(effects
 				(font
@@ -16784,7 +16784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW020149R9FNED"
+		(property "Datasheet" "CRCW080549R9FKEA"
 			(at 211.963 77.851 0)
 			(effects
 				(font
@@ -16794,7 +16794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844847"
 			(at 217.805 69.215 0)
 			(effects
 				(font
