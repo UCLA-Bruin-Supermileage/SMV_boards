@@ -9287,7 +9287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2286"
 			(at 204.47 67.31 0)
 			(effects
 				(font
@@ -9422,7 +9422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080510K0FKEAHP"
 			(at 135.89 24.13 0)
 			(effects
 				(font
@@ -9431,7 +9431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C313823"
 			(at 135.89 24.13 0)
 			(effects
 				(font
@@ -9571,7 +9571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW06031K00FKEA"
+		(property "Datasheet" "CRCW08051K00JNEA"
 			(at 236.22 34.29 0)
 			(effects
 				(font
@@ -9581,7 +9581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844604"
 			(at 236.22 34.29 0)
 			(effects
 				(font
@@ -9651,7 +9651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C459826"
 			(at 208.28 133.35 0)
 			(effects
 				(font
@@ -9814,7 +9814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080510K0FKEAHP"
 			(at 46.99 25.4 0)
 			(effects
 				(font
@@ -9823,7 +9823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C313823"
 			(at 46.99 25.4 0)
 			(effects
 				(font
@@ -10425,7 +10425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805C106K8RACAUTO"
 			(at 466.7 152.4 0)
 			(effects
 				(font
@@ -10435,7 +10435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 10 uF, 10%, 10 VDC, 25 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 10 MOhms, 21 mg, 0805, 2mm, 1.25mm, 1.25mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80"
+		(property "Description" "C696369"
 			(at 270.51 161.29 0)
 			(effects
 				(font
@@ -10567,7 +10567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805X474K5RACAUTO"
 			(at 318.11 69.85 0)
 			(effects
 				(font
@@ -10577,7 +10577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 21 mg, 0805, 2mm, 1.25mm, 1.25mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80"
+		(property "Description" "C2173145"
 			(at 121.92 78.74 0)
 			(effects
 				(font
@@ -10648,7 +10648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 61.62 157.48 0)
 			(effects
 				(font
@@ -10658,7 +10658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 257.81 148.59 0)
 			(effects
 				(font
@@ -10863,7 +10863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NEXPERIA - PSMN1R8-40YLC,115 - Power MOSFET, N Channel, 40 V, 100 A, 0.0015 ohm, SOT-669, Surface Mount"
+		(property "Description" "C88071"
 			(at 17.78 35.56 0)
 			(effects
 				(font
@@ -11549,7 +11549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805C224K5RACAUTO"
 			(at 337.16 107.95 0)
 			(effects
 				(font
@@ -11559,7 +11559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 0.22 uF, 10%, 25 VDC, 62.5 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 3.5 % , 2.2727 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+		(property "Description" "C129652"
 			(at 140.97 116.84 0)
 			(effects
 				(font
@@ -11828,7 +11828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2286"
 			(at 175.26 54.61 0)
 			(effects
 				(font
@@ -11963,7 +11963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NEXPERIA - PSMN1R8-40YLC,115 - Power MOSFET, N Channel, 40 V, 100 A, 0.0015 ohm, SOT-669, Surface Mount"
+		(property "Description" "C88071"
 			(at 196.85 34.29 0)
 			(effects
 				(font
@@ -12151,7 +12151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW06031K00FKEA"
+		(property "Datasheet" "CRCW0805150RFKEA"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -12161,7 +12161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844818"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -12293,7 +12293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW06031K00FKEA"
+		(property "Datasheet" "CRCW08051K00JNEA"
 			(at 143.51 34.29 0)
 			(effects
 				(font
@@ -12303,7 +12303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844604"
 			(at 143.51 34.29 0)
 			(effects
 				(font
@@ -12486,7 +12486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080510K0FKEAHP"
 			(at 157.48 142.24 0)
 			(effects
 				(font
@@ -12495,7 +12495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C313823"
 			(at 157.48 142.24 0)
 			(effects
 				(font
@@ -12701,7 +12701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0805C105K4RACTU"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 66.04 106.68 0)
 			(effects
 				(font
@@ -12711,7 +12711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C3858054"
 			(at 66.04 106.68 0)
 			(effects
 				(font
@@ -12772,7 +12772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0805C105K4RACTU"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 146.05 96.52 0)
 			(effects
 				(font
@@ -12782,7 +12782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C3858054"
 			(at 146.05 96.52 0)
 			(effects
 				(font
@@ -13028,7 +13028,7 @@
 				)
 			)
 		)
-		(property "Value" "40k"
+		(property "Value" "10k"
 			(at 54.61 152.4 0)
 			(effects
 				(font
@@ -13036,7 +13036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+		(property "Footprint" "SMV_Passives:RES_TNPW0402_VIS"
 			(at 48.26 156.21 0)
 			(effects
 				(font
@@ -13046,7 +13046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW080540K0FKEA"
+		(property "Datasheet" "TNPW040210K0BEED"
 			(at 48.26 156.21 0)
 			(effects
 				(font
@@ -13056,7 +13056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844452"
 			(at 48.26 156.21 0)
 			(effects
 				(font
@@ -13247,7 +13247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW06031K00FKEA"
+		(property "Datasheet" "CRCW08051K00JNEA"
 			(at 55.88 35.56 0)
 			(effects
 				(font
@@ -13257,7 +13257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844604"
 			(at 55.88 35.56 0)
 			(effects
 				(font
@@ -13451,7 +13451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at -9.5 152.4 0)
 			(effects
 				(font
@@ -13461,7 +13461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 186.69 143.51 0)
 			(effects
 				(font
@@ -13987,7 +13987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080510K0FKEAHP"
 			(at 226.06 24.13 0)
 			(effects
 				(font
@@ -13996,7 +13996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C313823"
 			(at 226.06 24.13 0)
 			(effects
 				(font
@@ -14268,7 +14268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 255.88 67.31 0)
 			(effects
 				(font
@@ -14278,7 +14278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 59.69 76.2 0)
 			(effects
 				(font
@@ -14418,7 +14418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C485570"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -14931,7 +14931,7 @@
 				)
 			)
 		)
-		(property "Value" "40k"
+		(property "Value" "10k"
 			(at 38.1 152.4 0)
 			(effects
 				(font
@@ -14939,7 +14939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+		(property "Footprint" "SMV_Passives:RES_TNPW0402_VIS"
 			(at 31.75 156.21 0)
 			(effects
 				(font
@@ -14949,7 +14949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW080540K0FKEA"
+		(property "Datasheet" "TNPW040210K0BEED"
 			(at 31.75 156.21 0)
 			(effects
 				(font
@@ -14959,7 +14959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844452"
 			(at 31.75 156.21 0)
 			(effects
 				(font
@@ -15735,7 +15735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW06031K00FKEA"
+		(property "Datasheet" "CRCW0805150RFKEA"
 			(at 204.47 54.61 0)
 			(effects
 				(font
@@ -15745,7 +15745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844818"
 			(at 204.47 54.61 0)
 			(effects
 				(font
@@ -16414,7 +16414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NEXPERIA - PSMN1R8-40YLC,115 - Power MOSFET, N Channel, 40 V, 100 A, 0.0015 ohm, SOT-669, Surface Mount"
+		(property "Description" "C88071"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -16601,7 +16601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080510K0FKEAHP"
 			(at 273.05 128.27 0)
 			(effects
 				(font
@@ -16610,7 +16610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C313823"
 			(at 273.05 128.27 0)
 			(effects
 				(font

@@ -2190,7 +2190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 338.43 36.83 0)
 			(effects
 				(font
@@ -2200,7 +2200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 21 mg, 0805, 2mm, 1.25mm, 1.25mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 142.24 45.72 0)
 			(effects
 				(font
@@ -2472,7 +2472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C623478"
 			(at 74.93 102.87 0)
 			(effects
 				(font
@@ -2598,7 +2598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Passives:Cap0805"
+		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM"
 			(at 145.72 106.68 0)
 			(effects
 				(font
@@ -2608,7 +2608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0603C472K5RACAUTO"
 			(at 245.72 106.68 0)
 			(effects
 				(font
@@ -2618,7 +2618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 21 mg, 0805, 2mm, 1.25mm, 1.25mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80"
+		(property "Description" "C141106"
 			(at 49.53 115.57 0)
 			(effects
 				(font
@@ -3020,7 +3020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C623478"
 			(at 69.85 163.83 0)
 			(effects
 				(font
@@ -3081,7 +3081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+		(property "Footprint" "SMV_Passives:RES_CRCW_0402"
 			(at 156.21 118.11 0)
 			(effects
 				(font
@@ -3091,7 +3091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TNPW040210K0BEED"
 			(at 156.21 118.11 0)
 			(effects
 				(font
@@ -3100,7 +3100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844452"
 			(at 156.21 118.11 0)
 			(effects
 				(font
@@ -3223,7 +3223,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "40Kohms"
+		(property "Value" "47Kohms"
 			(at 154.94 160.0199 90)
 			(effects
 				(font
@@ -3232,7 +3232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+		(property "Footprint" "SMV_Passives:0603_resistors"
 			(at 151.13 158.75 0)
 			(effects
 				(font
@@ -3242,7 +3242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TNPW060347K0BEEA"
 			(at 151.13 158.75 0)
 			(effects
 				(font
@@ -3251,7 +3251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2089026"
 			(at 151.13 158.75 0)
 			(effects
 				(font
@@ -3434,7 +3434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Passives:Cap0805"
+		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM"
 			(at 141.91 167.64 0)
 			(effects
 				(font
@@ -3444,7 +3444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0603C472K5RACAUTO"
 			(at 241.91 167.64 0)
 			(effects
 				(font
@@ -3454,7 +3454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 21 mg, 0805, 2mm, 1.25mm, 1.25mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80"
+		(property "Description" "C141106"
 			(at 45.72 176.53 0)
 			(effects
 				(font
@@ -3631,7 +3631,7 @@
 				)
 			)
 		)
-		(property "Value" "CRCW020149R9FNED, 50Ω"
+		(property "Value" "50 Ohms"
 			(at 57.15 99.06 0)
 			(effects
 				(font
@@ -3649,7 +3649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW020149R9FNED"
+		(property "Datasheet" "CRCW080549R9FKEA"
 			(at 44.958 111.506 0)
 			(effects
 				(font
@@ -3659,7 +3659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844847"
 			(at 50.8 102.87 0)
 			(effects
 				(font
@@ -3720,7 +3720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 328.27 154.94 0)
 			(effects
 				(font
@@ -3730,7 +3730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 21 mg, 0805, 2mm, 1.25mm, 1.25mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 132.08 163.83 0)
 			(effects
 				(font
@@ -3842,7 +3842,7 @@
 				)
 			)
 		)
-		(property "Value" "CRCW020149R9FNED, 50Ω"
+		(property "Value" "50 Ohms"
 			(at 53.34 160.02 0)
 			(effects
 				(font
@@ -3860,7 +3860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW020149R9FNED"
+		(property "Datasheet" "CRCW080549R9FKEA"
 			(at 41.148 172.466 0)
 			(effects
 				(font
@@ -3870,7 +3870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844847"
 			(at 46.99 163.83 0)
 			(effects
 				(font
@@ -3978,7 +3978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kohms, 0.125W"
+		(property "Value" "12.1kohms, 0.125W"
 			(at 167.64 63.4999 90)
 			(effects
 				(font
@@ -3987,7 +3987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+		(property "Footprint" "SMV_Passives:0603_resistors"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -3997,7 +3997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TNPW060312K1BEEA"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -4006,7 +4006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2075023"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -4193,7 +4193,7 @@
 				)
 			)
 		)
-		(property "Value" "CRCW020149R9FNED, 50Ω"
+		(property "Value" "50 Ohms"
 			(at 72.39 41.91 0)
 			(effects
 				(font
@@ -4211,7 +4211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW020149R9FNED"
+		(property "Datasheet" "CRCW080549R9FKEA"
 			(at 60.198 54.356 0)
 			(effects
 				(font
@@ -4221,7 +4221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844847"
 			(at 66.04 45.72 0)
 			(effects
 				(font
@@ -4329,7 +4329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40kohms"
+		(property "Value" "47kohms"
 			(at 166.37 41.9099 90)
 			(effects
 				(font
@@ -4338,7 +4338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+		(property "Footprint" "SMV_Passives:0603_resistors"
 			(at 162.56 40.64 0)
 			(effects
 				(font
@@ -4348,7 +4348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TNPW060347K0BEEA"
 			(at 162.56 40.64 0)
 			(effects
 				(font
@@ -4357,7 +4357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2089026"
 			(at 162.56 40.64 0)
 			(effects
 				(font
@@ -4480,7 +4480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kohms, 0.125W"
+		(property "Value" "12.1kohms, 0.125W"
 			(at 156.21 180.3399 90)
 			(effects
 				(font
@@ -4489,7 +4489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+		(property "Footprint" "SMV_Passives:0603_resistors"
 			(at 151.13 179.07 0)
 			(effects
 				(font
@@ -4499,7 +4499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TNPW060312K1BEEA"
 			(at 151.13 179.07 0)
 			(effects
 				(font
@@ -4508,7 +4508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2075023"
 			(at 151.13 179.07 0)
 			(effects
 				(font
@@ -4658,7 +4658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C623478"
 			(at 81.28 45.72 0)
 			(effects
 				(font
@@ -4785,7 +4785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+		(property "Footprint" "SMV_Passives:RES_TNPW0402_VIS"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -4795,7 +4795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TNPW040210K0BEED"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -4804,7 +4804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844452"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -4865,7 +4865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 332.08 93.98 0)
 			(effects
 				(font
@@ -4875,7 +4875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 21 mg, 0805, 2mm, 1.25mm, 1.25mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 135.89 102.87 0)
 			(effects
 				(font
@@ -5062,7 +5062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Passives:Cap0805"
+		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM"
 			(at 162.23 49.53 0)
 			(effects
 				(font
@@ -5072,7 +5072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0603C472K5RACAUTO"
 			(at 262.23 49.53 0)
 			(effects
 				(font
@@ -5082,7 +5082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 21 mg, 0805, 2mm, 1.25mm, 1.25mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80"
+		(property "Description" "C141106"
 			(at 66.04 58.42 0)
 			(effects
 				(font
