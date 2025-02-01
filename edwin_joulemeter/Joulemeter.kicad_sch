@@ -10451,7 +10451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 90.17 66.04 0)
 			(effects
 				(font
@@ -10555,7 +10555,7 @@
 				)
 			)
 		)
-		(property "Value" "INA240A1PWR"
+		(property "Value" "INA240A3PWR"
 			(at 55.88 104.14 0)
 			(effects
 				(font
@@ -10573,7 +10573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "INA240A1PWR"
+		(property "Datasheet" "INA240A3PWR"
 			(at 37.338 103.124 0)
 			(effects
 				(font
@@ -10583,7 +10583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C544538"
 			(at 35.56 111.76 0)
 			(effects
 				(font
@@ -10718,7 +10718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X55N"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 220.345 57.15 0)
 			(effects
 				(font
@@ -10728,7 +10728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW0805150RFKEA"
 			(at 220.345 57.15 0)
 			(effects
 				(font
@@ -10737,7 +10737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844818"
 			(at 220.345 57.15 0)
 			(effects
 				(font
@@ -10807,7 +10807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 99.695 34.925 0)
 			(effects
 				(font
@@ -10855,7 +10855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAPC10555_55N_KEM"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 77.47 119.38 0)
 			(effects
 				(font
@@ -10865,7 +10865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0402C104K4RACTU"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 77.47 119.38 0)
 			(effects
 				(font
@@ -10875,7 +10875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C141162"
 			(at 77.47 119.38 0)
 			(effects
 				(font
@@ -11010,7 +11010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 147.32 106.68 0)
 			(effects
 				(font
@@ -11209,7 +11209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 113.03 167.64 0)
 			(effects
 				(font
@@ -11268,7 +11268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at -108.56 74.93 0)
 			(effects
 				(font
@@ -11278,7 +11278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm C0G, Ceramic, 1000 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 120"
+		(property "Description" "C3858054"
 			(at 87.63 66.04 0)
 			(effects
 				(font
@@ -11755,7 +11755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 107.95 111.76 0)
 			(effects
 				(font
@@ -11822,7 +11822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 121.92 58.42 0)
 			(effects
 				(font
@@ -11889,7 +11889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 35.56 162.56 0)
 			(effects
 				(font
@@ -12385,7 +12385,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF,16V"
+		(property "Value" "4.7nF,16V"
 			(at 143.51 176.5299 90)
 			(effects
 				(font
@@ -12394,7 +12394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:Cap0805"
+		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM"
 			(at 43.51 177.8 0)
 			(effects
 				(font
@@ -12404,7 +12404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0603C472K5RACAUTO"
 			(at -56.49 177.8 0)
 			(effects
 				(font
@@ -12414,7 +12414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 21 mg, 0805, 2mm, 1.25mm, 1.25mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80"
+		(property "Description" "C141106"
 			(at 139.7 168.91 0)
 			(effects
 				(font
@@ -12535,7 +12535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X55N"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 277.495 71.12 0)
 			(effects
 				(font
@@ -12545,7 +12545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW0805150RFKEA"
 			(at 277.495 71.12 0)
 			(effects
 				(font
@@ -12554,7 +12554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844818"
 			(at 277.495 71.12 0)
 			(effects
 				(font
@@ -12738,7 +12738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X55N"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 277.495 95.25 0)
 			(effects
 				(font
@@ -12748,7 +12748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW0805150RFKEA"
 			(at 277.495 95.25 0)
 			(effects
 				(font
@@ -12757,7 +12757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844818"
 			(at 277.495 95.25 0)
 			(effects
 				(font
@@ -13024,7 +13024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "REF35160QDBVR"
 			(at 148.59 63.5 0)
 			(effects
 				(font
@@ -13105,7 +13105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 124.46 352.4 0)
 			(effects
 				(font
@@ -13115,7 +13115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm C0G, Ceramic, 1000 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 120"
+		(property "Description" "C3858054"
 			(at 115.57 156.21 0)
 			(effects
 				(font
@@ -13235,7 +13235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X55N"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 88.9 111.76 0)
 			(effects
 				(font
@@ -13245,7 +13245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080549R9FKEA"
 			(at 88.9 111.76 0)
 			(effects
 				(font
@@ -13254,7 +13254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844847"
 			(at 88.9 111.76 0)
 			(effects
 				(font
@@ -13371,7 +13371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC340180_180N_KEM"
+		(property "Footprint" "SMV_Passives:CAPC340180_180N_KEM"
 			(at 173.99 60.96 0)
 			(effects
 				(font
@@ -13381,7 +13381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C1206C105K1RACTU"
+		(property "Datasheet" "C1206C105K1RACAUTO"
 			(at 173.99 60.96 0)
 			(effects
 				(font
@@ -13391,7 +13391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "solder on our own"
 			(at 173.99 60.96 0)
 			(effects
 				(font
@@ -13452,7 +13452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+		(property "Datasheet" ""
 			(at -144.12 30.48 0)
 			(effects
 				(font
@@ -13462,7 +13462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm C0G, Ceramic, 1000 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 120"
+		(property "Description" ""
 			(at 52.07 21.59 0)
 			(effects
 				(font
@@ -13668,7 +13668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 99.695 28.575 0)
 			(effects
 				(font
@@ -13799,7 +13799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2286"
 			(at 262.255 60.96 0)
 			(effects
 				(font
@@ -14134,7 +14134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 30.48 189.23 0)
 			(effects
 				(font
@@ -14191,7 +14191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0805C105K4RACTU"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 238.76 137.16 0)
 			(effects
 				(font
@@ -14201,7 +14201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C3858054"
 			(at 238.76 137.16 0)
 			(effects
 				(font
@@ -14320,7 +14320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_C2220C_2S_KEM"
+		(property "Footprint" "SMV_Passives:CAPC340180_180N_KEM"
 			(at 62.23 21.59 0)
 			(effects
 				(font
@@ -14330,7 +14330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C2220C475M1R2C7186"
+		(property "Datasheet" "GRM31CC72A475KE11L"
 			(at 62.23 21.59 0)
 			(effects
 				(font
@@ -14340,7 +14340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C237304"
 			(at 62.23 21.59 0)
 			(effects
 				(font
@@ -14383,7 +14383,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "26.1kohms, 0.13W"
+		(property "Value" "20kohms, 0.13W"
 			(at 33.02 180.3399 90)
 			(effects
 				(font
@@ -14392,7 +14392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RES_TNPW0402_VIS"
+		(property "Footprint" "SMV_Passives:0603_resistors"
 			(at 30.48 172.72 0)
 			(effects
 				(font
@@ -14402,7 +14402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TNPW040226K1BEED"
+		(property "Datasheet" "TNPW060320K0BEEA"
 			(at 30.48 172.72 0)
 			(effects
 				(font
@@ -14412,7 +14412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844676"
 			(at 30.48 172.72 0)
 			(effects
 				(font
@@ -14521,7 +14521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "604 kOHM, 0.26 W"
+		(property "Value" "500 kOHM, 0.26 W"
 			(at 33.02 152.3999 90)
 			(effects
 				(font
@@ -14540,7 +14540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TNPW0805604KBEEA"
+		(property "Datasheet" "TNPW0805499KBEEN"
 			(at 30.48 144.78 0)
 			(effects
 				(font
@@ -14550,7 +14550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C1356663"
 			(at 30.48 144.78 0)
 			(effects
 				(font
@@ -14593,7 +14593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF,16V"
+		(property "Value" "4.7nF,16V"
 			(at 118.11 120.6499 90)
 			(effects
 				(font
@@ -14602,7 +14602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:Cap0805"
+		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM"
 			(at 18.11 121.92 0)
 			(effects
 				(font
@@ -14612,7 +14612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0603C472K5RACAUTO"
 			(at -81.89 121.92 0)
 			(effects
 				(font
@@ -14622,7 +14622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 21 mg, 0805, 2mm, 1.25mm, 1.25mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80"
+		(property "Description" "C141106"
 			(at 114.3 113.03 0)
 			(effects
 				(font
@@ -14760,7 +14760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2286"
 			(at 228.6 46.99 0)
 			(effects
 				(font
@@ -14827,7 +14827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 219.075 90.17 0)
 			(effects
 				(font
@@ -14891,7 +14891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 213.995 74.93 0)
 			(effects
 				(font
@@ -15025,7 +15025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 99.695 31.75 0)
 			(effects
 				(font
@@ -15092,7 +15092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 208.28 25.4 0)
 			(effects
 				(font
@@ -15149,7 +15149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0805C105K4RACTU"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 156.21 137.16 0)
 			(effects
 				(font
@@ -15159,7 +15159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C3858054"
 			(at 156.21 137.16 0)
 			(effects
 				(font
@@ -15284,7 +15284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "REF35160QDBVR"
 			(at 249.809 56.896 0)
 			(effects
 				(font
@@ -15579,7 +15579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 199.39 84.455 0)
 			(effects
 				(font
@@ -15646,7 +15646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 140.97 25.4 0)
 			(effects
 				(font
@@ -15777,7 +15777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 219.075 85.09 0)
 			(effects
 				(font
@@ -15965,7 +15965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 36.83 262.23 0)
 			(effects
 				(font
@@ -15975,7 +15975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 27.94 66.04 0)
 			(effects
 				(font
@@ -16113,7 +16113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 55.88 41.91 0)
 			(effects
 				(font
@@ -16174,7 +16174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+		(property "Datasheet" ""
 			(at 56.54 37.465 0)
 			(effects
 				(font
@@ -16184,7 +16184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm C0G, Ceramic, 1000 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 120"
+		(property "Description" ""
 			(at 252.73 28.575 0)
 			(effects
 				(font
@@ -16322,7 +16322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2286"
 			(at 277.495 112.395 0)
 			(effects
 				(font
@@ -16695,7 +16695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "REF35160QDBVR"
 			(at 60.96 60.96 0)
 			(effects
 				(font
@@ -16704,7 +16704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C5868124"
 			(at 60.96 60.96 0)
 			(effects
 				(font
@@ -17114,7 +17114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 113.03 143.51 0)
 			(effects
 				(font
@@ -17178,7 +17178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 213.995 77.47 0)
 			(effects
 				(font
@@ -17312,7 +17312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C623478"
 			(at 110.49 167.64 0)
 			(effects
 				(font
@@ -17455,7 +17455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 142.24 106.68 0)
 			(effects
 				(font
@@ -17569,7 +17569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_C2220C_2S_KEM"
+		(property "Footprint" "SMV_Passives:CAPC340180_180N_KEM"
 			(at 259.08 25.4 0)
 			(effects
 				(font
@@ -17579,7 +17579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C2220C475M1R2C7186"
+		(property "Datasheet" "GRM31CC72A475KE11L"
 			(at 259.08 25.4 0)
 			(effects
 				(font
@@ -17589,7 +17589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C237304"
 			(at 259.08 25.4 0)
 			(effects
 				(font
@@ -17638,7 +17638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 260.35 142.24 0)
 			(effects
 				(font
@@ -17648,7 +17648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "C0805C224K5RACAUTO"
 			(at 260.35 142.24 0)
 			(effects
 				(font
@@ -17657,7 +17657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C129652"
 			(at 260.35 142.24 0)
 			(effects
 				(font
@@ -17784,7 +17784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0805C106K8PACTU"
+		(property "Datasheet" "C0805C106K8RACAUTO"
 			(at 124.46 68.58 0)
 			(effects
 				(font
@@ -17794,7 +17794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C696369"
 			(at 124.46 68.58 0)
 			(effects
 				(font
@@ -17927,7 +17927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 213.995 80.01 0)
 			(effects
 				(font
@@ -17994,7 +17994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 99.695 38.1 0)
 			(effects
 				(font
@@ -18052,7 +18052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080510K0FKEAHP"
 			(at 199.39 70.485 0)
 			(effects
 				(font
@@ -18061,7 +18061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C313823"
 			(at 199.39 70.485 0)
 			(effects
 				(font
@@ -18259,7 +18259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X55N"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 128.27 167.64 0)
 			(effects
 				(font
@@ -18269,7 +18269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CRCW080549R9FKEA"
 			(at 128.27 167.64 0)
 			(effects
 				(font
@@ -18278,7 +18278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C844847"
 			(at 128.27 167.64 0)
 			(effects
 				(font
@@ -18345,7 +18345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 268.605 46.99 0)
 			(effects
 				(font
