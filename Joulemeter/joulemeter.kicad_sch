@@ -7049,7 +7049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.022uF"
+		(property "Value" "0.1uF"
 			(at 166.37 63.4999 0)
 			(effects
 				(font
@@ -7058,7 +7058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM-L"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 163.5252 66.04 0)
 			(effects
 				(font
@@ -7067,7 +7067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -7076,7 +7076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C0603S223K5RACTU1"
+		(property "Description" "C141162"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -7210,7 +7210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 77.47 175.26 0)
 			(effects
 				(font
@@ -7249,7 +7249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k ohms"
+		(property "Value" "20k ohms"
 			(at 112.268 132.08 0)
 			(effects
 				(font
@@ -7258,7 +7258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X50N"
+		(property "Footprint" "SMV_Passives:0603_resistors"
 			(at 128.016 131.064 90)
 			(effects
 				(font
@@ -7267,7 +7267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "TNPW060320K0BEEA"
 			(at 127 130.81 0)
 			(effects
 				(font
@@ -7276,7 +7276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW060310K0FKEA1"
+		(property "Description" "C844676"
 			(at 127 130.81 0)
 			(effects
 				(font
@@ -7318,7 +7318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7nF"
 			(at 110.49 77.47 0)
 			(effects
 				(font
@@ -7327,7 +7327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:Cap0805"
+		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM"
 			(at 122.8852 81.28 0)
 			(effects
 				(font
@@ -7336,7 +7336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C0603C472K5RACAUTO"
 			(at 121.92 77.47 0)
 			(effects
 				(font
@@ -7345,7 +7345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C0805C475K4RACTU2"
+		(property "Description" "C141106"
 			(at 121.92 77.47 0)
 			(effects
 				(font
@@ -7611,7 +7611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 33.02 91.44 0)
 			(effects
 				(font
@@ -7722,7 +7722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAPC340270_190N_KEM-M"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 102.87 105.7148 0)
 			(effects
 				(font
@@ -7731,7 +7731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 99.06 106.68 0)
 			(effects
 				(font
@@ -7740,7 +7740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1210C105K1RACAUTO2"
+		(property "Description" "C3858054"
 			(at 99.06 106.68 0)
 			(effects
 				(font
@@ -8007,7 +8007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 22.86 109.22 0)
 			(effects
 				(font
@@ -8138,7 +8138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 267.97 57.15 0)
 			(effects
 				(font
@@ -8270,7 +8270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 22.86 106.68 0)
 			(effects
 				(font
@@ -8450,7 +8450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAPC340270_190N_KEM-M"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 103.1748 60.96 0)
 			(effects
 				(font
@@ -8459,7 +8459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C0805C106K8RACAUTO"
 			(at 104.14 57.15 0)
 			(effects
 				(font
@@ -8468,7 +8468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1210C106K3RACAUTO1"
+		(property "Description" "C696369"
 			(at 104.14 57.15 0)
 			(effects
 				(font
@@ -8604,7 +8604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 29.21 35.56 0)
 			(effects
 				(font
@@ -8668,7 +8668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PSR400ITQFF0L50"
+		(property "Description" ""
 			(at 209.55 40.64 0)
 			(effects
 				(font
@@ -8924,7 +8924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X50N"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 39.116 84.074 90)
 			(effects
 				(font
@@ -8933,7 +8933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "CRCW0805150RFKEA"
 			(at 38.1 83.82 0)
 			(effects
 				(font
@@ -8942,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW0603150RFKEC1"
+		(property "Description" "C844818"
 			(at 38.1 83.82 0)
 			(effects
 				(font
@@ -9011,7 +9011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 106.68 175.26 0)
 			(effects
 				(font
@@ -9134,7 +9134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X50N"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 127.254 67.564 90)
 			(effects
 				(font
@@ -9143,7 +9143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "CRCW080549R9FKEA"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -9152,7 +9152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW060350R0FKTA2"
+		(property "Description" "C844847"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -9195,7 +9195,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k ohms"
+		(property "Value" "20k ohms"
 			(at 177.8 82.5499 0)
 			(effects
 				(font
@@ -9204,7 +9204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
+		(property "Footprint" "SMV_Passives:0603_resistors"
 			(at 176.276 81.534 90)
 			(effects
 				(font
@@ -9213,7 +9213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "TNPW060320K0BEEA"
 			(at 175.26 81.28 0)
 			(effects
 				(font
@@ -9222,7 +9222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TNPW080510K0BEEA1"
+		(property "Description" "C844676"
 			(at 175.26 81.28 0)
 			(effects
 				(font
@@ -9404,7 +9404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X50N"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 254.254 56.134 90)
 			(effects
 				(font
@@ -9413,7 +9413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "CRCW080549R9FKEA"
 			(at 254 57.15 0)
 			(effects
 				(font
@@ -9422,7 +9422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW060350R0FKTA1"
+		(property "Description" "C844847"
 			(at 254 57.15 0)
 			(effects
 				(font
@@ -9464,7 +9464,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k ohms"
+		(property "Value" "20k ohms"
 			(at 112.522 140.716 0)
 			(effects
 				(font
@@ -9473,7 +9473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X50N"
+		(property "Footprint" "SMV_Passives:0603_resistors"
 			(at 125.984 140.716 90)
 			(effects
 				(font
@@ -9482,7 +9482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "TNPW060320K0BEEA"
 			(at 127 140.97 0)
 			(effects
 				(font
@@ -9491,7 +9491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW060310K0FKEA2"
+		(property "Description" "C844676"
 			(at 127 140.97 0)
 			(effects
 				(font
@@ -9540,7 +9540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAPC340270_190N_KEM-M"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 140.97 119.6848 0)
 			(effects
 				(font
@@ -9549,7 +9549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 137.16 120.65 0)
 			(effects
 				(font
@@ -9558,7 +9558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1210C105K1RACAUTO3"
+		(property "Description" "C3858054"
 			(at 137.16 120.65 0)
 			(effects
 				(font
@@ -9627,7 +9627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 22.86 104.14 0)
 			(effects
 				(font
@@ -9694,7 +9694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 29.21 48.26 0)
 			(effects
 				(font
@@ -9740,7 +9740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAPC340270_190N_KEM-M"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 229.87 119.6848 0)
 			(effects
 				(font
@@ -9749,7 +9749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 226.06 120.65 0)
 			(effects
 				(font
@@ -9758,7 +9758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1210C105K1RACAUTO4"
+		(property "Description" "C3858054"
 			(at 226.06 120.65 0)
 			(effects
 				(font
@@ -10256,7 +10256,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "249k ohms"
+		(property "Value" "500k ohms"
 			(at 177.8 68.5799 0)
 			(effects
 				(font
@@ -10265,7 +10265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RES_TNPW1206_VIS-M"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 176.276 67.564 90)
 			(effects
 				(font
@@ -10274,7 +10274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "TNPW0805499KBEEN"
 			(at 175.26 67.31 0)
 			(effects
 				(font
@@ -10283,7 +10283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TNPW1206249KBEEA"
+		(property "Description" "C1356663"
 			(at 175.26 67.31 0)
 			(effects
 				(font
@@ -10417,7 +10417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 218.44 30.48 0)
 			(effects
 				(font
@@ -10606,7 +10606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "C0805F104K5RACAUTO"
 			(at 51.46 73.66 0)
 			(effects
 				(font
@@ -10616,7 +10616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
+		(property "Description" "C141162"
 			(at 247.65 64.77 0)
 			(effects
 				(font
@@ -10883,7 +10883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C544538"
 			(at 226.06 60.96 0)
 			(effects
 				(font
@@ -10953,7 +10953,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAP_C2220C_2S_KEM-L"
+		(property "Footprint" "SMV_Passives:CAPC340180_180N_KEM"
 			(at 250.19 35.56 0)
 			(effects
 				(font
@@ -10963,7 +10963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C2220C475M1R2C7186"
+		(property "Datasheet" "GRM31CC72A475KE11L"
 			(at 250.19 35.56 0)
 			(effects
 				(font
@@ -10973,7 +10973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C2220C475M1R2C7186"
+		(property "Description" "C237304"
 			(at 250.19 35.56 0)
 			(effects
 				(font
@@ -11016,7 +11016,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k ohms"
+		(property "Value" "20k ohms"
 			(at 222.25 147.3199 0)
 			(effects
 				(font
@@ -11025,7 +11025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Passives:RESC1608X50N"
+		(property "Footprint" "SMV_Passives:0603_resistors"
 			(at 218.694 145.796 90)
 			(effects
 				(font
@@ -11034,7 +11034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "TNPW060320K0BEEA"
 			(at 219.71 146.05 0)
 			(effects
 				(font
@@ -11043,7 +11043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW060310K0FKEA3"
+		(property "Description" "C844676"
 			(at 219.71 146.05 0)
 			(effects
 				(font
@@ -11181,7 +11181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 86.36 21.59 0)
 			(effects
 				(font
@@ -11233,7 +11233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAPC340270_190N_KEM-M"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 47.2948 62.23 0)
 			(effects
 				(font
@@ -11242,7 +11242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C0805X105K5RACAUTO"
 			(at 48.26 58.42 0)
 			(effects
 				(font
@@ -11251,7 +11251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1210C105K1RACAUTO1"
+		(property "Description" "C3858054"
 			(at 48.26 58.42 0)
 			(effects
 				(font
@@ -11522,7 +11522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM-L"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 217.17 124.7648 0)
 			(effects
 				(font
@@ -11531,7 +11531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C0805C224K5RACAUTO"
 			(at 213.36 125.73 0)
 			(effects
 				(font
@@ -11540,7 +11540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C0603C224K5RACTU1"
+		(property "Description" "C129652"
 			(at 213.36 125.73 0)
 			(effects
 				(font
@@ -11675,7 +11675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 106.68 49.53 0)
 			(effects
 				(font
@@ -11714,7 +11714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7nF"
 			(at 255.27 63.5 0)
 			(effects
 				(font
@@ -11723,7 +11723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:Cap0805"
+		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM"
 			(at 265.1252 67.31 0)
 			(effects
 				(font
@@ -11732,7 +11732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C0603C472K5RACAUTO"
 			(at 264.16 63.5 0)
 			(effects
 				(font
@@ -11741,7 +11741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C0805C475K4RACTU1"
+		(property "Description" "C141106"
 			(at 264.16 63.5 0)
 			(effects
 				(font
@@ -11876,7 +11876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 118.11 175.26 0)
 			(effects
 				(font
@@ -12001,7 +12001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "AP7387-50FDCR-7"
 			(at 74.93 57.15 0)
 			(effects
 				(font
@@ -12085,7 +12085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+		(property "Datasheet" ""
 			(at 282.55 35.56 0)
 			(effects
 				(font
@@ -12095,7 +12095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm C0G, Ceramic, 1000 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 120"
+		(property "Description" ""
 			(at 86.36 26.67 0)
 			(effects
 				(font
@@ -12234,7 +12234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 203.2 30.48 0)
 			(effects
 				(font
@@ -12426,7 +12426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+		(property "Datasheet" ""
 			(at 34.95 36.83 0)
 			(effects
 				(font
@@ -12436,7 +12436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm C0G, Ceramic, 1000 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 120"
+		(property "Description" ""
 			(at 231.14 27.94 0)
 			(effects
 				(font
@@ -12832,7 +12832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 22.86 101.6 0)
 			(effects
 				(font
@@ -12899,7 +12899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 231.14 21.59 0)
 			(effects
 				(font
@@ -12969,7 +12969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C623478"
 			(at 134.62 68.58 0)
 			(effects
 				(font
@@ -13368,7 +13368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Passives:CAP_C2220C_2S_KEM-L"
+		(property "Footprint" "SMV_Passives:CAPC340180_180N_KEM"
 			(at 67.31 35.56 0)
 			(effects
 				(font
@@ -13378,7 +13378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C2220C475M1R2C7186"
+		(property "Datasheet" "GRM31CC72A475KE11L"
 			(at 67.31 35.56 0)
 			(effects
 				(font
@@ -13388,7 +13388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C2220C475M1R2C7186"
+		(property "Description" "C237304"
 			(at 67.31 35.56 0)
 			(effects
 				(font
@@ -13459,7 +13459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2286"
 			(at 38.1 74.93 0)
 			(effects
 				(font
@@ -13528,7 +13528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 66.04 175.26 0)
 			(effects
 				(font
