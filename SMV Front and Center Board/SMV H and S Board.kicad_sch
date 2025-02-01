@@ -1383,249 +1383,6 @@
 				)
 			)
 		)
-		(symbol "SMV_Custom:0603W475K250XD"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "0603W475K250XD"
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SMV_Passives:CAP_0603-X_NGC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "0603W475K250XD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0603W475K250XD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CAP_0603-X_NGC CAP_0603-X_NGC-M CAP_0603-X_NGC-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603W475K250XD_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "0603W475K250XD_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SMV_Custom:3-pin Mini Molex Spox"
 			(pin_names
 				(offset 0.254)
@@ -6920,12 +6677,6 @@
 		(uuid "10d4d085-aecf-48a9-8536-b33233b3442e")
 	)
 	(junction
-		(at 90.17 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21cd4a06-a162-4403-b1ae-fee3c5319896")
-	)
-	(junction
 		(at 234.95 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6954,12 +6705,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f92d123-062d-4ac1-8285-741d0084eb5d")
-	)
-	(junction
-		(at 271.78 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31982a32-67d8-4269-bf09-12d8ebb47e6f")
 	)
 	(junction
 		(at 44.45 163.83)
@@ -7004,22 +6749,10 @@
 		(uuid "53d8bd46-237a-431f-9699-8c189b8cd52f")
 	)
 	(junction
-		(at 90.17 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "551f0c88-6ae7-461f-bfb6-476932979125")
-	)
-	(junction
 		(at 209.55 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bd42aee-595e-4711-aae7-edcdde28d299")
-	)
-	(junction
-		(at 271.78 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "666d6eed-8697-44e3-aeb0-bc336a492f83")
 	)
 	(junction
 		(at 27.94 96.52)
@@ -7248,16 +6981,6 @@
 			(type default)
 		)
 		(uuid "0c4a3b48-bd90-4b92-8fe7-3d0613a805b1")
-	)
-	(wire
-		(pts
-			(xy 90.17 124.46) (xy 93.98 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d036ea3-2a31-40a0-ad2e-73c5cdd4511d")
 	)
 	(wire
 		(pts
@@ -7991,16 +7714,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 161.29) (xy 275.59 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "867efe26-bb69-41fd-a5d3-19ae08b6e659")
-	)
-	(wire
-		(pts
 			(xy 109.22 151.13) (xy 109.22 144.78)
 		)
 		(stroke
@@ -8418,16 +8131,6 @@
 			(type default)
 		)
 		(uuid "c662e300-f6f8-4076-98b0-8a8f9f0bc201")
-	)
-	(wire
-		(pts
-			(xy 90.17 123.19) (xy 90.17 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c75b8671-6e22-48d6-ad27-b6565929aa37")
 	)
 	(polyline
 		(pts
@@ -8905,7 +8608,7 @@
 		(uuid "1f8ee80c-165e-410a-8f25-7ece8876437b")
 	)
 	(label "ADC_IN1"
-		(at 93.98 124.46 0)
+		(at 90.17 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9103,7 +8806,7 @@
 		(uuid "8bc49c54-8812-4529-90e4-c976e24485f8")
 	)
 	(label "ADC_IN2"
-		(at 275.59 161.29 0)
+		(at 271.78 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9468,7 +9171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2286"
 			(at 91.44 71.12 0)
 			(effects
 				(font
@@ -11693,75 +11396,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SMV_Custom:CRCW020149R9FNED")
-		(at 271.78 148.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45d0acee-d6ac-4e8e-804d-186c5093999d")
-		(property "Reference" "R19"
-			(at 274.32 154.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "49.9Ω, 0.125W"
-			(at 268.986 154.686 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
-			(at 265.43 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CRCW080549R9FKEA"
-			(at 263.144 142.748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C844847"
-			(at 271.78 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9137e04b-5b89-49f1-8d6a-7cd58f3a87ef")
-		)
-		(pin "1"
-			(uuid "7ee3f442-db53-4581-b4c8-187f20d4b95d")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SMV_Custom:CRCW080540K0FKEA")
 		(at 45.72 187.96 0)
 		(unit 1)
@@ -11825,75 +11459,6 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMV_Custom:0603W475K250XD")
-		(at 264.16 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "484cf264-205e-40bd-a9cb-0daeb36292d5")
-		(property "Reference" "C11"
-			(at 258.318 154.178 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "4.7uF, 16V"
-			(at 258.318 156.718 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SMV_Passives:Cap0805"
-			(at 264.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C0805C475K4RACAUTO"
-			(at 264.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C599948"
-			(at 264.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b2dc871a-243e-40c4-8140-829c17fa971b")
-		)
-		(pin "1"
-			(uuid "a6328b0f-e948-4fad-ac09-f292e082d2cb")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12705,7 +12270,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF,16V"
+		(property "Value" "4.7F,16V"
 			(at 28.956 166.116 90)
 			(effects
 				(font
@@ -12713,7 +12278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:Cap0805"
+		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM"
 			(at 35.56 161.29 0)
 			(effects
 				(font
@@ -12723,7 +12288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0805X105K5RACAUTO"
+		(property "Datasheet" "C0603C472K5RACAUTO"
 			(at 35.56 161.29 0)
 			(effects
 				(font
@@ -12733,7 +12298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C3858054"
+		(property "Description" "C141106"
 			(at 35.56 161.29 0)
 			(effects
 				(font
@@ -12937,7 +12502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2286"
 			(at 170.18 88.9 0)
 			(effects
 				(font
@@ -15332,7 +14897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2286"
 			(at 142.24 63.5 0)
 			(effects
 				(font
@@ -15572,71 +15137,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 82.55 124.46 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be0d51d2-09a7-4aad-8a54-12733c941656")
-		(property "Reference" "#PWR017"
-			(at 76.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fed6eaa-eb4b-4737-858c-3a888ca4eefb")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 113.03 48.26 90)
 		(unit 1)
@@ -15750,7 +15250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2286"
 			(at 180.34 83.82 0)
 			(effects
 				(font
@@ -15769,75 +15269,6 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMV_Custom:CRCW020149R9FNED")
-		(at 90.17 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c20da903-6bbc-4e4d-a475-055375755cb6")
-		(property "Reference" "R5"
-			(at 92.71 116.84 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "49.9Ω, 0.125W"
-			(at 87.376 116.586 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
-			(at 83.82 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CRCW080549R9FKEA"
-			(at 81.534 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C844847"
-			(at 90.17 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "713ee035-5728-4ca4-a0b4-bafbcc0b0f04")
-		)
-		(pin "1"
-			(uuid "67ecb534-d173-4f9b-93ff-1d0f5a9824a1")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15970,75 +15401,6 @@
 			(project "SMV H and S Board"
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMV_Custom:0603W475K250XD")
-		(at 82.55 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c89bb26d-1360-4e45-90e6-f8df79e35b7c")
-		(property "Reference" "C6"
-			(at 76.708 117.348 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "4.7uF, 16V"
-			(at 76.708 119.888 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SMV_Passives:Cap0805"
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C0805C475K4RACAUTO"
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C599948"
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58b3f787-aa6c-4995-bd8d-9fc623a282e8")
-		)
-		(pin "1"
-			(uuid "0e726d99-3e35-4b99-808e-2120dfe9ef9d")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16374,71 +15736,6 @@
 			(project ""
 				(path "/65429182-9298-499e-afe0-28215a09a0c3"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 264.16 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfb678c9-20cf-43bb-ac72-5385b6e6840b")
-		(property "Reference" "#PWR048"
-			(at 257.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55011208-79c5-430e-b581-626ccfbf3257")
-		)
-		(instances
-			(project "SMV H and S Board"
-				(path "/65429182-9298-499e-afe0-28215a09a0c3"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -18085,7 +17382,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF,16V"
+		(property "Value" "4.7nF,16V"
 			(at 28.194 144.526 0)
 			(effects
 				(font
@@ -18093,7 +17390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Passives:Cap0805"
+		(property "Footprint" "SMV_Passives:CAPC17595_87N_KEM"
 			(at 31.75 142.24 0)
 			(effects
 				(font
@@ -18103,7 +17400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0805X105K5RACAUTO"
+		(property "Datasheet" "C0603C472K5RACAUTO"
 			(at 31.75 142.24 0)
 			(effects
 				(font
@@ -18113,7 +17410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C3858054"
+		(property "Description" "C141106"
 			(at 31.75 142.24 0)
 			(effects
 				(font
