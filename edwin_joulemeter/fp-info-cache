@@ -1,4 +1,4 @@
-24303901514381597
+24305639782288513
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90105,6 +90105,13 @@ TAISS 3 Pin Switch
 3
 SMV_Misc
 Twidec Button
+
+
+0
+2
+2
+SMV_Passives
+0603_resistors
 
 
 0

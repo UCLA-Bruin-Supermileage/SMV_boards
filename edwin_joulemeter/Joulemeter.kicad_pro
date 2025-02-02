@@ -466,8 +466,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../edwin's_order/",
-      "pos_files": "",
+      "plot": "../../edwinsorder/",
+      "pos_files": "../../edwinsorder/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -477,7 +477,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\..\\edwin's_order\\Joulemeter.csv",
+    "bom_export_filename": "..\\..\\edwinsorder\\Joulemeter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -508,7 +508,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -526,7 +526,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
