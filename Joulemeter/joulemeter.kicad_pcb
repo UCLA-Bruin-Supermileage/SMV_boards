@@ -43,7 +43,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 0 210)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x000103c_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -75,9 +75,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../leos_order/")
 		)
 	)
 	(net 0 "")
@@ -414,7 +414,7 @@
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C6"
-			(at 0 3 90)
+			(at 1.29 2.62 90)
 			(layer "F.SilkS")
 			(uuid "af2b9232-1c12-4f1f-8d91-ebfced857a4c")
 			(effects
@@ -611,7 +611,7 @@
 		(layer "F.Cu")
 		(uuid "12ee0102-e96b-4e55-8a13-b93451811735")
 		(at 188.06 79.28)
-		(property "Reference" "J2"
+		(property "Reference" "48V_Power"
 			(at -0.345 -5.21 0)
 			(layer "F.SilkS")
 			(uuid "79c34ca8-63bd-4397-9902-f95ea07bd8de")
@@ -1385,7 +1385,7 @@
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C11"
-			(at 0 3 -90)
+			(at -3.18 -0.17 0)
 			(layer "F.SilkS")
 			(uuid "ab638c30-b0d3-4d32-b8b1-63c5fa0606fb")
 			(effects
@@ -1584,7 +1584,7 @@
 		(at 145.975 101.170602)
 		(tags "PADS131M04QPWRQ1 ")
 		(property "Reference" "U5"
-			(at 0 0 0)
+			(at 2.185 4.379398 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a7109c3c-d5c8-4bea-9ba1-63d4ad08272f")
@@ -3018,7 +3018,7 @@
 		(at 175.92 76.99 90)
 		(tags "C1206C105K1RACTU ")
 		(property "Reference" "C1"
-			(at 0 0 90)
+			(at 0.62 -2.02 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d07c5d25-24e6-4416-98af-79c584ca8ea0")
@@ -4180,7 +4180,7 @@
 		(uuid "390edb51-2d55-4f1a-92ed-3c780c138b21")
 		(at 188.75924 117.48 90)
 		(tags "22035035 ")
-		(property "Reference" "J4"
+		(property "Reference" "CAN"
 			(at -9.79 -39.11924 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4466,8 +4466,8 @@
 		(at 155.65 94.24)
 		(descr "SMD pad as test Point, diameter 2.5mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP_CLK1"
-			(at -0.595 -2.59 0)
+		(property "Reference" "CLK"
+			(at -0.59 -2.21 0)
 			(layer "F.SilkS")
 			(uuid "f23f786e-c1de-4318-bdf3-510c29644242")
 			(effects
@@ -4582,7 +4582,7 @@
 		(descr "SMD pad as test Point, diameter 2.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP_GND1"
-			(at -3.05 1.1 0)
+			(at -1.51 2.46 0)
 			(layer "F.SilkS")
 			(uuid "668b8a88-4e3f-4d26-84a1-2f4f408d0e7e")
 			(effects
@@ -4811,8 +4811,8 @@
 		(at 155.44 97.96)
 		(descr "SMD pad as test Point, diameter 2.5mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP_MOSI1"
-			(at -3.145 0.955 0)
+		(property "Reference" "MOSI"
+			(at -3.28 1.02 0)
 			(layer "F.SilkS")
 			(uuid "de5808ea-6616-4137-8005-88a9803ce169")
 			(effects
@@ -6305,7 +6305,7 @@
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C12"
-			(at 0 3 90)
+			(at 3.06 0.06 180)
 			(layer "F.SilkS")
 			(uuid "5a850e67-119e-474c-8c67-d3bbc092c0b4")
 			(effects
@@ -6502,8 +6502,8 @@
 		(layer "F.Cu")
 		(uuid "85e36c0c-11fe-4379-9ea3-6f71b38645dd")
 		(at 140.1 93.070602 -90)
-		(property "Reference" "INA240A3PWR1"
-			(at -2.980602 2.73 90)
+		(property "Reference" "INA240A3"
+			(at -3.780602 2.59 90)
 			(layer "F.SilkS")
 			(uuid "b0c5a7aa-fb32-4f3f-89b6-64b3497ff57e")
 			(effects
@@ -7914,7 +7914,7 @@
 		(at 139.85 107.545602 -90)
 		(tags "C0603C472K4RACTU ")
 		(property "Reference" "C8"
-			(at 0 0 -90)
+			(at 0.034398 -1.38 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7e8bd84e-486b-4595-b17f-34686646cf7c")
@@ -8666,7 +8666,7 @@
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C7"
-			(at 0 3 180)
+			(at -1.21 2.45 180)
 			(layer "F.SilkS")
 			(uuid "cf1565da-5466-4531-a897-99401e46942b")
 			(effects
@@ -9650,8 +9650,8 @@
 		(at 139.475 101.175)
 		(descr "SMD pad as test Point, diameter 2.5mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP_CSENSE_OUT1"
-			(at -2.925 1.765 0)
+		(property "Reference" "CSNSE"
+			(at -2.035 -0.675 -90)
 			(layer "F.SilkS")
 			(uuid "0b23128b-5880-4c5f-9f7a-a43f287ec712")
 			(effects
@@ -9766,7 +9766,7 @@
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C13"
-			(at 0 3 90)
+			(at 2.49 0.1 180)
 			(layer "F.SilkS")
 			(uuid "b3a49734-b5c3-45a6-af42-f472a6ce55fb")
 			(effects
@@ -25294,7 +25294,7 @@
 		)
 		(fp_arc
 			(start -8.304556 8.25436)
-			(mid -8.304689 8.247612)
+			(mid -8.304689 8.247611)
 			(end -8.300511 8.24231)
 			(stroke
 				(width 0.0127)
@@ -26757,7 +26757,7 @@
 		)
 		(fp_arc
 			(start -7.774364 12.655021)
-			(mid -7.771131 12.665266)
+			(mid -7.771131 12.665267)
 			(end -7.776942 12.674303)
 			(stroke
 				(width 0.0127)
@@ -31421,7 +31421,7 @@
 		)
 		(fp_arc
 			(start -4.883602 11.697921)
-			(mid -4.883173 11.693201)
+			(mid -4.883173 11.693202)
 			(end -4.878724 11.69157)
 			(stroke
 				(width 0.0127)
@@ -32543,7 +32543,7 @@
 		)
 		(fp_arc
 			(start -3.156379 11.616037)
-			(mid -3.161129 11.513181)
+			(mid -3.16113 11.513181)
 			(end -3.16328 11.410238)
 			(stroke
 				(width 0.0127)
@@ -35161,7 +35161,7 @@
 		)
 		(fp_arc
 			(start -0.45284 6.767971)
-			(mid -0.453954 6.770748)
+			(mid -0.453954 6.770747)
 			(end -0.456677 6.771986)
 			(stroke
 				(width 0.0127)
@@ -36855,7 +36855,7 @@
 		(at 129.7501 72.55 180)
 		(tags "C1206C105K1RACTU ")
 		(property "Reference" "C4"
-			(at 0 0 180)
+			(at -1.0999 2.07 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "39af7025-6b56-498c-ba9a-de773820f35d")
