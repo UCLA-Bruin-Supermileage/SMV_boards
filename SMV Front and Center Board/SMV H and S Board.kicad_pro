@@ -466,8 +466,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Front_and_Center_order/",
-      "pos_files": "",
+      "plot": "../../FrontandCenterorder/",
+      "pos_files": "../../FrontandCenterorder/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -477,7 +477,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\..\\Front_and_Center_order\\front_bom.csv",
+    "bom_export_filename": "..\\..\\FrontandCenterorder\\SMV H and S Board.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -508,7 +508,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -526,7 +526,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
