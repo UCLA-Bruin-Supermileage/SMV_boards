@@ -480,8 +480,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../leos_order/",
-      "pos_files": "",
+      "plot": "../../leosorder/",
+      "pos_files": "../../leosorder/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -491,7 +491,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\..\\leos_order\\joulemeter.csv",
+    "bom_export_filename": "..\\..\\leosorder\\joulemeter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -676,7 +676,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

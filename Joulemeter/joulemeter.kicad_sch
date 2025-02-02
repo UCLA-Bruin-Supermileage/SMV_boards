@@ -7166,72 +7166,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 77.47 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "053171f6-44c7-4e10-8152-5bf1a4493133")
-		(property "Reference" "TS_CAN_H2"
-			(at 78.994 173.482 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 79.502 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 77.47 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7357ebc0-d8ca-4dd2-be5e-47c5f5f55761")
-		)
-		(instances
-			(project "joulemeter"
-				(path "/62c9b90f-facd-44d7-9ffc-18aee2f06026"
-					(reference "TS_CAN_H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 127 130.81 0)
 		(unit 1)
@@ -7765,6 +7699,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "192a4baf-9422-4b97-b7e0-d9ab1332199a")
+		(property "Reference" "TP1"
+			(at 48.26 159.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.26 161.7979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMV_Logo:SEM_logo"
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd7d662d-b9e6-4f5d-ba2d-c519f749c221")
+		)
+		(instances
+			(project ""
+				(path "/62c9b90f-facd-44d7-9ffc-18aee2f06026"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 237.49 17.78 90)
 		(unit 1)
@@ -8102,7 +8102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f876f78-a627-448c-bc01-9c924fcc9cf0")
-		(property "Reference" "TP_CSENSE_OUT1"
+		(property "Reference" "CSNSE1"
 			(at 265.176 51.054 0)
 			(effects
 				(font
@@ -8153,7 +8153,7 @@
 		(instances
 			(project "joulemeter"
 				(path "/62c9b90f-facd-44d7-9ffc-18aee2f06026"
-					(reference "TP_CSENSE_OUT1")
+					(reference "CSNSE1")
 					(unit 1)
 				)
 			)
@@ -8717,7 +8717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a2d4d4b-0ff4-4d36-8d3a-6e0a3f566d5a")
-		(property "Reference" "J2"
+		(property "Reference" "48V_Power1"
 			(at 270.51 50.8 0)
 			(effects
 				(font
@@ -8890,7 +8890,7 @@
 		(instances
 			(project "joulemeter"
 				(path "/62c9b90f-facd-44d7-9ffc-18aee2f06026"
-					(reference "J2")
+					(reference "48V_Power1")
 					(unit 1)
 				)
 			)
@@ -8961,72 +8961,6 @@
 			(project ""
 				(path "/62c9b90f-facd-44d7-9ffc-18aee2f06026"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 106.68 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b572b93-98ee-4063-8b9c-7d52d2e7c7f8")
-		(property "Reference" "TS_CAN_L1"
-			(at 104.648 173.736 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 104.648 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 106.68 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc9c3c4e-7ca9-4127-a0bf-b4d92190bf36")
-		)
-		(instances
-			(project "joulemeter"
-				(path "/62c9b90f-facd-44d7-9ffc-18aee2f06026"
-					(reference "TS_CAN_L1")
 					(unit 1)
 				)
 			)
@@ -9591,7 +9525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d92389d-cd0a-4c9f-a005-c52cb7ba97f8")
-		(property "Reference" "TP_MOSI1"
+		(property "Reference" "MOSI1"
 			(at 22.86 102.362 90)
 			(effects
 				(font
@@ -9642,7 +9576,7 @@
 		(instances
 			(project "joulemeter"
 				(path "/62c9b90f-facd-44d7-9ffc-18aee2f06026"
-					(reference "TP_MOSI1")
+					(reference "MOSI1")
 					(unit 1)
 				)
 			)
@@ -10849,7 +10783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "963b8a5d-092f-42a2-997a-3fe662bef994")
-		(property "Reference" "INA240A3PWR1"
+		(property "Reference" "INA240A3"
 			(at 226.06 53.086 0)
 			(effects
 				(font
@@ -10919,7 +10853,7 @@
 		(instances
 			(project ""
 				(path "/62c9b90f-facd-44d7-9ffc-18aee2f06026"
-					(reference "INA240A3PWR1")
+					(reference "INA240A3")
 					(unit 1)
 				)
 			)
@@ -12001,7 +11935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "AP7387-50FDCR-7"
+		(property "Datasheet" ""
 			(at 74.93 57.15 0)
 			(effects
 				(font
@@ -12556,7 +12490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP20_PW_TEX"
+		(property "Footprint" "SMV_ICs:TSSOP20_PW_TEX"
 			(at 153.67 120.65 0)
 			(effects
 				(font
@@ -12796,7 +12730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcfc8b88-71eb-4f51-8637-6917a5aa7656")
-		(property "Reference" "TP_CLK1"
+		(property "Reference" "CLK1"
 			(at 21.844 99.822 90)
 			(effects
 				(font
@@ -12847,7 +12781,7 @@
 		(instances
 			(project "joulemeter"
 				(path "/62c9b90f-facd-44d7-9ffc-18aee2f06026"
-					(reference "TP_CLK1")
+					(reference "CLK1")
 					(unit 1)
 				)
 			)
@@ -13210,7 +13144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f04dfdc5-d56f-4875-96bd-f37c9e8b293e")
-		(property "Reference" "J4"
+		(property "Reference" "CAN1"
 			(at 78.74 182.8799 90)
 			(effects
 				(font
@@ -13269,7 +13203,7 @@
 		(instances
 			(project "joulemeter"
 				(path "/62c9b90f-facd-44d7-9ffc-18aee2f06026"
-					(reference "J4")
+					(reference "CAN1")
 					(unit 1)
 				)
 			)
