@@ -8453,7 +8453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01fa7718-c809-4499-a30d-dc15da7838d0")
-		(property "Reference" "TP8"
+		(property "Reference" "RST1"
 			(at 166.116 72.39 90)
 			(effects
 				(font
@@ -8504,7 +8504,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP8")
+					(reference "RST1")
 					(unit 1)
 				)
 			)
@@ -8789,7 +8789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0497b21e-c7ed-4fcb-896c-6ddcc4aa316a")
-		(property "Reference" "TP13"
+		(property "Reference" "Torque_P1"
 			(at 32.512 188.976 0)
 			(effects
 				(font
@@ -8840,7 +8840,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP13")
+					(reference "Torque_P1")
 					(unit 1)
 				)
 			)
@@ -9120,7 +9120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a22dc0d-4d60-49bf-aea4-78c594985fa6")
-		(property "Reference" "TP16"
+		(property "Reference" "FET3"
 			(at 70.358 28.194 0)
 			(effects
 				(font
@@ -9171,7 +9171,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP16")
+					(reference "FET3")
 					(unit 1)
 				)
 			)
@@ -9320,7 +9320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d855d63-3136-453c-8375-f42e09120d0c")
-		(property "Reference" "J8"
+		(property "Reference" "CAN1"
 			(at 247.396 109.474 0)
 			(effects
 				(font
@@ -9379,7 +9379,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "J8")
+					(reference "CAN1")
 					(unit 1)
 				)
 			)
@@ -9615,7 +9615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20af4c03-fe83-493b-9b51-c488e4dfaad3")
-		(property "Reference" "U1"
+		(property "Reference" "Accel1"
 			(at 231.14 123.19 0)
 			(effects
 				(font
@@ -9705,7 +9705,7 @@
 		(instances
 			(project ""
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "U1")
+					(reference "Accel1")
 					(unit 1)
 				)
 			)
@@ -9720,7 +9720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2afdd502-3405-4579-9094-c11c787685a8")
-		(property "Reference" "TP19"
+		(property "Reference" "12V2"
 			(at 113.284 58.674 0)
 			(effects
 				(font
@@ -9771,7 +9771,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP19")
+					(reference "12V2")
 					(unit 1)
 				)
 			)
@@ -10066,7 +10066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c922bc1-29b2-473e-8551-f064fb2edead")
-		(property "Reference" "TP9"
+		(property "Reference" "SCK1"
 			(at 166.116 77.47 90)
 			(effects
 				(font
@@ -10117,7 +10117,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP9")
+					(reference "SCK1")
 					(unit 1)
 				)
 			)
@@ -10132,7 +10132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d98ef03-e513-4472-899f-59f58483e75d")
-		(property "Reference" "TP15"
+		(property "Reference" "FET1"
 			(at 157.988 26.924 0)
 			(effects
 				(font
@@ -10183,7 +10183,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP15")
+					(reference "FET1")
 					(unit 1)
 				)
 			)
@@ -10754,6 +10754,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 77.47 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e9aa1b4-40bc-47fa-b505-051099cb7563")
+		(property "Reference" "TP1"
+			(at 80.01 145.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.01 147.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMV_Logo:SEM_logo"
+			(at 82.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1d31074-8f2a-4205-b36b-0900362760b6")
+		)
+		(instances
+			(project ""
+				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 180.34 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10761,7 +10828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64c66401-8ff3-4504-81ec-044243a27787")
-		(property "Reference" "TP6"
+		(property "Reference" "MOSI1"
 			(at 166.116 64.77 90)
 			(effects
 				(font
@@ -10812,7 +10879,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP6")
+					(reference "MOSI1")
 					(unit 1)
 				)
 			)
@@ -11322,7 +11389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75a2feec-f87c-4b25-bad5-6cd4ab9fc104")
-		(property "Reference" "TP20"
+		(property "Reference" "5V1"
 			(at 115.824 169.164 0)
 			(effects
 				(font
@@ -11373,7 +11440,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP20")
+					(reference "5V1")
 					(unit 1)
 				)
 			)
@@ -12058,7 +12125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80b382a1-10c4-4c09-ab62-fe9569c7efc0")
-		(property "Reference" "TP3"
+		(property "Reference" "GND1"
 			(at 65.786 120.65 0)
 			(effects
 				(font
@@ -12109,7 +12176,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP3")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -12815,7 +12882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "936d09da-de7a-44ce-8a1b-3ad2c2715c16")
-		(property "Reference" "TP14"
+		(property "Reference" "Torque_N1"
 			(at 28.194 171.196 0)
 			(effects
 				(font
@@ -12866,7 +12933,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP14")
+					(reference "Torque_N1")
 					(unit 1)
 				)
 			)
@@ -14659,7 +14726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdde179c-f1e5-4b04-ae04-58c555f2d4c0")
-		(property "Reference" "TP17"
+		(property "Reference" "FET2"
 			(at 249.428 26.924 0)
 			(effects
 				(font
@@ -14710,7 +14777,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP17")
+					(reference "FET2")
 					(unit 1)
 				)
 			)
@@ -15057,7 +15124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c904e551-7629-435b-ab08-912f9a32f249")
-		(property "Reference" "TP7"
+		(property "Reference" "MISO1"
 			(at 166.116 67.31 90)
 			(effects
 				(font
@@ -15108,7 +15175,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP7")
+					(reference "MISO1")
 					(unit 1)
 				)
 			)
@@ -15123,7 +15190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb2fd9c8-4c81-4350-a94c-c002730b977a")
-		(property "Reference" "TP12"
+		(property "Reference" "Press_Sig1"
 			(at 108.712 188.976 0)
 			(effects
 				(font
@@ -15174,7 +15241,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP12")
+					(reference "Press_Sig1")
 					(unit 1)
 				)
 			)
@@ -15226,7 +15293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row,  Circuits, with PCB Polarizing Peg, Tin, Glow-Wire Capable, Black"
+		(property "Description" ""
 			(at 41.91 179.07 0)
 			(effects
 				(font
@@ -15577,7 +15644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d677d136-800b-4d7b-be7f-f1f7929e94f7")
-		(property "Reference" "TP1"
+		(property "Reference" "12V1"
 			(at 90.678 32.258 0)
 			(effects
 				(font
@@ -15628,7 +15695,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP1")
+					(reference "12V1")
 					(unit 1)
 				)
 			)
@@ -16048,7 +16115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3c01c15-9d03-4271-a58f-dce914905f8a")
-		(property "Reference" "TP5"
+		(property "Reference" "CLKIN1"
 			(at 166.116 62.23 90)
 			(effects
 				(font
@@ -16099,7 +16166,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP5")
+					(reference "CLKIN1")
 					(unit 1)
 				)
 			)
@@ -16312,7 +16379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f166e258-a57f-4aa0-b01d-c7d60873ead3")
-		(property "Reference" "TP22"
+		(property "Reference" "CS0"
 			(at 261.874 131.064 0)
 			(effects
 				(font
@@ -16363,7 +16430,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP22")
+					(reference "CS0")
 					(unit 1)
 				)
 			)
@@ -16723,7 +16790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff101f25-94d9-469f-a8c9-9e47dff87c43")
-		(property "Reference" "TP4"
+		(property "Reference" "CS1"
 			(at 145.288 139.446 0)
 			(effects
 				(font
@@ -16774,7 +16841,7 @@
 		(instances
 			(project "H&S Board"
 				(path "/cdf86217-7949-4457-8f19-2e0a76b22e93"
-					(reference "TP4")
+					(reference "CS1")
 					(unit 1)
 				)
 			)
