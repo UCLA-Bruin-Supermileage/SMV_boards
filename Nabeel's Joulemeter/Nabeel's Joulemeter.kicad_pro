@@ -480,8 +480,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Lowpower_order/",
-      "pos_files": "",
+      "plot": "../../Lowpowerorder/",
+      "pos_files": "../../Lowpowerorder/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -491,7 +491,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\..\\Lowpower_order\\Nabeel's Joulemeter.csv",
+    "bom_export_filename": "..\\..\\Lowpowerorder\\Nabeel's Joulemeter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -522,7 +522,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -540,7 +540,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -646,7 +646,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

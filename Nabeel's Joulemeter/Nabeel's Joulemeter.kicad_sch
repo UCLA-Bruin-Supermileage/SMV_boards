@@ -6702,6 +6702,108 @@
 				)
 			)
 		)
+		(symbol "TestPoint_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_1_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -9513,7 +9615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15a3ad4a-e691-4211-ad05-cab6ce108547")
-		(property "Reference" "TP8"
+		(property "Reference" "SCK1"
 			(at 262.89 138.557 90)
 			(effects
 				(font
@@ -9564,7 +9666,7 @@
 		(instances
 			(project "Nabeel's Joulemeter"
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP8")
+					(reference "SCK1")
 					(unit 1)
 				)
 			)
@@ -9931,7 +10033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24370039-e63f-4b16-ab28-09209ea0cb02")
-		(property "Reference" "J5"
+		(property "Reference" "12V1"
 			(at 48.895 80.0099 0)
 			(effects
 				(font
@@ -9987,7 +10089,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "J5")
+					(reference "12V1")
 					(unit 1)
 				)
 			)
@@ -10215,7 +10317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b396a8-691e-46b1-932c-a8f0500a3a3f")
-		(property "Reference" "TP16"
+		(property "Reference" "CAN_P1"
 			(at 80.518 182.88 90)
 			(effects
 				(font
@@ -10264,7 +10366,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP16")
+					(reference "CAN_P1")
 					(unit 1)
 				)
 			)
@@ -10685,7 +10787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3218159e-d684-4710-8f74-3fc853d83885")
-		(property "Reference" "TP9"
+		(property "Reference" "CS1"
 			(at 262.89 143.637 90)
 			(effects
 				(font
@@ -10736,7 +10838,7 @@
 		(instances
 			(project "Nabeel's Joulemeter"
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP9")
+					(reference "CS1")
 					(unit 1)
 				)
 			)
@@ -10976,7 +11078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WSR"
+		(property "Footprint" "SMV_Passives:WSR"
 			(at 233.045 52.705 0)
 			(effects
 				(font
@@ -10996,7 +11098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C499500"
 			(at 233.045 52.705 0)
 			(effects
 				(font
@@ -11030,7 +11132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e70618f-57de-4b98-990f-79ca60fb27a8")
-		(property "Reference" "J4"
+		(property "Reference" "CAN2"
 			(at 159.385 186.6899 0)
 			(effects
 				(font
@@ -11089,7 +11191,7 @@
 		(instances
 			(project "Nabeel's Joulemeter"
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "J4")
+					(reference "CAN2")
 					(unit 1)
 				)
 			)
@@ -11172,7 +11274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41d9f350-1e12-4533-afde-a525d3a4505a")
-		(property "Reference" "TP15"
+		(property "Reference" "CAN_N1"
 			(at 100.965 185.4199 90)
 			(effects
 				(font
@@ -11223,7 +11325,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP15")
+					(reference "CAN_N1")
 					(unit 1)
 				)
 			)
@@ -11372,7 +11474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4abff5d9-125b-44f1-8320-55b3f44d8609")
-		(property "Reference" "TP1"
+		(property "Reference" "12V2"
 			(at 215.519 51.181 90)
 			(effects
 				(font
@@ -11421,7 +11523,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP1")
+					(reference "12V2")
 					(unit 1)
 				)
 			)
@@ -11615,6 +11717,74 @@
 			(project "Nabeel's Joulemeter"
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TestPoint_1")
+		(lib_id "Connector:TestPoint")
+		(at 118.11 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "567e7c56-2af3-479d-a68a-914d579af386")
+		(property "Reference" "TP1"
+			(at 120.65 100.8379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 120.65 103.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMV_Logo:SEM_logo"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c131d176-f40f-4dd4-8d44-fb47c311122c")
+		)
+		(instances
+			(project ""
+				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -12253,7 +12423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7edb13d9-3d62-4726-a6a6-a595c858e339")
-		(property "Reference" "TP17"
+		(property "Reference" "SENSE1"
 			(at 264.795 67.9449 90)
 			(effects
 				(font
@@ -12304,7 +12474,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP17")
+					(reference "SENSE1")
 					(unit 1)
 				)
 			)
@@ -12319,7 +12489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86693101-8915-4e6a-a8c9-d8c819128325")
-		(property "Reference" "TP7"
+		(property "Reference" "MISO1"
 			(at 262.89 136.017 90)
 			(effects
 				(font
@@ -12370,7 +12540,7 @@
 		(instances
 			(project "Nabeel's Joulemeter"
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP7")
+					(reference "MISO1")
 					(unit 1)
 				)
 			)
@@ -13004,7 +13174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b789ea7-0aa3-4a04-89a9-58e52b0bf7e1")
-		(property "Reference" "TP5"
+		(property "Reference" "CLKIN1"
 			(at 262.89 130.8099 90)
 			(effects
 				(font
@@ -13055,7 +13225,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP5")
+					(reference "CLKIN1")
 					(unit 1)
 				)
 			)
@@ -13070,7 +13240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a19b9a4b-ce28-48b7-8317-e6abcf77d337")
-		(property "Reference" "TP2"
+		(property "Reference" "shunt_load1"
 			(at 268.351 48.387 90)
 			(effects
 				(font
@@ -13119,7 +13289,7 @@
 		(instances
 			(project "Nabeel's Joulemeter"
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP2")
+					(reference "shunt_load1")
 					(unit 1)
 				)
 			)
@@ -13630,7 +13800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab689c74-549f-40cd-9d53-c0e41ad5f84f")
-		(property "Reference" "J1"
+		(property "Reference" "Load1"
 			(at 75.946 102.108 0)
 			(effects
 				(font
@@ -13686,7 +13856,7 @@
 		(instances
 			(project "Nabeel's Joulemeter"
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "J1")
+					(reference "Load1")
 					(unit 1)
 				)
 			)
@@ -13701,7 +13871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aba4bd3f-8ee8-4d21-9180-66a016baab0f")
-		(property "Reference" "TP3"
+		(property "Reference" "3.3V1"
 			(at 49.276 118.237 0)
 			(effects
 				(font
@@ -13752,7 +13922,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP3")
+					(reference "3.3V1")
 					(unit 1)
 				)
 			)
@@ -13837,7 +14007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aff0185f-f183-4e58-96ea-ae2f95b33d64")
-		(property "Reference" "TP18"
+		(property "Reference" "SENSE_OUT1"
 			(at 212.598 28.194 0)
 			(effects
 				(font
@@ -13886,7 +14056,7 @@
 		(instances
 			(project "Nabeel's Joulemeter"
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP18")
+					(reference "SENSE_OUT1")
 					(unit 1)
 				)
 			)
@@ -13902,7 +14072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b19daaa3-46c3-43b6-b219-9a526b40e1c7")
-		(property "Reference" "TP4"
+		(property "Reference" "5V1"
 			(at 104.648 74.93 90)
 			(effects
 				(font
@@ -13951,7 +14121,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP4")
+					(reference "5V1")
 					(unit 1)
 				)
 			)
@@ -14237,7 +14407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf88fdc4-c814-4513-9898-5dd28acc5e56")
-		(property "Reference" "TP11"
+		(property "Reference" "FEEDBACK1"
 			(at 120.015 42.6719 0)
 			(effects
 				(font
@@ -14288,7 +14458,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP11")
+					(reference "FEEDBACK1")
 					(unit 1)
 				)
 			)
@@ -14304,7 +14474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfc924f0-ee63-4981-8dbc-847ae2e0c25d")
-		(property "Reference" "J3"
+		(property "Reference" "CAN1"
 			(at 159.385 174.6249 0)
 			(effects
 				(font
@@ -14363,7 +14533,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "J3")
+					(reference "CAN1")
 					(unit 1)
 				)
 			)
@@ -15059,7 +15229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d053ebbb-cafb-4e3e-9bde-ea02471c4bea")
-		(property "Reference" "TP12"
+		(property "Reference" "V_SENSE1"
 			(at 150.495 28.4479 0)
 			(effects
 				(font
@@ -15110,7 +15280,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP12")
+					(reference "V_SENSE1")
 					(unit 1)
 				)
 			)
@@ -15611,7 +15781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de9f11b6-f768-4632-8b97-246da3d24958")
-		(property "Reference" "TP14"
+		(property "Reference" "V_DIV1"
 			(at 29.845 45.2119 0)
 			(effects
 				(font
@@ -15662,7 +15832,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP14")
+					(reference "V_DIV1")
 					(unit 1)
 				)
 			)
@@ -15814,7 +15984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e35d1860-4d4e-44a6-8778-89ecb2716e27")
-		(property "Reference" "TP10"
+		(property "Reference" "RST1"
 			(at 262.89 146.177 90)
 			(effects
 				(font
@@ -15865,7 +16035,7 @@
 		(instances
 			(project "Nabeel's Joulemeter"
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP10")
+					(reference "RST1")
 					(unit 1)
 				)
 			)
@@ -15881,7 +16051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6082fac-3543-46d5-957a-a0ccfeaa6ef1")
-		(property "Reference" "TP13"
+		(property "Reference" "GND1"
 			(at 23.495 66.0399 90)
 			(effects
 				(font
@@ -15932,7 +16102,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP13")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -16561,7 +16731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2280cea-8c6f-4764-be50-a3e7314af980")
-		(property "Reference" "TP6"
+		(property "Reference" "MOSI1"
 			(at 262.89 133.477 90)
 			(effects
 				(font
@@ -16612,7 +16782,7 @@
 		(instances
 			(project ""
 				(path "/5be733cb-4188-4a93-804c-a0c5e134cfd0"
-					(reference "TP6")
+					(reference "MOSI1")
 					(unit 1)
 				)
 			)
