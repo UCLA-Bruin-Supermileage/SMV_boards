@@ -13391,7 +13391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "solder on our own"
+		(property "Description" ""
 			(at 173.99 60.96 0)
 			(effects
 				(font
