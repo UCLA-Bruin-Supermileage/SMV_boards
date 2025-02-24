@@ -6765,6 +6765,30 @@
 		(uuid "ff49427f-cfba-4c74-b0ed-b3a06c27ddc5")
 	)
 	(rectangle
+		(start 75.565 13.335)
+		(end 212.725 66.675)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d1d02b9-40e2-4602-976c-5c6d0953c1f1)
+	)
+	(rectangle
+		(start 163.83 69.215)
+		(end 283.845 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1bec51ad-3a26-4815-8532-b96928427216)
+	)
+	(rectangle
 		(start 15.875 69.215)
 		(end 161.29 107.95)
 		(stroke
@@ -6788,6 +6812,18 @@
 		)
 		(uuid ceff36a9-cf0c-4330-b0b0-dca6edc8c3af)
 	)
+	(rectangle
+		(start 13.335 13.335)
+		(end 73.025 66.675)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f7052319-e3de-4979-9b1f-143f87dfa4e2)
+	)
 	(text "AND GATE INPUTS\n"
 		(exclude_from_sim no)
 		(at 25.654 117.856 0)
@@ -6798,6 +6834,26 @@
 		)
 		(uuid "03d16c84-85d8-4ff7-a9b5-824042a8719b")
 	)
+	(text "LDO 12V->5V\n"
+		(exclude_from_sim no)
+		(at 172.212 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59fa238f-e30e-48cc-b105-e6594f2927cc")
+	)
+	(text "Power Relays\n"
+		(exclude_from_sim no)
+		(at 82.296 15.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5cde1b5a-5725-4a12-b3b0-8ab101da24b0")
+	)
 	(text "AND GATE & MOSFET\n"
 		(exclude_from_sim no)
 		(at 26.67 72.136 0)
@@ -6807,6 +6863,16 @@
 			)
 		)
 		(uuid "95299302-f985-43e4-9c58-691dd76486f8")
+	)
+	(text "HFC Relays\n"
+		(exclude_from_sim no)
+		(at 19.558 14.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e27c80f7-f31c-46c2-948d-151797ff286b")
 	)
 	(label "CAN_H"
 		(at 133.35 194.31 270)
