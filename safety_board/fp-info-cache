@@ -1,4 +1,4 @@
-24290250736096248
+24297213628935389
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89908,6 +89908,13 @@ CONN_SD-43045-001_02_MOL
 2
 2
 SMV_Connectors
+FUSE_3555-2
+
+
+0
+4
+4
+SMV_Connectors
 RP2040
 
 
@@ -90013,6 +90020,13 @@ G5LE-14 DC5
 5
 5
 SMV_ICs
+SMT_330Z-TK_REN-M
+
+ISL21080CIH315Z-TK 
+0
+3
+3
+SMV_ICs
 SOIC_DBVRQ1_TEX
 
 INA181A1QDBVRQ1 
@@ -90068,6 +90082,13 @@ LM358DT
 0
 8
 8
+SMV_ICs
+TSSOP14_PW_TEX-M
+
+SN74HCS21QPWRQ1 
+0
+14
+14
 SMV_ICs
 TSSOP20_PW_TEX
 
@@ -90177,6 +90198,13 @@ SMV_Passives
 Cap0805
 C0805
 Capacitor
+0
+2
+2
+SMV_Passives
+DIODE_P600_VIS
+
+5KP48A 
 0
 2
 2
