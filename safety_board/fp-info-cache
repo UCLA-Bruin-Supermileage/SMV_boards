@@ -1,4 +1,4 @@
-24304177527675247
+24305918915942058
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90012,6 +90012,13 @@ IRLML6344TRPBF
 0
 3
 3
+SMV_ICs
+J115F11AH12VDCS615U
+J115F11AH12VDCS61.5U-3
+Relay or Contactor
+0
+4
+4
 SMV_ICs
 RELAY_G5LE-1 DC5_OMR
 
