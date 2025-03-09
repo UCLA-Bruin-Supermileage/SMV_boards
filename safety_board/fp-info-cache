@@ -1,4 +1,4 @@
-24305918915942058
+24307660397397143
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90233,6 +90233,13 @@ SMV_Passives
 RESC1608X50N
 CRCW0603
 Resistor
+0
+2
+2
+SMV_Passives
+RESC2012X50N
+
+
 0
 2
 2
