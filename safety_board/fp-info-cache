@@ -1,4 +1,4 @@
-24307660397397143
+24309401946322145
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89909,6 +89909,13 @@ CONN_SD-43045-001_02_MOL
 2
 SMV_Connectors
 FUSE_3555-2
+
+
+0
+4
+4
+SMV_Connectors
+FUSE_3557-2
 
 
 0

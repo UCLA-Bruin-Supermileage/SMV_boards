@@ -10524,7 +10524,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3555-2"
+		(property "Value" "3557-2"
 			(at 123.19 -8.8901 90)
 			(effects
 				(font
@@ -10533,7 +10533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Connectors:FUSE_3555-2"
+		(property "Footprint" "SMV_Connectors:FUSE_3557-2"
 			(at 119.38 -10.16 0)
 			(effects
 				(font
@@ -13792,7 +13792,7 @@
 				)
 			)
 		)
-		(property "Value" "3555-2"
+		(property "Value" "3557-2"
 			(at 105.41 38.1 0)
 			(effects
 				(font
@@ -13800,7 +13800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Connectors:FUSE_3555-2"
+		(property "Footprint" "SMV_Connectors:FUSE_3557-2"
 			(at 105.41 41.91 0)
 			(effects
 				(font
@@ -13819,7 +13819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "48V Fuse, 50A limit"
+		(property "Description" ""
 			(at 105.41 41.91 0)
 			(effects
 				(font
@@ -14871,7 +14871,7 @@
 				)
 			)
 		)
-		(property "Value" "3555-2"
+		(property "Value" "3557-2"
 			(at 105.41 41.91 0)
 			(effects
 				(font
@@ -14879,7 +14879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_Connectors:FUSE_3555-2"
+		(property "Footprint" "SMV_Connectors:FUSE_3557-2"
 			(at 105.41 45.72 0)
 			(effects
 				(font
@@ -14898,7 +14898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "48V Fuse, 50A limit"
+		(property "Description" ""
 			(at 105.41 45.72 0)
 			(effects
 				(font
@@ -17849,7 +17849,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3555-2"
+		(property "Value" "3557-2"
 			(at 106.934 -7.62 90)
 			(effects
 				(font
@@ -17858,7 +17858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Connectors:FUSE_3555-2"
+		(property "Footprint" "SMV_Connectors:FUSE_3557-2"
 			(at 116.84 -10.16 0)
 			(effects
 				(font
@@ -17877,7 +17877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "48V Fuse, 50A limit"
+		(property "Description" ""
 			(at 116.84 -10.16 0)
 			(effects
 				(font
