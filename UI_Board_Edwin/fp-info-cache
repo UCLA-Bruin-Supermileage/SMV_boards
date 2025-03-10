@@ -1,4 +1,4 @@
-24326711620633443
+24305639782288513
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89914,20 +89914,6 @@ RP2040
 0
 31
 31
-SMV_Connectors
-Switches
-
-
-0
-3
-3
-SMV_ICs
-CD4511BPWR
-
-CD4511BPWR 
-0
-16
-16
 SMV_ICs
 CONV_TSR_0.5-2450
 
@@ -90034,40 +90020,12 @@ SOP65P640X120-8N
 8
 8
 SMV_ICs
-SOT-23-5_DBV_TEX
-
-TLV709A01DBVR 
-0
-5
-5
-SMV_ICs
 SOT-23-5_MC_MCH
 
 MCP6286T-E/OT 
 0
 5
 5
-SMV_ICs
-SOT-23-THIN-5_DDC_TEX
-
-REF2033QDDCRQ1 
-0
-5
-5
-SMV_ICs
-SOT95P280X145-6N
-SOT-23 - 1.45 mm max height
-Integrated Circuit
-0
-6
-6
-SMV_ICs
-Seven_Seg_display
-
-
-0
-12
-12
 SMV_ICs
 TSSOP20_PW_TEX
 
@@ -90104,13 +90062,6 @@ AP7387-33FDC-7
 7
 7
 SMV_ICs
-UA78M05-Q1
-
-
-0
-0
-0
-SMV_ICs
 WSON6_DRV_TEX
 
 TPS74501PBQWDRVRQ1 
@@ -90131,6 +90082,34 @@ TPS74501PBQWDRVRQ1
 0
 7
 7
+SMV_Logo
+SEM_logo
+
+
+0
+0
+0
+SMV_Misc
+SW_A8L-11_OMR
+
+A8L-11-12N1 
+0
+2
+2
+SMV_Misc
+TAISS 3 Pin Switch
+
+
+0
+3
+3
+SMV_Misc
+Twidec Button
+
+
+0
+2
+2
 SMV_Passives
 0603_resistors
 
@@ -90149,13 +90128,6 @@ SMV_Passives
 Big_Chunky_Cap
 
 
-0
-2
-2
-SMV_Passives
-CAPC10555_55N_KEM
-
-C0402C104K4RACTU 
 0
 2
 2
@@ -90251,13 +90223,6 @@ Capacitor
 2
 2
 SMV_Passives
-RESC1005X35N
-
-
-0
-2
-2
-SMV_Passives
 RESC1608X55N
 
 
@@ -90265,21 +90230,7 @@ RESC1608X55N
 2
 2
 SMV_Passives
-RESC2012X50N
-
-
-0
-2
-2
-SMV_Passives
 RESC2012X55N
-
-
-0
-2
-2
-SMV_Passives
-RESC3015X65N
 
 
 0
