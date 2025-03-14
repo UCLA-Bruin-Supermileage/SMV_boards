@@ -7853,6 +7853,12 @@
 		)
 	)
 	(junction
+		(at 59.69 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04bdf1c3-f5f5-4870-a822-7d74366661ae")
+	)
+	(junction
 		(at 124.46 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7911,6 +7917,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45311899-0f2b-48e4-b6d0-0c3b288518d8")
+	)
+	(junction
+		(at 59.69 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ab1111e-4656-4f62-8066-f3d13204634f")
 	)
 	(junction
 		(at 232.41 137.16)
@@ -7977,12 +7989,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82bd4f7f-dbd5-4cab-a282-08debe0d6b6c")
-	)
-	(junction
-		(at 113.03 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83287396-ae0a-486d-a02c-4c3a197ac1a5")
 	)
 	(junction
 		(at 107.95 111.76)
@@ -8073,12 +8079,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d712cb31-5ec8-47bb-b817-a2fbcc35cd39")
-	)
-	(junction
-		(at 113.03 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2b6d00c-ab0b-44cc-a901-bd437aa5243e")
 	)
 	(junction
 		(at 252.73 25.4)
@@ -8208,6 +8208,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 176.53) (xy 57.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06bb61a9-91e4-4388-aa64-32e31e204335")
+	)
+	(wire
+		(pts
 			(xy 147.32 106.68) (xy 147.32 107.95)
 		)
 		(stroke
@@ -8225,6 +8235,16 @@
 			(type default)
 		)
 		(uuid "07badfba-1bf3-4115-844b-b7579270e2a1")
+	)
+	(wire
+		(pts
+			(xy 54.61 171.45) (xy 59.69 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0998dc3d-5eb0-49b7-9d30-b06f895e12b2")
 	)
 	(wire
 		(pts
@@ -8475,6 +8495,16 @@
 			(type default)
 		)
 		(uuid "33cdd98a-ecf1-4c39-bf73-68ae5bcdaa35")
+	)
+	(wire
+		(pts
+			(xy 59.69 190.5) (xy 59.69 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f4a611-1e22-4511-b8c4-2d37a39498d3")
 	)
 	(wire
 		(pts
@@ -8968,16 +8998,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 143.51) (xy 113.03 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7417b092-8948-4d3c-9da2-6d1b02f806f8")
-	)
-	(wire
-		(pts
 			(xy 252.73 41.275) (xy 252.73 46.99)
 		)
 		(stroke
@@ -9015,6 +9035,16 @@
 			(type default)
 		)
 		(uuid "7a39e1f1-96c9-4c32-90f2-2a8967280835")
+	)
+	(wire
+		(pts
+			(xy 49.53 171.45) (xy 54.61 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e75a745-b014-4d4c-99cb-8ea1c42d671d")
 	)
 	(wire
 		(pts
@@ -9248,16 +9278,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 156.21) (xy 130.81 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51682e2-59c4-478f-a9ac-05fd484e6db0")
-	)
-	(wire
-		(pts
 			(xy 139.7 168.91) (xy 139.7 167.64)
 		)
 		(stroke
@@ -9285,6 +9305,16 @@
 			(type default)
 		)
 		(uuid "a6a0c216-ceac-4521-b94f-b6c1b8c96fe0")
+	)
+	(wire
+		(pts
+			(xy 59.69 189.23) (xy 59.69 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ee83de-db05-461a-9790-0542c5dfa149")
 	)
 	(wire
 		(pts
@@ -9608,6 +9638,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 176.53) (xy 41.91 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df52b4c0-8bff-4621-88e8-c8ffb2e28799")
+	)
+	(wire
+		(pts
 			(xy 113.03 167.64) (xy 118.11 167.64)
 		)
 		(stroke
@@ -9688,16 +9728,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 165.1) (xy 113.03 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f4cc9c-d8b5-420c-b0e6-b5bd2afa1933")
-	)
-	(wire
-		(pts
 			(xy 277.495 114.935) (xy 277.495 117.475)
 		)
 		(stroke
@@ -9768,16 +9798,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 142.24) (xy 113.03 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6d9b973-b295-405e-b373-c4b7e8320349")
-	)
-	(wire
-		(pts
 			(xy 228.6 139.7) (xy 251.46 139.7)
 		)
 		(stroke
@@ -9815,16 +9835,6 @@
 			(type default)
 		)
 		(uuid "f8bbda57-d52c-4be4-96d0-b243cf60fc4e")
-	)
-	(wire
-		(pts
-			(xy 113.03 156.21) (xy 115.57 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc73f3ad-fcfd-4cec-8d33-fe05ae7d8c59")
 	)
 	(wire
 		(pts
@@ -12446,73 +12456,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "521f09bb-664a-4cea-8f71-386331e6474c")
-		(property "Reference" "#PWR018"
-			(at 137.16 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28365af3-b1b1-4f4d-a14e-26d65b01e176")
-		)
-		(instances
-			(project "Joulemeter"
-				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 262.89 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12930,146 +12873,6 @@
 			(project "Joulemeter"
 				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
 					(reference "LDO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMV_Custom:C0805C102K5GACTU")
-		(at 115.57 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "661846e1-9a94-47c0-9018-b52125b754b5")
-		(property "Reference" "C4"
-			(at 121.92 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF,50V"
-			(at 121.92 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SMV_Passives:Cap0805"
-			(at 124.46 252.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C0805X105K5RACAUTO"
-			(at 124.46 352.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "C3858054"
-			(at 115.57 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 124.46 552.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 124.46 652.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C0805C102K5GACTU"
-			(at 124.46 752.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-C0805C102K5G"
-			(at 124.46 852.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0805C102K5GACTU?qs=ycq5i98tC2kqWbFrXv0n7w%3D%3D"
-			(at 124.46 952.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "C0805C102K5GACTU"
-			(at 124.46 1052.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0805c102k5gactu/kemet-corporation"
-			(at 124.46 1152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7f29cd8-5942-42e0-a524-27932face9aa")
-		)
-		(pin "1"
-			(uuid "c414f4d9-a66e-4cf7-b015-555e724bbb16")
-		)
-		(instances
-			(project "Joulemeter"
-				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14649,6 +14452,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 59.69 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e71166f-a62d-4cf9-8da5-56d42b37cb63")
+		(property "Reference" "3V1"
+			(at 54.61 190.5001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 54.61 187.9601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 59.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac8e3278-7b7b-462c-b5e8-d1100ee607d3")
+		)
+		(instances
+			(project "Joulemeter"
+				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
+					(reference "3V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 213.995 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14706,6 +14576,72 @@
 			(project "Joulemeter"
 				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
 					(reference "CLKIN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 59.69 190.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a49e5806-ff79-4714-ae34-1b0fe8ed5fd5")
+		(property "Reference" "#PWR010"
+			(at 59.69 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 59.69 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 59.69 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "700ddc77-4eba-4e2c-bbba-930248665085")
+		)
+		(instances
+			(project "Joulemeter"
+				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -15525,138 +15461,6 @@
 			(project "Joulemeter"
 				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
 					(reference "RESET1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbd5f3d8-8fce-41b1-a4a7-c3a404cb433e")
-		(property "Reference" "#PWR010"
-			(at 49.53 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3eb84e86-4e87-4787-9677-b9f34def5cab")
-		)
-		(instances
-			(project "Joulemeter"
-				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 113.03 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdd89e5d-a384-42f9-b8f6-67b064ab71f1")
-		(property "Reference" "#PWR013"
-			(at 113.03 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 113.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 113.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb7399f9-591e-4ca2-99da-083a0be6282c")
-		)
-		(instances
-			(project "Joulemeter"
-				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -16802,73 +16606,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 113.03 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4f8f4f6-11b1-40ef-a430-12701e171940")
-		(property "Reference" "3V3"
-			(at 118.11 142.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 118.11 144.7799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 113.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5d055ca-be43-45f1-8806-2ab26921a0e2")
-		)
-		(instances
-			(project "Joulemeter"
-				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
-					(reference "3V3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 213.995 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17210,6 +16947,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 113.03 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd9d1ccb-7e07-4d41-b01b-33f55ec3b095")
+		(property "Reference" "#PWR018"
+			(at 119.38 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.205 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57fde3b1-9a03-4537-bd4d-cb4cc6ad01d4")
+		)
+		(instances
+			(project "Joulemeter"
+				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 30.48 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17340,6 +17144,146 @@
 			(project ""
 				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMV_Custom:C0805C102K5GACTU")
+		(at 57.15 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1cc8d22-2608-4851-8f32-8259037bdf0d")
+		(property "Reference" "C4"
+			(at 50.8 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF,50V"
+			(at 50.8 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMV_Passives:Cap0805"
+			(at 48.26 80.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C0805X105K5RACAUTO"
+			(at 48.26 -19.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "C3858054"
+			(at 57.15 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 48.26 -219.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 48.26 -319.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0805C102K5GACTU"
+			(at 48.26 -419.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0805C102K5G"
+			(at 48.26 -519.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0805C102K5GACTU?qs=ycq5i98tC2kqWbFrXv0n7w%3D%3D"
+			(at 48.26 -619.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "C0805C102K5GACTU"
+			(at 48.26 -719.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0805c102k5gactu/kemet-corporation"
+			(at 48.26 -819.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "912fe66b-c966-4e5d-9214-6113d2c8f030")
+		)
+		(pin "1"
+			(uuid "5f0d6625-1d0e-4fe8-9a26-3ff4451ad55b")
+		)
+		(instances
+			(project "Joulemeter"
+				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -17611,6 +17555,73 @@
 			(project "Joulemeter"
 				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8b16fca-4da9-48ff-9058-05df3eeafc52")
+		(property "Reference" "#PWR013"
+			(at 35.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 176.5301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8310d69d-2919-4112-b5a2-219d86c34439")
+		)
+		(instances
+			(project "Joulemeter"
+				(path "/ef45e13b-2349-4ec0-be73-c9420dd02b88"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
