@@ -1,3 +1,6 @@
+#include "SMVcanbus.h"
+#include <string.h>
+
 #include <Arduino.h>
 #include "ADS131M04.h"
 #include <SPI.h>
@@ -6,6 +9,8 @@
 ADS131M04 adc;
 adcOutput res;
 RP2040_PWM* PWM_Instance;
+CANBUS can(Bear_1);
+
 
 const int CLOCK_PIN = 26;
 
@@ -15,6 +20,9 @@ const int CLOCK_PIN = 26;
 void setup()
 {
   Serial.begin(115200);
+  // can.begin() MUST be in this location -----------------------------------------------------------------
+  can.begin();
+  // can.begin() MUST be in this location -----------------------------------------------------------------
   while (!Serial) delay(10);
   
   // Note: previous version used analogWriteFreq(8192000), analogWrite(CLOCK_PIN, 128) and it seemed to work
@@ -59,6 +67,7 @@ void loop()
   while (1)
   {
     // res.ch0 contains data in channel 0, res.ch1 contains data in channel 1, and so on until res.ch3
+    SPI.beginTransaction(SPISettings(SPIfreq, MSBFIRST, SPI_MODE1));
     res = adc.readADC();
 
     // ----------------------------------------------------------------------------------
@@ -79,6 +88,12 @@ void loop()
     Serial.println(adc.convert(res.ch3));
     Serial.println("");
     delay(500);
+    SPI.endTransaction();
+
+    double data = adc.convert(res.ch3);
+    delay(100);
+    can.send(data, Current);
+    delay(100);
 
     // -----------------------------------------------------------
     // DIAGNOSTIC PRINTS
