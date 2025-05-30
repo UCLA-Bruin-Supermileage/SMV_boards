@@ -89,31 +89,33 @@ Input* inputObjects[numInputs];
 void setup() {
   
   //Create input objects and populate
-  // inputObjects[0] = new Input(26, SWITCH, Reverse);
-  // inputObjects[1] = new Input(27, SWITCH, Headlights);
-  // inputObjects[2] = new Input(28, SWITCH, Wipers);
-  // inputObjects[3] = new Input(29, SWITCH, Hazard);
-  // inputObjects[4] = new Input(9, SWITCH, Blink_Left);
-  // inputObjects[5] = new Input(6, SWITCH, Blink_Right);
-  // inputObjects[6] = new Input(10, BUTTON, Horn); //NOTE: LIBRARY SHENANIGANS, THIS ACTUALLY SENDS DAQ BUT REFERS TO HORN
+  inputObjects[0] = new Input(26, SWITCH, Reverse);
+  inputObjects[1] = new Input(27, SWITCH, Headlights);
+  inputObjects[2] = new Input(28, SWITCH, Wipers);
+  inputObjects[3] = new Input(29, SWITCH, Hazard);
+  inputObjects[4] = new Input(9, SWITCH, Blink_Left);
+  inputObjects[5] = new Input(6, SWITCH, Blink_Right);
+  inputObjects[6] = new Input(10, BUTTON, Horn); //NOTE: LIBRARY SHENANIGANS, THIS ACTUALLY SENDS DAQ BUT REFERS TO HORN
+  inputObjects[7] = new Input(13, SWITCH, Motor);
   //inputObjects[7] = new Input(11, BUTTON, DAQ);
   //Input spareButton = Input(12, BUTTON);
   //Input spareSwitch = Input(24, SWITCH);
 
 
-//testing
-  inputObjects[0] = new Input(27, SWITCH, Headlights);
-  inputObjects[1] = new Input(9, SWITCH, Blink_Left);
-  inputObjects[2] = new Input(6, SWITCH, Blink_Right);
-  inputObjects[3] = new Input(29, SWITCH, Hazard);
-  inputObjects[4] = new Input(13, SWITCH, Motor);
+// //testing
+//   inputObjects[0] = new Input(27, SWITCH, Headlights);
+//   inputObjects[1] = new Input(9, SWITCH, Blink_Left);
+//   inputObjects[2] = new Input(6, SWITCH, Blink_Right);
+//   inputObjects[3] = new Input(29, SWITCH, Hazard);
+
+//   inputObjects[5] = new Input(28, SWITCH, Wipers);
   
   //Set CAN serialization
   Serial.begin(115200);
   can.begin();
   delay(500);
 
-  for (int i=0; i<5; i++) {
+  for (int i=0; i<8; i++) {
     inputObjects[i]->initialState();
   }
 }
@@ -124,7 +126,7 @@ void loop() {
   // for (int i=0; i<numInputs; i++) {
   //   inputObjects[i]->detectState();
   // }
-  for (int i=0; i<5; i++) {
+  for (int i=0; i<8; i++) {
     inputObjects[i]->detectState();
   }
   delay(30);
